@@ -1,0 +1,135 @@
+table dim_customer
+
+	column CustomerID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: CustomerID
+
+	column Name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Name
+
+	column Age
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Age
+
+	column Gender
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Gender
+
+	column Phone
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Phone
+
+	column Email
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Email
+
+	column CustomerCity
+		dataType: string
+		summarizeBy: none
+		sourceColumn: CustomerCity
+
+	column State
+		dataType: string
+		summarizeBy: none
+		sourceColumn: State
+
+	column Pincode
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Pincode
+
+	column RegistrationDate
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: RegistrationDate
+
+	column Membership
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Membership
+
+	column TotalOrders
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: TotalOrders
+
+	column PreferredCuisine
+		dataType: string
+		summarizeBy: none
+		sourceColumn: PreferredCuisine
+
+	column Orders
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Orders
+
+	column CompletedOrders
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CompletedOrders
+
+	column CLV
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CLV
+
+	column FirstOrderDate
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: FirstOrderDate
+
+	column LastOrderDate
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: LastOrderDate
+
+	column DaysSinceLastOrder
+		dataType: double
+		summarizeBy: none
+		sourceColumn: DaysSinceLastOrder
+
+	column Segment
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Segment
+
+	column CustomerType
+		dataType: string
+		summarizeBy: none
+		sourceColumn: CustomerType
+
+	column CLVBand
+		dataType: string
+		summarizeBy: none
+		sourceColumn: CLVBand
+		sortByColumn: CLVBandOrder
+
+	column CLVBandOrder
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: CLVBandOrder
+
+	partition dim_customer = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\dim_customer.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"CustomerID", Int64.Type}, {"Name", type text}, {"Age", Int64.Type}, {"Gender", type text}, {"Phone", type text}, {"Email", type text}, {"CustomerCity", type text}, {"State", type text}, {"Pincode", type text}, {"RegistrationDate", type date}, {"Membership", type text}, {"TotalOrders", Int64.Type}, {"PreferredCuisine", type text}, {"Orders", Int64.Type}, {"CompletedOrders", type number}, {"CLV", type number}, {"FirstOrderDate", type date}, {"LastOrderDate", type date}, {"DaysSinceLastOrder", type number}, {"Segment", type text}, {"CustomerType", type text}, {"CLVBand", type text}, {"CLVBandOrder", Int64.Type}}, "en-US")
+				in
+					Typed

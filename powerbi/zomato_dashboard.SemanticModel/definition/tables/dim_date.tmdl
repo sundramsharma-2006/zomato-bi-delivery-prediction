@@ -1,0 +1,71 @@
+table dim_date
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		isKey
+		summarizeBy: none
+		sourceColumn: Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Year
+
+	column Quarter
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Quarter
+
+	column MonthNum
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: MonthNum
+
+	column MonthName
+		dataType: string
+		summarizeBy: none
+		sourceColumn: MonthName
+		sortByColumn: MonthNum
+
+	column YearMonth
+		dataType: string
+		summarizeBy: none
+		sourceColumn: YearMonth
+
+	column MonthStart
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: MonthStart
+
+	column DayOfWeek
+		dataType: string
+		summarizeBy: none
+		sourceColumn: DayOfWeek
+		sortByColumn: DayOfWeekNum
+
+	column DayOfWeekNum
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: DayOfWeekNum
+
+	column IsWeekend
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: IsWeekend
+
+	partition dim_date = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\dim_date.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"Date", type date}, {"Year", Int64.Type}, {"Quarter", type text}, {"MonthNum", Int64.Type}, {"MonthName", type text}, {"YearMonth", type text}, {"MonthStart", type date}, {"DayOfWeek", type text}, {"DayOfWeekNum", Int64.Type}, {"IsWeekend", Int64.Type}}, "en-US")
+				in
+					Typed

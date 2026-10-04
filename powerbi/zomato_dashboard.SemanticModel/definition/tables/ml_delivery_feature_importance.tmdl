@@ -1,0 +1,26 @@
+table ml_delivery_feature_importance
+
+	column feature
+		dataType: string
+		summarizeBy: none
+		sourceColumn: feature
+
+	column permutation_mse_increase
+		dataType: double
+		summarizeBy: none
+		sourceColumn: permutation_mse_increase
+
+	column impurity_importance
+		dataType: double
+		summarizeBy: none
+		sourceColumn: impurity_importance
+
+	partition ml_delivery_feature_importance = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\ml_delivery_feature_importance.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"feature", type text}, {"permutation_mse_increase", type number}, {"impurity_importance", type number}}, "en-US")
+				in
+					Typed

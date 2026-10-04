@@ -1,0 +1,56 @@
+table dim_menu
+
+	column FoodItemID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: FoodItemID
+
+	column RestaurantID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: RestaurantID
+
+	column FoodName
+		dataType: string
+		summarizeBy: none
+		sourceColumn: FoodName
+
+	column Category
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Category
+
+	column Price
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Price
+
+	column PreparationTime
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: PreparationTime
+
+	column Calories
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Calories
+
+	column Availability
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Availability
+
+	partition dim_menu = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\dim_menu.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"FoodItemID", Int64.Type}, {"RestaurantID", Int64.Type}, {"FoodName", type text}, {"Category", type text}, {"Price", Int64.Type}, {"PreparationTime", Int64.Type}, {"Calories", Int64.Type}, {"Availability", type text}}, "en-US")
+				in
+					Typed

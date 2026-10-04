@@ -1,0 +1,66 @@
+table ml_churn_model_comparison
+
+	column Model
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Model
+
+	column CV_AUC
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CV_AUC
+
+	column Stage
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Stage
+
+	column Accuracy
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Accuracy
+
+	column Precision
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Precision
+
+	column Recall
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Recall
+
+	column F1
+		dataType: double
+		summarizeBy: none
+		sourceColumn: F1
+
+	column F1_retained
+		dataType: double
+		summarizeBy: none
+		sourceColumn: F1_retained
+
+	column ROC_AUC
+		dataType: double
+		summarizeBy: none
+		sourceColumn: ROC_AUC
+
+	column PR_AUC
+		dataType: double
+		summarizeBy: none
+		sourceColumn: PR_AUC
+
+	column Params
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Params
+
+	partition ml_churn_model_comparison = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\ml_churn_model_comparison.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"Model", type text}, {"CV_AUC", type number}, {"Stage", type text}, {"Accuracy", type number}, {"Precision", type number}, {"Recall", type number}, {"F1", type number}, {"F1_retained", type number}, {"ROC_AUC", type number}, {"PR_AUC", type number}, {"Params", type text}}, "en-US")
+				in
+					Typed

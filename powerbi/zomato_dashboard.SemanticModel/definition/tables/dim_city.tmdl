@@ -1,0 +1,38 @@
+table dim_city
+
+	column CityID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: CityID
+
+	column City
+		dataType: string
+		summarizeBy: none
+		sourceColumn: City
+
+	column Population
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Population
+
+	column Region
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Region
+
+	column AverageIncome
+		dataType: double
+		summarizeBy: none
+		sourceColumn: AverageIncome
+
+	partition dim_city = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\dim_city.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"CityID", Int64.Type}, {"City", type text}, {"Population", Int64.Type}, {"Region", type text}, {"AverageIncome", type number}}, "en-US")
+				in
+					Typed

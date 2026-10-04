@@ -1,0 +1,56 @@
+table ml_delivery_model_comparison
+
+	column Model
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Model
+
+	column CV_R2_mean
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CV_R2_mean
+
+	column CV_R2_std
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CV_R2_std
+
+	column MAE
+		dataType: double
+		summarizeBy: none
+		sourceColumn: MAE
+
+	column MSE
+		dataType: double
+		summarizeBy: none
+		sourceColumn: MSE
+
+	column RMSE
+		dataType: double
+		summarizeBy: none
+		sourceColumn: RMSE
+
+	column R2
+		dataType: double
+		summarizeBy: none
+		sourceColumn: R2
+
+	column Stage
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Stage
+
+	column Params
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Params
+
+	partition ml_delivery_model_comparison = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\ml_delivery_model_comparison.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"Model", type text}, {"CV_R2_mean", type number}, {"CV_R2_std", type number}, {"MAE", type number}, {"MSE", type number}, {"RMSE", type number}, {"R2", type number}, {"Stage", type text}, {"Params", type text}}, "en-US")
+				in
+					Typed

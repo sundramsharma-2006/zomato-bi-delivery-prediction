@@ -1,0 +1,43 @@
+table ml_delivery_predictions
+
+	column OrderID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: OrderID
+
+	column RCity
+		dataType: string
+		summarizeBy: none
+		sourceColumn: RCity
+
+	column OrderDate
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: OrderDate
+
+	column Actual
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Actual
+
+	column Predicted
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Predicted
+
+	column Residual
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Residual
+
+	partition ml_delivery_predictions = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\ml_delivery_predictions.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"OrderID", Int64.Type}, {"RCity", type text}, {"OrderDate", type date}, {"Actual", type number}, {"Predicted", type number}, {"Residual", type number}}, "en-US")
+				in
+					Typed

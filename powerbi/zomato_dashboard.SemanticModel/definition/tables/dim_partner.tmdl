@@ -1,0 +1,65 @@
+table dim_partner
+
+	column DeliveryPartnerID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: DeliveryPartnerID
+
+	column Name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Name
+
+	column Age
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Age
+
+	column Gender
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Gender
+
+	column VehicleType
+		dataType: string
+		summarizeBy: none
+		sourceColumn: VehicleType
+
+	column JoiningDate
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: JoiningDate
+
+	column City
+		dataType: string
+		summarizeBy: none
+		sourceColumn: City
+
+	column Rating
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Rating
+
+	column CompletedDeliveries
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: CompletedDeliveries
+
+	column AverageDeliveryTime
+		dataType: double
+		summarizeBy: none
+		sourceColumn: AverageDeliveryTime
+
+	partition dim_partner = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\dim_partner.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"DeliveryPartnerID", Int64.Type}, {"Name", type text}, {"Age", Int64.Type}, {"Gender", type text}, {"VehicleType", type text}, {"JoiningDate", type date}, {"City", type text}, {"Rating", type number}, {"CompletedDeliveries", Int64.Type}, {"AverageDeliveryTime", type number}}, "en-US")
+				in
+					Typed

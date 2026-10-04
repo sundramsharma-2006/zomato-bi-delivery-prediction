@@ -1,0 +1,44 @@
+relationship rel_orders_date
+	fromColumn: fact_orders.OrderDate
+	toColumn: dim_date.Date
+
+relationship rel_orders_customer
+	fromColumn: fact_orders.CustomerID
+	toColumn: dim_customer.CustomerID
+
+relationship rel_orders_restaurant
+	fromColumn: fact_orders.RestaurantID
+	toColumn: dim_restaurant.RestaurantID
+
+relationship rel_orders_partner
+	fromColumn: fact_orders.DeliveryPartnerID
+	toColumn: dim_partner.DeliveryPartnerID
+
+relationship rel_orders_city
+	fromColumn: fact_orders.City
+	toColumn: dim_city.City
+
+relationship rel_orders_promo
+	fromColumn: fact_orders.CouponCode
+	toColumn: dim_promotion.CouponCode
+
+relationship rel_items_orders
+	fromColumn: fact_order_items.OrderID
+	toColumn: fact_orders.OrderID
+
+relationship rel_items_menu
+	fromColumn: fact_order_items.FoodItemID
+	toColumn: dim_menu.FoodItemID
+
+relationship rel_customer_regdate
+	isActive: false
+	fromColumn: dim_customer.RegistrationDate
+	toColumn: dim_date.Date
+
+relationship rel_pred_orders
+	fromColumn: ml_delivery_predictions.OrderID
+	toColumn: fact_orders.OrderID
+
+relationship rel_churn_customer
+	fromColumn: ml_churn_scores.CustomerID
+	toColumn: dim_customer.CustomerID

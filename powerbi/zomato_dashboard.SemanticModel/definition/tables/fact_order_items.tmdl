@@ -1,0 +1,46 @@
+table fact_order_items
+
+	column OrderItemID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: OrderItemID
+
+	column OrderID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: OrderID
+
+	column FoodItemID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: FoodItemID
+
+	column Quantity
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Quantity
+
+	column UnitPrice
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: UnitPrice
+
+	column TotalPrice
+		dataType: double
+		summarizeBy: none
+		sourceColumn: TotalPrice
+
+	partition fact_order_items = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\fact_order_items.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"OrderItemID", Int64.Type}, {"OrderID", Int64.Type}, {"FoodItemID", Int64.Type}, {"Quantity", Int64.Type}, {"UnitPrice", Int64.Type}, {"TotalPrice", type number}}, "en-US")
+				in
+					Typed

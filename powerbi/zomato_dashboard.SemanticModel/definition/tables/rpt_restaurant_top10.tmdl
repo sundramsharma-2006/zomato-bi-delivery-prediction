@@ -1,0 +1,58 @@
+table rpt_restaurant_top10
+
+	column RestaurantID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: RestaurantID
+
+	column RestaurantLabel
+		dataType: string
+		summarizeBy: none
+		sourceColumn: RestaurantLabel
+
+	column RCity
+		dataType: string
+		summarizeBy: none
+		sourceColumn: RCity
+
+	column Cuisine
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Cuisine
+
+	column Orders
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Orders
+
+	column Rating
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Rating
+
+	column CancelRate
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CancelRate
+
+	column LateRate
+		dataType: double
+		summarizeBy: none
+		sourceColumn: LateRate
+
+	column CompositeScore
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CompositeScore
+
+	partition rpt_restaurant_top10 = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\rpt_restaurant_top10.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"RestaurantID", Int64.Type}, {"RestaurantLabel", type text}, {"RCity", type text}, {"Cuisine", type text}, {"Orders", Int64.Type}, {"Rating", type number}, {"CancelRate", type number}, {"LateRate", type number}, {"CompositeScore", type number}}, "en-US")
+				in
+					Typed

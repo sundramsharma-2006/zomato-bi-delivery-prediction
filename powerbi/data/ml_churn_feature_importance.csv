@@ -1,0 +1,13 @@
+feature,auc_drop_when_shuffled
+Tenure,0.0090792461733566
+Age,0.0048343016682888
+FirstOrderAgeDays,0.0021576174044691
+Monetary,0.000923358991752
+Frequency,0.0
+Membership_Basic,0.0
+CouponRate,0.0
+AvgGapDays,0.0
+LateRate,0.0
+DistinctRestaurants,0.0
+WeekendShare,0.0
+Membership_Unknown,0.0

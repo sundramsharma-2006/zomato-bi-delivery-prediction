@@ -1,0 +1,55 @@
+table ml_churn_scores
+
+	column CustomerID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: CustomerID
+
+	column Recency
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Recency
+
+	column Frequency
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Frequency
+
+	column Monetary
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Monetary
+
+	column Churn
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Churn
+
+	column ChurnProbability
+		dataType: double
+		summarizeBy: none
+		sourceColumn: ChurnProbability
+
+	column Split
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Split
+
+	column RiskSegment
+		dataType: string
+		summarizeBy: none
+		sourceColumn: RiskSegment
+
+	partition ml_churn_scores = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\ml_churn_scores.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"CustomerID", Int64.Type}, {"Recency", Int64.Type}, {"Frequency", Int64.Type}, {"Monetary", type number}, {"Churn", Int64.Type}, {"ChurnProbability", type number}, {"Split", type text}, {"RiskSegment", type text}}, "en-US")
+				in
+					Typed

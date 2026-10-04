@@ -1,0 +1,45 @@
+table dim_promotion
+
+	column PromotionID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: PromotionID
+
+	column CouponCode
+		dataType: string
+		summarizeBy: none
+		sourceColumn: CouponCode
+
+	column DiscountPercentage
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: DiscountPercentage
+
+	column CampaignName
+		dataType: string
+		summarizeBy: none
+		sourceColumn: CampaignName
+
+	column StartDate
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: StartDate
+
+	column EndDate
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: EndDate
+
+	partition dim_promotion = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\dim_promotion.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"PromotionID", Int64.Type}, {"CouponCode", type text}, {"DiscountPercentage", Int64.Type}, {"CampaignName", type text}, {"StartDate", type date}, {"EndDate", type date}}, "en-US")
+				in
+					Typed

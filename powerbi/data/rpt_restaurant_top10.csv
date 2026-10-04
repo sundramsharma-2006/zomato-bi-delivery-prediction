@@ -1,0 +1,11 @@
+RestaurantID,RestaurantLabel,RCity,Cuisine,Orders,Rating,CancelRate,LateRate,CompositeScore
+605,Spicy Bites (Bhopal),Bhopal,Burgers,17,4.7,0.0588235294117647,0.0,1.542780873220363
+1092,Golden Point (Coimbatore),Coimbatore,Fast Food,21,4.8,0.0476190476190476,0.0625,1.4951677822147067
+329,Green Kitchen (Lucknow),Lucknow,Continental,18,5.0,0.1666666666666666,0.0,1.4750829800448484
+376,Golden House (Nashik),Nashik,Chinese,17,5.0,0.1764705882352941,0.0,1.446878816074367
+446,Tasty Diner (Kolkata),Kolkata,Healthy Food,15,5.0,0.2,0.0,1.379188822545212
+696,Golden Bites (Visakhapatnam),Visakhapatnam,Desserts,17,4.7,0.0588235294117647,0.0714285714285714,1.359128616354579
+295,Golden Cafe (Coimbatore),Coimbatore,Thai,15,5.0,0.1333333333333333,0.0833333333333333,1.35671617120107
+16,Green Corner (Bhopal),Bhopal,Fast Food,19,4.8,0.1578947368421052,0.0,1.3386196776501629
+453,Royal Kitchen (Vadodara),Vadodara,Italian,26,5.0,0.1923076923076923,0.05,1.272761663700618
+604,Blue Kitchen (Lucknow),Lucknow,Italian,18,4.7,0.1666666666666666,0.0,1.2325350695450696

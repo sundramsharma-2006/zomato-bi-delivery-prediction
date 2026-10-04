@@ -1,0 +1,93 @@
+table dim_restaurant
+
+	column RestaurantID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: RestaurantID
+
+	column RestaurantName
+		dataType: string
+		summarizeBy: none
+		sourceColumn: RestaurantName
+
+	column Cuisine
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Cuisine
+
+	column City
+		dataType: string
+		summarizeBy: none
+		sourceColumn: City
+
+	column Area
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Area
+
+	column OpeningTime
+		dataType: string
+		summarizeBy: none
+		sourceColumn: OpeningTime
+
+	column ClosingTime
+		dataType: string
+		summarizeBy: none
+		sourceColumn: ClosingTime
+
+	column Rating
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Rating
+
+	column AverageCost
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: AverageCost
+
+	column OwnerName
+		dataType: string
+		summarizeBy: none
+		sourceColumn: OwnerName
+
+	column RestaurantType
+		dataType: string
+		summarizeBy: none
+		sourceColumn: RestaurantType
+
+	column Latitude
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Latitude
+
+	column Longitude
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Longitude
+
+	column CompositeScore
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CompositeScore
+
+	column CityRank
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CityRank
+
+	column CityRankFromBottom
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CityRankFromBottom
+
+	partition dim_restaurant = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\dim_restaurant.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"RestaurantID", Int64.Type}, {"RestaurantName", type text}, {"Cuisine", type text}, {"City", type text}, {"Area", type text}, {"OpeningTime", type text}, {"ClosingTime", type text}, {"Rating", type number}, {"AverageCost", Int64.Type}, {"OwnerName", type text}, {"RestaurantType", type text}, {"Latitude", type number}, {"Longitude", type number}, {"CompositeScore", type number}, {"CityRank", type number}, {"CityRankFromBottom", type number}}, "en-US")
+				in
+					Typed

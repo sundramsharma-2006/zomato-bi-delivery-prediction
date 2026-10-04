@@ -1,0 +1,364 @@
+table fact_orders
+
+	column OrderID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: OrderID
+
+	column OrderDate
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: OrderDate
+
+	column OrderTime
+		dataType: string
+		summarizeBy: none
+		sourceColumn: OrderTime
+
+	column hour
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: hour
+
+	column CustomerID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: CustomerID
+
+	column RestaurantID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: RestaurantID
+
+	column DeliveryPartnerID
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: DeliveryPartnerID
+
+	column City
+		dataType: string
+		summarizeBy: none
+		sourceColumn: City
+
+	column CouponCode
+		dataType: string
+		summarizeBy: none
+		sourceColumn: CouponCode
+
+	column OrderStatus
+		dataType: string
+		summarizeBy: none
+		sourceColumn: OrderStatus
+
+	column PaymentMethod
+		dataType: string
+		summarizeBy: none
+		sourceColumn: PaymentMethod
+
+	column PaymentStatus
+		dataType: string
+		summarizeBy: none
+		sourceColumn: PaymentStatus
+
+	column FoodCost
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: FoodCost
+
+	column DeliveryFee
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: DeliveryFee
+
+	column Discount
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Discount
+
+	column GST
+		dataType: double
+		summarizeBy: none
+		sourceColumn: GST
+
+	column FinalAmount
+		dataType: double
+		summarizeBy: none
+		sourceColumn: FinalAmount
+
+	column DeliveryTimeMinutes
+		dataType: double
+		summarizeBy: none
+		sourceColumn: DeliveryTimeMinutes
+
+	column BasketSize
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: BasketSize
+
+	column IsDelivered
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: IsDelivered
+
+	column IsCancelled
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: IsCancelled
+
+	column IsLate
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: IsLate
+
+	column HasCoupon
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: HasCoupon
+
+	column PeakHour
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: PeakHour
+
+	column WeekendOrder
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: WeekendOrder
+
+	column TrafficScore
+		dataType: double
+		summarizeBy: none
+		sourceColumn: TrafficScore
+
+	column RainImpact
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: RainImpact
+
+	column Rainfall
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Rainfall
+
+	column Temperature
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Temperature
+
+	column WeatherCondition
+		dataType: string
+		summarizeBy: none
+		sourceColumn: WeatherCondition
+
+	column DeliveryEfficiency
+		dataType: double
+		summarizeBy: none
+		sourceColumn: DeliveryEfficiency
+
+	column AvgRating
+		dataType: double
+		summarizeBy: none
+		sourceColumn: AvgRating
+
+	column CustomerRating
+		dataType: double
+		summarizeBy: none
+		sourceColumn: CustomerRating
+
+	column DeliveryRating
+		dataType: double
+		summarizeBy: none
+		sourceColumn: DeliveryRating
+
+	column FoodRating
+		dataType: double
+		summarizeBy: none
+		sourceColumn: FoodRating
+
+	column Sentiment
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Sentiment
+
+	column Revenue
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Revenue
+
+	measure 'Total Orders' = COUNTROWS ( fact_orders )
+		formatString: #,0
+		displayFolder: KPIs
+
+	measure 'Completed Orders' = CALCULATE ( COUNTROWS ( fact_orders ), fact_orders[IsDelivered] = 1 )
+		formatString: #,0
+		displayFolder: KPIs
+
+	measure 'Total Revenue' = CALCULATE ( SUM ( fact_orders[FinalAmount] ), fact_orders[IsDelivered] = 1 )
+		formatString: #,0
+		displayFolder: KPIs
+
+	measure 'Avg Order Value' = DIVIDE ( [Total Revenue], [Completed Orders] )
+		formatString: #,0
+		displayFolder: KPIs
+
+	measure 'Avg Delivery Time' = CALCULATE ( AVERAGE ( fact_orders[DeliveryTimeMinutes] ), fact_orders[IsDelivered] = 1 )
+		formatString: 0.0
+		displayFolder: KPIs
+
+	measure 'P90 Delivery Time' = PERCENTILEX.INC ( FILTER ( fact_orders, fact_orders[IsDelivered] = 1 && NOT ISBLANK ( fact_orders[DeliveryTimeMinutes] ) ), fact_orders[DeliveryTimeMinutes], 0.9 )
+		formatString: 0
+		displayFolder: KPIs
+
+	measure 'Avg Rating' = AVERAGE ( fact_orders[AvgRating] )
+		formatString: 0.00
+		displayFolder: KPIs
+
+	measure 'Late %' = DIVIDE ( CALCULATE ( COUNTROWS ( fact_orders ), fact_orders[IsLate] = 1 ), [Completed Orders] )
+		formatString: 0.0%
+		displayFolder: KPIs
+
+	measure 'Cancellation %' = DIVIDE ( CALCULATE ( COUNTROWS ( fact_orders ), fact_orders[IsCancelled] = 1 ), [Total Orders] )
+		formatString: 0.0%
+		displayFolder: KPIs
+
+	measure 'Failure %' = DIVIDE ( CALCULATE ( COUNTROWS ( fact_orders ), fact_orders[IsDelivered] = 0 ), [Total Orders] )
+		formatString: 0.0%
+		displayFolder: KPIs
+
+	measure 'Active Customers' = VAR EndD = MAX ( dim_date[Date] ) RETURN CALCULATE ( DISTINCTCOUNT ( fact_orders[CustomerID] ), DATESBETWEEN ( dim_date[Date], EndD - 59, EndD ) )
+		formatString: #,0
+		displayFolder: KPIs
+
+	measure 'Revenue PM' = CALCULATE ( [Total Revenue], DATEADD ( dim_date[Date], -1, MONTH ) )
+		formatString: #,0
+		displayFolder: Time intelligence
+
+	measure 'Revenue MoM %' = DIVIDE ( [Total Revenue] - [Revenue PM], [Revenue PM] )
+		formatString: 0.0%
+		displayFolder: Time intelligence
+
+	measure Customers = COUNTROWS ( dim_customer )
+		formatString: #,0
+		displayFolder: Customers
+
+	measure 'Ordering Customers' = CALCULATE ( COUNTROWS ( dim_customer ), dim_customer[Orders] >= 1 )
+		formatString: #,0
+		displayFolder: Customers
+
+	measure 'Repeat Customers' = CALCULATE ( COUNTROWS ( dim_customer ), dim_customer[Orders] >= 2 )
+		formatString: #,0
+		displayFolder: Customers
+
+	measure 'Retention Rate' = DIVIDE ( [Repeat Customers], [Ordering Customers] )
+		formatString: 0.0%
+		displayFolder: Customers
+
+	measure 'One-time Customers %' = DIVIDE ( CALCULATE ( COUNTROWS ( dim_customer ), dim_customer[CustomerType] = "One-time" ), [Ordering Customers] )
+		formatString: 0.0%
+		displayFolder: Customers
+
+	measure 'Avg CLV' = CALCULATE ( AVERAGE ( dim_customer[CLV] ), dim_customer[Orders] >= 1 )
+		formatString: #,0
+		displayFolder: Customers
+
+	measure 'New Customers' = CALCULATE ( COUNTROWS ( dim_customer ), USERELATIONSHIP ( dim_customer[RegistrationDate], dim_date[Date] ) )
+		formatString: #,0
+		displayFolder: Customers
+
+	measure 'Avg Composite Score' = AVERAGE ( dim_restaurant[CompositeScore] )
+		formatString: 0.00
+		displayFolder: Restaurants
+
+	measure 'Avg Restaurant Rating' = AVERAGE ( dim_restaurant[Rating] )
+		formatString: 0.00
+		displayFolder: Restaurants
+
+	measure 'Top 10 Score' = SUM ( rpt_restaurant_top10[CompositeScore] )
+		formatString: 0.00
+		displayFolder: Restaurants
+
+	measure 'Bottom 10 Score' = SUM ( rpt_restaurant_bottom10[CompositeScore] )
+		formatString: 0.00
+		displayFolder: Restaurants
+
+	measure 'Partner Deliveries' = [Completed Orders]
+		formatString: #,0
+		displayFolder: Delivery
+
+	measure 'Avg Time (10+ deliveries)' = IF ( [Completed Orders] >= 10, [Avg Delivery Time] )
+		formatString: 0.0
+		displayFolder: Delivery
+
+	measure 'Total Discount' = CALCULATE ( SUM ( fact_orders[Discount] ), fact_orders[IsDelivered] = 1 )
+		formatString: #,0
+		displayFolder: Sales
+
+	measure 'Coupon Usage %' = DIVIDE ( SUM ( fact_orders[HasCoupon] ), [Total Orders] )
+		formatString: 0.0%
+		displayFolder: Sales
+
+	measure 'Discount % of Revenue' = DIVIDE ( [Total Discount], [Total Revenue] + [Total Discount] )
+		formatString: 0.0%
+		displayFolder: Sales
+
+	measure 'Delivery MAE' = AVERAGEX ( ml_delivery_predictions, ABS ( ml_delivery_predictions[Residual] ) )
+		formatString: 0.00
+		displayFolder: ML
+
+	measure 'Delivery RMSE' = SQRT ( AVERAGEX ( ml_delivery_predictions, ml_delivery_predictions[Residual] ^ 2 ) )
+		formatString: 0.00
+		displayFolder: ML
+
+	measure 'Delivery R2' = 1 - DIVIDE ( SUMX ( ml_delivery_predictions, ml_delivery_predictions[Residual] ^ 2 ), SUMX ( ml_delivery_predictions, ( ml_delivery_predictions[Actual] - AVERAGE ( ml_delivery_predictions[Actual] ) ) ^ 2 ) )
+		formatString: 0.000
+		displayFolder: ML
+
+	measure 'Avg Predicted' = AVERAGE ( ml_delivery_predictions[Predicted] )
+		formatString: 0.0
+		displayFolder: ML
+
+	measure 'Avg Actual' = AVERAGE ( ml_delivery_predictions[Actual] )
+		formatString: 0.0
+		displayFolder: ML
+
+	measure 'Delivery Importance' = SUM ( ml_delivery_feature_importance[permutation_mse_increase] )
+		formatString: 0.000
+		displayFolder: ML
+
+	measure 'Churn Importance' = SUM ( ml_churn_feature_importance[auc_drop_when_shuffled] )
+		formatString: 0.0000
+		displayFolder: ML
+
+	measure 'Test Customers' = CALCULATE ( COUNTROWS ( ml_churn_scores ), ml_churn_scores[Split] = "test" )
+		formatString: #,0
+		displayFolder: ML
+
+	measure 'Actual Churn % (test)' = CALCULATE ( AVERAGE ( ml_churn_scores[Churn] ), ml_churn_scores[Split] = "test" )
+		formatString: 0.0%
+		displayFolder: ML
+
+	partition fact_orders = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataPath & "\fact_orders.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Typed = Table.TransformColumnTypes(Promoted, {{"OrderID", Int64.Type}, {"OrderDate", type date}, {"OrderTime", type text}, {"hour", Int64.Type}, {"CustomerID", Int64.Type}, {"RestaurantID", Int64.Type}, {"DeliveryPartnerID", Int64.Type}, {"City", type text}, {"CouponCode", type text}, {"OrderStatus", type text}, {"PaymentMethod", type text}, {"PaymentStatus", type text}, {"FoodCost", Int64.Type}, {"DeliveryFee", Int64.Type}, {"Discount", type number}, {"GST", type number}, {"FinalAmount", type number}, {"DeliveryTimeMinutes", type number}, {"BasketSize", Int64.Type}, {"IsDelivered", Int64.Type}, {"IsCancelled", Int64.Type}, {"IsLate", Int64.Type}, {"HasCoupon", Int64.Type}, {"PeakHour", Int64.Type}, {"WeekendOrder", Int64.Type}, {"TrafficScore", type number}, {"RainImpact", Int64.Type}, {"Rainfall", type number}, {"Temperature", type number}, {"WeatherCondition", type text}, {"DeliveryEfficiency", type number}, {"AvgRating", type number}, {"CustomerRating", type number}, {"DeliveryRating", type number}, {"FoodRating", type number}, {"Sentiment", type text}, {"Revenue", type number}}, "en-US")
+				in
+					Typed
