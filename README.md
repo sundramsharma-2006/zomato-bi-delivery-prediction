@@ -60,7 +60,7 @@ The shipped `.pkl` files contain fallback-class objects and load only with this 
 ## SQL highlights (`sql/`)
 26 analytical queries + 2 views + 5 indexes (rationale in comments) + optional stored procedure and trigger, covering joins (inner/left/right/self/union),
 CASE, scalar/correlated subqueries, CTEs, ROW_NUMBER/RANK/DENSE_RANK/LAG/LEAD/NTILE, date functions. Load with `psql -f sql/schema.sql` then
-`psql -f sql/load_data.sql`. Queries were not executed in the build environment (no database engine available): run them once and fix any dialect issue.
+`psql -f sql/load_data.sql`. Executed end to end on PostgreSQL 18 (schema, load of 20,475 orders, all queries); output saved in `sql/query_results.txt`.
 
 ## EDA highlights (`reports/eda_report.pdf`, `images/eda_*`)
 38 charts (20 Matplotlib + 18 Seaborn). Revenue INR 53.1 lakh from 13,544 completed orders, flat month to month; peaks at 12-13h and 19-20h;
@@ -78,8 +78,8 @@ the label is "no order in the next 60 days"; class imbalance (87% churn) handled
 
 ## Power BI dashboard
 `powerbi/zomato_dashboard.pbip` is a ready-to-open **Power BI Project**: 17-table star-schema model, 38 DAX measures, 6 pages / 72 visuals,
-Zomato theme. Open it in Power BI Desktop, refresh, then *Save as* `zomato_dashboard.pbix`. It was generated from Microsoft's published
-PBIR/TMDL schemas without being opened in Desktop - see `powerbi/README_BUILD.md` for the quick start and fallback.
+Zomato theme. The finished dashboard is saved as `powerbi/zomato_dashboard.pbix`. The project can also be opened in Power BI Desktop (click Refresh;
+set the `DataPath` parameter to your `powerbi/data` folder) - see `powerbi/README_BUILD.md`.
 
 | Page | Preview |
 |---|---|
