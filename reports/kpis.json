@@ -1,0 +1,110 @@
+{
+  "orders_total": 20475,
+  "customers_with_orders": 9827,
+  "restaurants_with_orders": 1200,
+  "revenue_inr": 5308590.4,
+  "avg_order_value": 391.95144713526287,
+  "completed_orders": 13544,
+  "cancelled_pct": 22.315018315018314,
+  "food_not_delivered_pct": 11.536019536019536,
+  "late_pct_of_completed": 15.903721204961608,
+  "avg_delivery_min": 38.34812337421033,
+  "median_delivery_min": 36.0,
+  "p90_delivery_min": 60.0,
+  "p95_delivery_min": 70.0,
+  "avg_feedback_rating": 3.5141841450408817,
+  "one_time_customers_pct": 37.804009361961946,
+  "top_city": "Delhi",
+  "top_cuisine": "South Indian",
+  "peak_hour": 19,
+  "weekend_orders_pct": 28.3028083028083,
+  "avg_basket_by_membership": {
+    "Basic": 393.5,
+    "Gold": 390.2,
+    "Unknown": 394.6,
+    "Zomato Pro": 389.0
+  },
+  "delivery_time_by_traffic": {
+    "1.0": 37.99,
+    "2.0": 38.28,
+    "3.0": 38.53,
+    "4.0": 38.72
+  },
+  "delivery_time_by_rain": {
+    "0": 37.98,
+    "1": 38.38,
+    "2": 38.25,
+    "3": 38.69
+  },
+  "late_pct_by_traffic": {
+    "1.0": 15.96,
+    "2.0": 15.34,
+    "3.0": 16.75,
+    "4.0": 16.46
+  },
+  "cancel_pct_by_weather": {
+    "Clear": 22.55,
+    "Cloudy": 21.38,
+    "Foggy": 22.6,
+    "Humid": 21.9,
+    "Rainy": 22.36,
+    "Stormy": 20.54,
+    "Unknown": 22.57
+  },
+  "cancel_pct_by_payment": {
+    "Cash on Delivery": 20.88,
+    "Credit Card": 23.08,
+    "Debit Card": 21.31,
+    "Net Banking": 23.82,
+    "UPI": 22.17,
+    "Wallet": 22.67
+  },
+  "cancel_pct_by_cuisine": {
+    "Chinese": 18.98,
+    "Continental": 19.1,
+    "Burgers": 20.82,
+    "Fast Food": 20.97,
+    "BBQ": 21.14,
+    "South Indian": 21.54,
+    "Italian": 21.65,
+    "Sushi": 22.08,
+    "Bakery": 22.17,
+    "Pizza": 22.24,
+    "Desserts": 22.91,
+    "Seafood": 22.98,
+    "Thai": 22.98,
+    "Healthy Food": 23.08,
+    "Biryani": 23.39,
+    "North Indian": 23.57,
+    "Unknown": 24.14,
+    "Mughlai": 24.37,
+    "Street Food": 24.64,
+    "Mexican": 24.88
+  },
+  "weather_join_rate": 0.6301831501831502,
+  "traffic_join_rate": 0.6362881562881563,
+  "revenue_by_city": {
+    "Delhi": 247114.0,
+    "Kolkata": 240160.0,
+    "Surat": 238706.0,
+    "Ahmedabad": 236924.0,
+    "Kochi": 234734.0
+  },
+  "revenue_by_cuisine": {
+    "South Indian": 368196.0,
+    "Fast Food": 335677.0,
+    "Healthy Food": 312563.0,
+    "Desserts": 299858.0,
+    "Street Food": 294643.0
+  },
+  "coupon_usage_pct": 35.1990231990232,
+  "avg_discount_pct_when_coupon": 27.668239211877342,
+  "payment_failed_pct": 7.858363858363858,
+  "cancel_rate_late_vs_traffic_corr": -0.004263089348214858,
+  "traffic_high_vs_low_diff_min": 0.3725317264211583,
+  "traffic_high_vs_low_z": 1.3570766840508028,
+  "rain_heavy_vs_light_diff_min": 0.13793452923888339,
+  "rain_heavy_vs_light_z": 0.4660631622466006,
+  "mpl_charts": 20,
+  "sns_charts": 18
+}

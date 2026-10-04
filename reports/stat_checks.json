@@ -1,0 +1,104 @@
+{
+  "cancel_rate_by_cuisine": {
+    "chi2": 29.572265434139883,
+    "p": 0.057999750124937535
+  },
+  "cancel_rate_by_restaurant_city": {
+    "chi2": 13.945588419581085,
+    "p": 0.9524997501249375
+  },
+  "cancel_rate_by_weather": {
+    "chi2": 2.648497851158038,
+    "p": 0.8349997501249375
+  },
+  "cancel_rate_by_payment_method": {
+    "chi2": 12.070644869026646,
+    "p": 0.03649975012493753
+  },
+  "cancel_rate_by_hour": {
+    "chi2": 16.41379221634373,
+    "p": 0.8434997501249375
+  },
+  "cancel_rate_by_weekend": {
+    "chi2": 0.05260295612942853,
+    "p": 0.8214997501249375
+  },
+  "cancel_rate_by_membership": {
+    "chi2": 1.9428897683995179,
+    "p": 0.5704997501249375
+  },
+  "cancel_rate_by_has_coupon": {
+    "chi2": 1.129769834248877,
+    "p": 0.2934997501249375
+  },
+  "late_rate_by_restaurant_city": {
+    "chi2": 14.75362422758381,
+    "p": 0.9294997501249376
+  },
+  "late_rate_by_traffic": {
+    "chi2": 3.567028208573027,
+    "p": 0.31549975012493753
+  },
+  "late_rate_by_rain": {
+    "chi2": 0.7148844451417322,
+    "p": 0.8694997501249375
+  },
+  "late_rate_by_vehicle": {
+    "chi2": 4.7235438031155095,
+    "p": 0.17799975012493752
+  },
+  "late_rate_by_peak_hour": {
+    "chi2": 0.0311486133150249,
+    "p": 0.8544997501249375
+  },
+  "late_rate_by_weekend": {
+    "chi2": 0.2226057330716215,
+    "p": 0.6474997501249375
+  },
+  "delivery_time_by_traffic": {
+    "stat": 0.09946285816823301,
+    "p": 0.3554997501249375
+  },
+  "delivery_time_by_rain": {
+    "stat": 0.08553009284440403,
+    "p": 0.4704997501249375
+  },
+  "delivery_time_by_weather": {
+    "stat": 0.45668901926475997,
+    "p": 0.15649975012493753
+  },
+  "delivery_time_by_vehicle": {
+    "stat": 0.10625693533956226,
+    "p": 0.4274997501249375
+  },
+  "delivery_time_by_city": {
+    "stat": 0.5437487149908043,
+    "p": 0.18049975012493752
+  },
+  "order_value_by_membership": {
+    "stat": 7.020951964211463,
+    "p": 0.8379997501249375
+  },
+  "order_value_by_has_coupon": {
+    "stat": 5544.675732643796,
+    "p": 0.0004997501249375312
+  },
+  "order_value_by_cuisine": {
+    "stat": 71.97368000371836,
+    "p": 0.06899975012493753
+  },
+  "coupon_aov_with": 323.86487361604344,
+  "coupon_aov_without": 429.1708633093525,
+  "partner_time_spread": {
+    "partners": 287,
+    "observed_var": 23.768903333308668,
+    "p": 0.08599600798403194
+  },
+  "corr_restaurant_rating_vs_cancel_rate": 0.013921541027994885,
+  "mean_delivery_rating_late": 3.5063025210084033,
+  "mean_delivery_rating_ontime": 3.4692137986361815,
+  "delivered_late_mean_time": 63.72494172494172,
+  "delivered_mean_time": 33.53527851458886,
+  "n_tests": 23,
+  "n_p_below_0.05": 2
+}
