@@ -1,0 +1,2001 @@
+DeliveryPartnerID,Name,Age,Gender,VehicleType,JoiningDate,City,Rating,CompletedDeliveries,AverageDeliveryTime
+1,Niharika Sathe,37,Male,Bike,22/10/2024,Ahmedabad,3.6,539,35.7
+2,Zashil Rajagopalan,37,Female,Car,28/11/2023,Lucknow,4.4,978,30.8
+3,Harish Shan,29,Male,Scooter,25-08-2021,Indore,4.6,518,30.2
+4,aashi kulkarni,22,Female,Bike,19 Jul 2021,Delhi,4.8,225,47.6
+5,Maanav Grewal,23,Male,Bike,10/08/2023,Bhubaneswar,4.2,632,-35.7
+6, Dalaja Yogi  ,42,Female,Car,04/13/2023,Chennai,3.7,272,30.8
+7,Vyanjana Agrawal,32,Male,Bike,2022.11.13,kolkata,3.8,537,24.3
+8,Yachana Purohit,28,Female,Bike,06-10-2023,Kochi,4.6,1033,19.2
+9,Neel Chakraborty,19,Female,Car,30-06-2022,Ludhiana,3.9,737,11.7
+10,Chanakya Madan,26,Male,Bicycle,14 Feb 2023,Chandigarh,4.1,174,50.5
+11,Harini Sibal,32,Male,Bike,05/11/2022,Ahmedabad,4.3,745,18.5
+12,Shravya Kapur,21,Male,Bike,2022.02.05,ludhiana,4.1,555,42.2
+13,Zarna Bhakta,23,Female,Bicycle,10/06/2024,Lucknow,4.4,376,27.0
+14,Urmi Subramanian,27,Female,Bike,13-09-2022,Ahmedabad,4.4,495,35.4
+15,Jacob Loyal,25,Female,Bike,2023.02.13,Vadodara,3.8,471,31.9
+16,Nidhi Yogi,29,Female,Bike,03 May 2023,Patna,4.3,187,35.5
+17,Pooja Zacharia,35,Female,Bike,28-07-2022,Kochi,4.0,754,24.0
+18,Udyati Sha,22,Male,Scooter,06/07/2023,Lucknow,4.1,269,36.3
+19,Riya Mohanty,28,Female,Bike,30/11/2023,Jaipur,4.6,290,24.3
+20,Hemal Salvi,18,Male,Bike,04/22/2024,bhubaneswar,3.6,366,36.6
+21,Abhimanyu Sharma,23,Male,Bike,2024.10.14,Chandigarh,4.4,99,34.4
+22,Varsha Kalla,21,Male,Bike,04/24/2023,Chandigarh,4.2,436,40.0
+23,Imaran Borra,32,Female,Bike,2022.10.31,Indore,3.9,1676,33.5
+24,Janya Sridhar,24,Male,Scooter,2023-10-23,Chandigarh,4.5,248,35.6
+25,Ranveer Bumb,27,Male,Bike,04-09-2022,Patna,3.8,533,41.0
+26,Jhalak Pillay,30,Male,Bike,15 Jul 2021,Delhi,3.8,437,39.5
+27,Forum Swamy,25,Male,Bike,14/11/2022,Vadodara,3.8,217,29.6
+28,Hardik Gulati,28,Male,Car,24/03/2022,Coimbatore,3.9,757,21.9
+29, Max Tiwari  ,18,Male,Bicycle,24 Sep 2024,Ludhiana,4.0,379,40.7
+30,Brijesh Goswami,20,Female,Bike,11-02-2023,Kochi,4.2,448,12.1
+31,Siddharth Dey,23,Female,Bike,04/15/2022,Guwahati,3.4,978,33.5
+32,Aarnav Sarraf,26,Female,Bike,16 Nov 2024,Nashik,4.4,353,33.1
+33,Farhan Bakshi,23,Male,Bicycle,2024-10-19,Vadodara,4.6,220,42.0
+34,Logan Sinha,24,Male,Bike,2024-08-19,Delhi,4.5,866,47.4
+35,Chavvi Buch,24,Male,Bike,12/29/2023,Ahmedabad,4.0,241,33.6
+36,Nikita Yogi,33,Female,Bike,12/03/2025,Patna,3.8,283,19.6
+37,Abha Sankar,23,Female,Scooter,2022-03-05,Surat,4.5,404,15.6
+38,Devansh Andra,29,Male,Bike,2023.01.31,Delhi,4.4,401,20.3
+39,Radhika Dass,25,Female,Bicycle,2022.08.06,Vadodara,4.0,549,37.0
+40,Karan Rastogi,31,Female,Bike,02/27/2024,DELHI,4.6,221,34.9
+41,Om Bedi,22,Male,Bicycle,06-09-2021,Guwahati,4.2,1636,32.3
+42,Dayamai Pradhan,39,Male,Bike,2022.02.03,Pune,4.9,199,36.3
+43,Ansh Barad,37,Male,Bike,2025.03.18,Ahmedabad,4.6,276,32.1
+44,Chandani Nayak,34,Female,Bike,03/17/2023,Visakhapatnam,4.2,552,22.5
+45,Laksh Chad,25,Female,Scooter,21/03/2025,Chandigarh,4.4,306,28.0
+46,Matthew Shankar,21,Female,Bike,2023.02.22,Visakhapatnam,4.1,876,21.7
+47,Gayathri Pal,29,Female,Bike,2022-08-03,Pune,4.2,370,20.3
+48,Megha Loke,38,Female,Bike,10-10-2023,Bhubaneswar,4.3,728,27.5
+49,Aahana Merchant,35,Male,Bike,09/11/2023,Jaipur,4.1,970,21.1
+50,Hardik Varughese,25,Female,Bike,26-10-2022,Nashik,3.5,796,42.5
+51,Ria Boase,34,Male,Scooter,16-07-2022,Mumbai,,855,10.9
+52,Faqid Chakrabarti,33,Male,Bicycle,10/11/2022,Coimbatore,4.6,1752,31.8
+53,Gaurika Toor,21,Female,Bike,2022-03-11,Mumbai,3.9,524,43.6
+54,Indira Narayanan,39,Female,Bike,05 Sep 2023, Nagpur  ,3.8,171,48.5
+55,Harshil Char,34,Male,Bike,23 Jun 2024,Ludhiana,4.3,1013,25.3
+56,Bhanumati Mangal,28,Male,Scooter,10-12-2022,Coimbatore,5.0,488,26.6
+57,Krish Khare,26,Male,Scooter,13 Nov 2023,Bhubaneswar,3.1,467,30.6
+58,Charvi Bassi,22,Female,Scooter,26/11/2024,Hyderabad,4.0,1120,53.5
+59,Hitesh Ghose,27,Female,Bike,24/01/2025,Nashik,4.5,606,22.3
+60,Zilmil Dua,32,Female,Scooter,07/03/2022,Indore,4.0,660,38.9
+61,Vritti Setty,18,Female,Scooter,01/29/2022,Kochi,4.1,990,31.1
+62,Azad Deshmukh,32,Female,Scooter,2024.05.18,PATNA,4.0,771,32.2
+63,Vasana Tiwari,32,Male,Bike,2022-06-06,vadodara,4.8,330,40.3
+64,Yamini Jaggi,34,Male,Bike,18/11/2022,Bhubaneswar,4.3,292,30.6
+65,Falan Pant,31,Female,Bike,04/19/2024,Bhubaneswar,4.2,386,-29.7
+66,Aryan Iyer,35,Male,Bike,01/04/2023,Ludhiana,4.0,822,45.2
+67,Lavanya Bhardwaj,29,Female,Car,07/19/2024,Vadodara,3.6,1317,29.8
+68,Adya Bera,40,Female,Bicycle,04/25/2023,Ahmedabad,4.8,862,33.3
+69,Widisha Cheema,39,Male,Car,17-06-2023,Jaipur,4.2,334,27.4
+70,Kamya Bora,18,Female,Bike,2021.08.10,Nagpur,3.7,556,46.6
+71,Meghana Dara,32,Female,Scooter,09/20/2021,Bengaluru,4.5,472,31.2
+72,Yashodhara Khosla,30,Male,Bike,27 Jul 2022,Jaipur,4.2,1194,19.4
+73,Agastya Tak,24,Female,Bike,09/09/2021,Nagpur,4.3,626,34.9
+74,Kashish Vig,32,Female,Bike,2022-04-12,Nagpur,4.4,489,42.2
+75,Dakshesh Ganguly,29,Male,Bicycle,2022-01-26,NAGPUR,4.4,716,33.4
+76,Aryan Garg,37,Female,Scooter,19/03/2024,Kochi,5.0,419,22.2
+77,Warhi Hari,24,Female,Bike,2022.02.08, Pune  ,4.1,556,21.1
+78,Kritika Wagle,29,Female,Bicycle,10 Aug 2022,Hyderabad,3.9,532,34.5
+79,Dhruv Sen,28,Female,Scooter,2023-02-07,Delhi,4.3,705,28.9
+80,Vasatika Arya,31,Female,Bike,27-08-2024,Pune,3.9,509,39.6
+81, Qushi Oak  ,35,Male,Bicycle,2021.07.15,Lucknow,4.4,110,37.2
+82,Fitan Tara,37,Male,Bike,03 Oct 2022,Guwahati,4.1,693,39.9
+83,Libni Joshi,29,Female,Bike,2024.12.03,Vadodara,3.6,649,34.6
+84,Bahadurjit Goel,26,Male,Bike,2023-01-13,Surat,4.2,673,36.6
+85,Xavier Dyal,20,Male,Scooter,2024.09.25,Mumbai,4.0,568,31.6
+86,Charles Tata,21,Male,Car,02/28/2025,Chandigarh,4.1,327,28.7
+87,Farhan Gade,28,Male,Bike,2023-06-29,Nashik,4.4,302,23.6
+88,Anusha Dhillon,28,Male,Bike,19 Nov 2021,Mumbai,4.7,240,48.7
+89,Madhavi Kari,32,Male,Scooter,13/01/2023,Pune,4.4,261,28.9
+90,Laksh Bera,29,Female,Bike,10/01/2022,Coimbatore,3.9,471,40.3
+91,Prisha Wali,33,Female,Scooter,24/08/2021,Visakhapatnam,3.9,457,22.6
+92,Rajata Ray,33,Female,Scooter,2022.12.21,Vadodara,3.8,145,43.2
+93,Chaaya Vora,26,Female,Bike,31-12-2022,Pune,3.2,646,27.8
+94,Jyoti Mandal,24,Male,Bike,14-09-2024,Kolkata,4.4,591,38.4
+95,Rachit Garde,18,Female,Scooter,2024.10.15,Chennai,4.0,681,27.3
+96,Hemani Kara,35,Female,Bike,07 Dec 2023,Nashik,4.3,336,14.7
+97,Bishakha Mall,35,Male,Scooter,01 Dec 2024,Pune,4.1,643,39.9
+98,Kabir Sharaf,26,Male,Bike,02 Jan 2023,Bhopal,3.6,394,40.7
+99,Kashish Sabharwal,27,Male,Bike,08-02-2024,Ahmedabad,5.0,854,39.4
+100,Nidhi Sabharwal,29,Male,Bike,28 Jul 2023,Visakhapatnam,4.7,499,15.5
+101,Abhiram Patil,19,Male,Bike,2021.11.09,CHENNAI,3.8,979,30.2
+102,Ekbal Kata,28,Female,Scooter,03-08-2021,Pune,4.1,803,30.4
+103,Anmol Singhal,29,Male,Scooter,2021-06-01,Delhi,3.2,728,23.5
+104,Yagnesh Bhakta,28,Female,Bike,2022-03-18,Patna,3.8,627,30.9
+105,Vedhika Kohli,30,Female,Bicycle,2021.11.25,Kochi,4.6,515,23.9
+106,Nisha Goel,25,Female,Bike,2024.12.05,Bhubaneswar,3.7,999,31.4
+107,Radhika Dube,35,Male,Scooter,20-08-2024,Bengaluru,3.9,369,29.5
+108,YASHASVI RAMASWAMY,23,Female,Bike,2023.05.03, Raipur  ,4.2,389,44.0
+109,Upasna Natarajan,18,Male,Scooter,21 Jul 2021,Chennai,4.3,595,35.0
+110,Sara Mital,26,Male,Scooter,21 Aug 2024,Mumbai,4.8,615,35.9
+111,Chakrika Bajaj,34,Female,Car,2024-03-17,Bhopal,4.0,324,20.7
+112,Maanav Bose,30,Female,Scooter,03 Sep 2021,Pune,4.1,560,36.8
+113,Isha Bajwa,24,Female,Scooter,22/06/2021,Hyderabad,3.5,159,37.5
+114,Vinaya Behl,33,Female,Bike,04 Dec 2021,Indore,4.5,98,42.1
+115,Pratyush Mukherjee,35,Female,Scooter,08/07/2022,Bhubaneswar,4.3,400,20.6
+116,Abhimanyu Bhasin,37,Male,Bike,2024-12-07,Kolkata,5.0,537,17.4
+117,Vanya Golla,31,Female,Scooter,21/06/2022,chennai,4.4,434,34.9
+118,Triya Bava,19,Female,Bicycle,12-03-2022,Guwahati,3.8,522,44.9
+119,Isaiah Char,34,Male,Scooter,29 Apr 2022,Bhopal,3.3,325,17.2
+120,Hamsini Batta,26,Male,Bicycle,2023-10-28,Bhubaneswar,4.3,783,21.9
+121,Chatresh Behl,24,Female,Scooter,09-11-2021,Raipur,4.0,334,47.3
+122,Ubika Johal,22,Male,Bike,2022.12.08,Bhopal,3.9,468,57.6
+123,Udant Balan,36,Male,Car,09-07-2023,Pune,4.5,389,25.1
+124,Oscar Ahuja,25,Male,Bike,02/07/2024,Guwahati,3.7,577,50.7
+125,Tamanna Sahota,27,Male,Bike,06 Jan 2025,Patna,3.8,522,34.1
+126,Fitan Sem,24,Female,Bicycle,19 Oct 2023,Kolkata,4.5,390,21.5
+127,Xavier Singh,28,Female,Bicycle,2022.10.15,Kochi,4.3,425,34.5
+128,Omkaar Venkatesh,18,Male,Car,10/09/2021,Bhopal,5.0,1521,33.3
+129,Eta Mahal,25,Female,Scooter,22/07/2024,Bhopal,5.0,824,13.2
+130, Oviya Sankar  ,30,Male,Scooter,26 Jan 2023,Chennai,3.9,816,42.5
+131,Upkaar Sanghvi,26,Female,Bike,2023.12.16,Chennai,4.2,586,29.8
+132,Balhaar Chacko,28,Female,Bike,08/10/2023,Hyderabad,4.4,1318,23.2
+133,Aryan Buch,28,Female,Bike,20-10-2023,Kolkata,4.1,232,29.4
+134,Gunbir Malhotra,31,Female,Bike,04/12/2022,Surat,4.7,183,22.9
+135,Aishani Aurora,35,Female,Bike,2021.06.02,Chandigarh,4.5,465,23.5
+136,Ria Sama,25,Female,Scooter,2022-12-04,Nashik,4.3,797,20.5
+137,Gabriel Mangal,32,Male,Bike,09 Aug 2024,Bhubaneswar,4.6,370,21.9
+138,Elijah Ahuja,36,Male,Bike,07/05/2021,Guwahati,4.0,281,33.3
+139,Samaksh Dass,40,Male,Bike,2024.09.01,RAIPUR,3.7,514,50.8
+140,Fariq Suri,23,Male,Bicycle,12/29/2024,Mumbai,4.3,591,35.0
+141,Niharika Chaudhry,22,Female,Scooter,2024.07.08,Surat,4.5,750,29.4
+142,George Natt,41,Male,Scooter,13 Jan 2024,Visakhapatnam,3.7,840,27.5
+143,Megha Narasimhan,31,Female,Bike,27 Dec 2023,Nashik,4.9,269,33.0
+144,Gaurangi Ben,24,Female,Bike,26-11-2022,Lucknow,3.8,381,25.6
+145,sai de,27,Male,Scooter,2021-08-02,Mumbai,3.9,730,33.1
+146,Gayathri Mahajan,30,Male,Bike,01-05-2024,Patna,4.9,229,20.4
+147,Krisha Keer,36,Male,Scooter,11 May 2023,Raipur,3.8,1411,48.2
+148,Kashish Bose,30,Male,Bike,2021.07.10,Pune,3.5,689,36.4
+149,Naveen Kala,31,Female,Bike,12 Aug 2022,Jaipur,3.8,368,21.8
+150,Dakshesh Choudhary,33,Male,Scooter,07/08/2023,Chandigarh,3.6,584,32.4
+151, Abhimanyu Tella  ,27,Male,Bike,30/09/2023,CHANDIGARH,3.7,113,36.8
+152,Hemang Apte,38,Male,Bike,06/14/2024,Nagpur,4.6,672,42.9
+153,Atharv Amble,34,Male,Car,25-04-2022,Ahmedabad,3.8,704,20.9
+154,Nimrat Tella,27,Female,Bike,2025-03-04,SURAT,3.9,907,43.8
+155,David Rao,37,Female,Car,2023-07-01,Surat,4.8,389,30.5
+156,Madhav Talwar,28,Female,Bike,05 Jul 2023,Chennai,4.2,535,25.7
+157,Abeer Palan,31,Male,Bike,11/12/2024,Coimbatore,4.5,1094,-48.3
+158,Maanav Sinha,28,Male,Car,03/09/2023,Pune,4.4,809,23.9
+159,Bachittar Shroff,39,Female,Bike,23 Oct 2021, Mumbai ,4.6,979,22.3
+160,Pallavi Dewan,20,Male,Scooter,14/08/2024,Visakhapatnam,3.9,500,52.6
+161,Xiti Anne,26,Female,Bike,2024-03-14,Lucknow,4.3,821,10.0
+162,David Deep,36,Female,Bike,25/08/2022,Patna,3.7,1032,34.1
+163,MAHIKA SAMA,30,Female,Scooter,23-02-2024,Ludhiana,4.6,642,27.6
+164,Bhavini Chacko,27,Female,Bike,22-10-2024, Raipur  ,3.9,405,24.9
+165,Januja Bhargava,25,Female,Scooter,20/09/2023,Indore,3.8,263,27.1
+166,Oliver Kothari,40,Female,Car,23/02/2025,VISAKHAPATNAM,4.1,252,25.0
+167,Utkarsh Sarkar,29,Male,Bicycle,07/23/2024,Coimbatore,4.8,750,-22.2
+168,Manthan Mani,30,Female,Bike,2024.09.28,Nashik,,2117,26.9
+169,Meghana Chhabra,18,Male,Bicycle,02/18/2025,Mumbai,4.1,776,36.2
+170,Vritti Sodhi,18,Male,Bike,10/04/2023,Chennai,4.0,1257,25.8
+171,Jack Barad,33,Male,Bike,11-12-2024,GUWAHATI,4.7,401,40.7
+172,Lakshmi Thaker,32,Male,Scooter,2023-02-10,Hyderabad,4.0,1364,29.4
+173, Tanmayi Rout  ,26,Female,Bike,30 Aug 2022,Indore,3.3,595,26.0
+174,Vinaya Naik,18,Male,Scooter,07-02-2023,Pune,4.5,461,26.0
+175,Qabil Pillay,25,Female,Scooter,25-07-2024,Vadodara,4.0,405,38.7
+176,Zayan Modi,18,Female,Scooter,10/01/2024,Pune,4.7,641,43.3
+177,Yash Dada,25,Male,Bike,26-01-2023,Bhubaneswar,4.3,808,20.2
+178,Rachit Bhattacharyya,22,Male,Bike,02/02/2023,Indore,4.4,600,36.4
+179,Jagrati Cherian,20,Female,Bike,25/12/2022,Raipur,4.1,836,16.5
+180,Fitan Dugar,25,Female,Bike,29/10/2021,Bhopal,3.5,436,12.4
+181,Nisha Vohra,27,Male,Scooter,2024-06-09,Bengaluru,3.7,710,38.6
+182,Amrita Uppal,21,Female,Scooter,11/04/2023,Bhopal,3.4,842,27.9
+183,Girik Modi,23,Female,Bicycle,2025.02.02,Visakhapatnam,4.5,735,30.0
+184,Hredhaan Upadhyay,33,Male,Bicycle,2023.08.22,PUNE,4.8,713,22.9
+185,Sai Venkataraman,18,Male,Car,03/17/2024,Mumbai,4.6,580,33.0
+186,Daniel Palan,21,Female,Car,06/08/2024,Lucknow,3.5,438,45.2
+187,Chavvi Yohannan,33,Female,Scooter,11-11-2022,Hyderabad,4.2,624,26.5
+188,Tara Iyer,26,Female,Bike,29 Aug 2021,Delhi,4.2,684,31.4
+189,Sara Sachdev,30,Male,Scooter,08/19/2021,Coimbatore,5.0,678,40.6
+190,Samuel Borra,33,Female,Scooter,2022-01-18,Delhi,4.4,858,40.3
+191,Ansh Sami,37,Female,Bike,2024.02.29,Chennai,4.6,764,32.5
+192,Luke Narain,32,Male,Bike,25-08-2023,Nashik,4.0,843,28.4
+193,Brijesh Arora,28,Female,Bike,16-10-2021,Coimbatore,3.7,700,30.7
+194,Ikbal Gupta,31,Male,Bike,07/06/2022,Coimbatore,4.2,781,26.5
+195,Jackson Mand,23,Male,Scooter,06/13/2024,Raipur,4.8,1848,48.7
+196,Kavya Sura,25,Male,Bicycle,2021-07-21,Lucknow,4.5,693,29.9
+197,Chandani Karnik,26,Female,Bike,2024.06.03,Patna,4.4,445,28.7
+198,Janya Vig,33,Male,Bike,14 May 2022,Surat,4.7,366,15.8
+199,Kalpit Koshy,20,Male,Scooter,30 Aug 2024,Visakhapatnam,4.0,395,44.5
+200,Vritti Doshi,19,Male,Scooter,09/03/2023,Lucknow,4.5,352,30.5
+201,Saksham Roy,28,Female,Bike,02 Jul 2021,JAIPUR,4.2,199,52.1
+202,Harini Kunda,35,Male,Bike,2023.04.15,Surat,4.0,1305,28.6
+203,Vasana Deep,28,Female,Scooter,2023-02-20,Ludhiana,3.6,349,29.3
+204,Janani Nagar,37,Female,Scooter,2023.08.03,Ludhiana,4.0,808,30.7
+205,Triya Jaggi,26,Female,Bike,22 Aug 2022,Lucknow,4.3,333,42.9
+206,Harini Din,24,Female,Bike,2024-08-15,Coimbatore,4.3,727,40.9
+207,Hemangini Guha,22,Male,Car,02 Sep 2023,Delhi,4.7,188,33.0
+208,Upkaar Bajwa,28,Male,Bicycle,19/09/2022,Delhi,3.9,392,26.3
+209,Hitesh Sathe,23,Female,Bike,2022-07-24,New Delhi,3.7,1409,31.0
+210,Manthan Shah,26,Male,Bike,2021-09-23,Ahmedabad,3.7,396,33.6
+211,Ladli Hayer,24,Female,Bike,03/26/2025,Pune,3.9,232,33.4
+212,Gayathri Parsa,39,Male,Bicycle,15-08-2024,Bhubaneswar,4.7,917,38.6
+213,Waida Sule,25,Male,Bike,11/03/2025,Bhopal,4.4,702,37.7
+214,Bhavika Thaman,33,Female,Bike,2024.02.11,Kochi,4.6,711,41.5
+215,Chanchal Comar,26,Male,Scooter,2023.08.15,Guwahati,,509,23.9
+216,Hemang Venkatesh,27,Male,Car,2024.06.04,Indore,4.1,349,39.6
+217,Kabir Kapoor,19,Female,Scooter,16 Nov 2024,Indore,4.6,545,26.5
+218,Ethan Ramakrishnan,18,Male,Bicycle,2024.09.07,Kochi,4.5,877,42.3
+219,Daksh Saran,33,Male,Bike,2024.02.16,Bangalore,4.5,478,42.7
+220,Dipta Krishna,34,Female,Scooter,06/30/2024,Kochi,4.4,661,27.7
+221,Kala Ganesh,25,Male,Bike,16 Feb 2024,Nagpur,3.8,572,35.7
+222,Meera Oza,22,Male,Bike,28/08/2022,Hyderabad,4.6,826,36.2
+223,Barkha Chokshi,19,Male,Bike,18/09/2024,Ludhiana,4.5,989,-32.9
+224,Nihal Pathak,34,Female,Bike,31-12-2023,Pune,4.3,708,28.9
+225,Yashoda Ravel,24,Male,Bike,04/24/2022,Bhopal,3.8,620,35.6
+226,Jhalak Bhargava,18,Female,Bike,2022.05.22,Indore,4.2,461,30.5
+227,Raagini Sani,40,Female,Scooter,2023-07-05,Kolkata,4.4,876,29.0
+228,Waida Narang,30,Female,Car,12/05/2023,Coimbatore,4.2,685,19.0
+229,Krish Chahal,28,Male,Bike,19 Jan 2022,Surat,3.9,718,23.3
+230,Zinal Krishna,30,Female,Bike,2024.06.15,Nagpur,4.7,664,22.2
+231,Leela Muni,21,Female,Bike,05-09-2024,Visakhapatnam,4.1,468,34.0
+232,Daniel Raj,28,Female,Bike,10/10/2024,Bengaluru,4.1,256,34.8
+233,Falguni Borah,29,Male,Bike,08/09/2023,Jaipur,4.3,374,15.1
+234,Vritti Kanda,30,Female,Bicycle,19 Nov 2022,Jaipur,4.6,597,25.2
+235,Aachal Tiwari,24,Male,Scooter,26/11/2022,Indore,4.4,1262,29.4
+236,Udant Keer,29,Male,Bike,10/02/2025,Patna,4.1,341,43.1
+237,Madhavi Shetty,29,Female,Bike,22-02-2024,Hyderabad,4.5,185,34.4
+238,Zaitra Tank,30,Female,Bike,20 Apr 2023,Nashik,4.1,495,22.2
+239,Zashil Randhawa,35,Male,Bicycle,2024.08.19,Delhi,4.2,695,21.2
+240,Upasna Murthy,27,Female,Car,2022-12-05, Kochi  ,4.1,1006,26.9
+241,Dominic Ramesh,25,Male,Bike,07/09/2024,CHENNAI,3.7,1350,25.5
+242,Qasim Sheth,25,Male,Car,10/25/2023,Bhopal,3.7,715,27.7
+243,Lila Gaba,31,Male,Bike,2022.11.09,Pune,4.4,944,27.0
+244,triveni sani,29,Male,Scooter,01/30/2023,Lucknow,4.2,876,60.6
+245,Lipika Dora,23,Female,Scooter,11/30/2024,Guwahati,4.8,581,40.0
+246,Deepa Subramanian,23,Female,Bike,21/05/2024,Ludhiana,3.7,917,53.5
+247,Harshil Rao,29,Male,Bike,10/01/2022,Pune,4.5,355,39.8
+248,Fariq Thakur,20,Male,Scooter,01/18/2023,Surat,3.8,421,35.4
+249,Sachi Kuruvilla,23,Female,Scooter,24/10/2024,Nashik,3.8,463,40.4
+250,Bachittar Goda,34,Male,Scooter,2024-01-09,Chennai,4.8,506,19.3
+251,Adya Chatterjee,37,Male,Car,2022-10-30,Bhubaneswar,4.4,145,21.7
+252,Ekansh Chakrabarti,35,Female,Bike,07 Jun 2024,Nashik,4.1,242,38.2
+253,Hardik Raju,28,Female,Scooter,2023-12-06,Bhubaneswar,4.0,724,29.3
+254,Frado Butala,32,Female,Car,05-12-2021,Ahmedabad,4.8,332,24.2
+255,Edhitha Majumdar,18,Male,Bike,20-07-2023,Ahmedabad,3.9,275,33.3
+256,Gautam Kapoor,37,Male,Bike,12/06/2023,Nagpur,4.1,388,30.2
+257,Matthew Buch,25,Female,Bike,23 Nov 2022,Mumbai,4.4,676,36.0
+258,Fiyaz Sule,24,Male,Bike,13/07/2024,Bhopal,4.0,1285,33.1
+259, Meera Krish  ,21,Female,Bike,2021.12.08,Guwahati,3.2,506,35.1
+260,RACHANA MURTY,27,Female,Scooter,12/22/2022,Bhopal,4.5,350,33.4
+261,Viraj Kota,24,Female,Bike,01-03-2025,Ludhiana,4.0,496,30.2
+262,NAKUL DIXIT,24,Female,Bike,2023.06.12,Chennai,4.8,713,39.9
+263,Tamanna Manne,35,Female,Bike,2022.10.08,Bhubaneswar,4.8,421,52.6
+264,Chaitanya Deep,43,Female,Scooter,16-07-2021,Delhi,4.2,344,36.8
+265,Pranav Madan,35,Female,Scooter,2022-12-02,Pune,4.3,997,38.0
+266,Nandini Sodhi,24,Male,Bike,04/17/2023,Coimbatore,3.9,589,38.6
+267,Deepa Banerjee,25,Male,Bicycle,2021-06-06,Ahmedabad,4.5,705,29.3
+268,Ansh Sastry,25,Female,Bike,03/07/2024,Delhi,4.4,444,40.9
+269,Jeevika Trivedi,30,Female,Scooter,07/21/2022,Bhubaneswar,4.2,1501,39.6
+270, Amruta Varkey  ,27,Female,Bike,05/25/2024,Surat,3.6,442,37.5
+271,Arjun Chandran,34,Female,Scooter,2024-05-21,Nashik,4.7,414,34.3
+272,Rohan Sahota,36,Female,Bike,2024-07-02,Ahmedabad,4.2,697,24.7
+273,Zayan Lalla,32,Male,Bike,11/07/2022,Pune,4.0,811,41.7
+274,Vinaya Dube,32,Female,Scooter,2021-09-25,Guwahati,5.0,478,16.6
+275,Megha Bhatia,35,Female,Car,09/01/2021,Kochi,4.3,263,20.7
+276,Wridesh Aurora,27,Female,Bike,06-10-2024,Surat,4.0,588,41.4
+277,Advik Doshi,26,Male,Car,26 Dec 2022,Kochi,3.7,834,42.4
+278,Turvi Devan,31,Female,Car,29 Apr 2022,Kochi,4.8,376,28.2
+279,Benjamin Mammen,25,Female,Bike,28-12-2023,Madras,4.0,708,33.9
+280,Zansi Cherian,37,Female,Bike,07/12/2023,Guwahati,4.6,536,37.7
+281,Tanay Balan,26,Male,Scooter,2022-12-30,Vadodara,4.5,603,10.0
+282,Vritti Wali,30,Male,Bike,08-03-2022,Surat,3.8,486,24.8
+283,Nathan Doctor,30,Female,Scooter,06/06/2024,Ahmedabad,3.9,728,55.2
+284,Fiyaz Raman,41,Female,Bike,2022.01.23,Delhi,3.6,163,16.8
+285,Vrishti Bhardwaj,32,Male,Bike,05/26/2022,Hyderabad,4.4,430,33.6
+286,Vritti Wagle,26,Female,Scooter,2024-08-19,Coimbatore,3.7,817,41.9
+287,Meghana Kala,25,Female,Bike,22 Dec 2022,Hyderabad,4.2,636,11.8
+288,bahadurjit chaudhary,26,Female,Bicycle,08-08-2022,Ludhiana,4.7,327,30.0
+289,Tripti Desai,30,Male,Bike,01-01-2022,Visakhapatnam,4.6,608,55.0
+290,Arunima Krishna,27,Female,Bike,10 Jun 2023,Bengaluru,4.2,476,37.5
+291,Pahal Rana,31,Female,Scooter,09/11/2024,Hyderabad,4.2,707,46.2
+292,Tanveer Mangat,34,Male,Scooter,2024.08.24,Raipur,,362,38.5
+293,Tanish Khosla,23,Male,Car,04/07/2023,Visakhapatnam,4.2,399,32.4
+294,jonathan saraf,18,Male,Scooter,2023.09.13,Pune,3.6,577,21.9
+295,Dhriti Loyal,18,Male,Bike,2025-01-02,Guwahati,4.1,858,34.3
+296,Omisha Karnik,24,Female,Scooter,09/01/2021,Hyderabad,4.4,402,55.9
+297,Hiral Chakrabarti,29,Male,Scooter,23 Mar 2025,Coimbatore,4.3,399,41.1
+298,Owen Prakash,24,Female,Bike,12 Jul 2021,Jaipur,4.1,319,36.7
+299,Veer Misra,18,Male,Bike,03 Feb 2022,Lucknow,4.1,352,34.7
+300,Hiral Mani,30,Female,Bike,01/11/2023,Nashik,4.1,657,36.3
+301,Lakshmi Badal,28,Male,Car,2022.06.25,DELHI,4.4,893,40.2
+302,Ridhi Mander,31,Male,Bike,2021.06.26,Ahmedabad,4.9,537,26.7
+303,Yatan Nazareth,27,Female,Bike,04 Dec 2023,Patna,3.9,764,44.3
+304,Rachit Vora,18,Male,Bike,2023-02-14,Coimbatore,4.0,299,29.6
+305,Ethan Karpe,24,Female,Car,21 Jan 2023,Bhubaneswar,4.6,317,13.5
+306,Neelima Nanda,27,Female,Scooter,20 Jan 2025,CHENNAI,4.2,938,23.9
+307,Urvi Kalla,31,Female,Bike,2022.05.27,Surat,4.5,1200,31.9
+308,Yadavi Lad,29,Male,Scooter,15-09-2022,Lucknow,4.7,555,34.1
+309,Ishanvi Sarkar,24,Male,Bike,2025-03-21,Bengaluru,3.9,537,52.0
+310,Gabriel Sethi,28,Female,Scooter,26 Apr 2022,jaipur,4.1,791,28.1
+311,Aarna Dara,33,Male,Scooter,21/05/2024,KOCHI,4.4,281,45.2
+312,Umang Sarma,29,Male,Scooter,07/15/2021,Ludhiana,4.5,609,31.8
+313,Unnati Deo,32,Female,Bike,24-01-2023,Patna,4.3,361,49.4
+314,Neel Rattan,20,Male,Bicycle,2022.02.22,Indore,4.4,1242,10.0
+315,Triveni Pandey,28,Male,Bike,14 Jan 2025,Chennai,3.9,766,15.3
+316,Gaurangi Lall,30,Female,Car,26/08/2023,Patna,4.4,410,35.9
+317,Pooja Sanghvi,43,Female,Bike,14-02-2025,Nagpur,4.5,615,43.1
+318,Mugdha Batta,31,Female,Bike,03-05-2022,Raipur,4.5,344,27.6
+319,Radhika Lalla,32,Male,Scooter,15 Dec 2023,Patna,4.2,1320,30.1
+320,Chatresh Gokhale,29,Female,Scooter,2022-02-26,Chennai,3.8,336,32.6
+321,Anita Bhatt,31,Male,Bicycle,24 Nov 2024, Hyderabad  ,4.3,229,35.9
+322,Yadavi Kaul,22,Female,Bicycle,2021.06.21,Bengaluru,4.3,512,30.0
+323,Rachana Murthy,28,Female,Bike,2022.10.12,Kochi,4.3,716,35.9
+324,Dev Vasa,18,Female,Bike,2023.01.27,Jaipur,3.7,586,30.4
+325,Hamsini Sridhar,41,Female,Bike,17 Jun 2023,Nashik,3.6,492,38.8
+326,Michael Sha,28,Female,Scooter,05 May 2023,Mumbai,4.8,321,-34.8
+327,Quincy Grewal,36,Female,Bike,15-10-2021, Delhi  ,4.7,706,33.2
+328,Vamakshi Chaudhari,19,Male,Car,10-08-2021,Kolkata,3.9,730,10.8
+329,Victor Sachdeva,29,Female,Bike,05/12/2024,Pune,4.3,279,31.7
+330,Theodore Chawla,18,Male,Bike,10-11-2023,Vadodara,4.0,362,32.9
+331,Arjun Ray,30,Male,Scooter,2023-02-25,Visakhapatnam,4.6,641,35.0
+332,Vedant Choudhary,29,Female,Scooter,2023-01-22,Nagpur,4.3,785,56.8
+333,Manan Ratti,24,Male,Bike,2022.09.11,Kolkata,4.3,359,16.1
+334,Darpan Sule,26,Female,Bike,2023-08-17,Kochi,3.9,687,36.1
+335,Baghyawati Ravel,30,Female,Bike,2025-03-14,Surat,4.2,552,44.3
+336,Faraj Nori,37,Male,Bicycle,2021-12-09,Visakhapatnam,4.0,1166,29.0
+337,Bina Kant,34,Female,Bike,14/09/2023,Kolkata,4.2,1214,46.8
+338,Yamini Solanki,28,Female,Bike,09/03/2022,Coimbatore,4.7,699,20.3
+339,Hemani Sarma,19,Male,Bike,2025-03-15,Kochi,4.5,366,35.0
+340,Luke Koshy,31,Male,Bike,28/12/2022,BANGALORE,4.2,1161,22.6
+341,Robert Sundaram,18,Male,Bike,05-01-2025,Ahmedabad,3.9,200,55.4
+342,Baljiwan Kala,24,Male,Bicycle,2022-01-13,Mumbai,4.4,817,39.6
+343,Chakrika Prakash,29,Male,Bike,01-11-2022,Patna,4.1,420,34.5
+344,SAUMYA SAINI,38,Male,Car,14 Jun 2022,Jaipur,4.0,466,38.8
+345,Kalpit Vohra,39,Female,Bike,02/02/2023,Bhubaneswar,4.0,539,15.7
+346, Ekavir Kamdar  ,29,Male,Bike,31/10/2023,Visakhapatnam,4.5,885,25.1
+347,Vritti Tara,28,Female,Bike,03/12/2021,Bhopal,4.2,802,10.0
+348,yasti sagar,28,Male,Bike,11-12-2022,Hyderabad,4.3,344,31.7
+349,Pahal Hari,29,Male,Bike,10/09/2024,Lucknow,4.0,355,19.8
+350,Mohini Khurana,22,Male,Bike,2021-11-14,Vadodara,4.0,632,37.8
+351,Yamini Chander,35,Female,Bike,2022-06-06,Vadodara,4.2,239,39.4
+352,Samar Patla,20,Male,Bicycle,12/29/2024,Kochi,3.8,438,25.0
+353,Upkaar Chaudhry,33,Female,Car,2021.12.19,Chandigarh,3.7,262,31.6
+354,Lekha Nayak,38,Female,Bike,04/02/2022,Jaipur,4.0,815,48.8
+355,Falan Sabharwal,26,Female,Bike,2024.02.05,Bhubaneswar,4.2,489,37.5
+356,ADVIK VIG,25,Male,Bicycle,2022-06-01,Patna,4.0,788,38.6
+357,Urmi Vaidya,26,Female,Bike,2024-06-02,Jaipur,4.6,1169,19.6
+358,Bishakha Krish,26,Female,Bike,29/08/2021,Patna,3.5,183,33.9
+359,Chandresh Kamdar,18,Male,Scooter,02-01-2022,Chandigarh,3.8,123,49.9
+360,Chatura Prasad,33,Male,Bike,11-07-2021,Indore,4.1,369,34.1
+361,Bhavani Goswami,28,Female,Scooter,07/13/2023,Coimbatore,3.3,681,35.0
+362,Eta Bora,25,Male,Bike,17-05-2024,Mumbai,4.0,562,22.8
+363,Veda Bala,30,Male,Scooter,2022-08-19,Raipur,3.6,358,41.4
+364,IMARAN MAGAR,27,Female,Scooter,2021.08.23,Chandigarh,4.1,732,29.0
+365,Ekaraj Korpal,22,Female,Bike,18/07/2022,Patna,4.6,445,10.0
+366,Amara Naik,31,Male,Bike,02/16/2022,Nashik,4.6,628,27.1
+367,Warhi Goyal,36,Female,Bike,29/06/2023, Raipur  ,4.1,685,36.9
+368,Triveni Agrawal,33,Female,Bike,22 Mar 2023,Indore,4.0,681,14.5
+369,Krish Buch,32,Female,Bike,03/25/2022,Ahmedabad,4.0,705,26.0
+370,Vasudha Mitter,24,Male,Scooter,31 Jan 2023,Visakhapatnam,4.0,331,32.0
+371,Wishi Radhakrishnan,28,Male,Bike,11/13/2021,Ludhiana,4.3,462,35.1
+372,Ranbir Shan,19,Male,Bike,04-09-2022,Bombay,4.3,717,38.0
+373,Chameli Bera,25,Male,Car,2024-12-25,Nagpur,4.2,160,44.3
+374,Varsha Dani,27,Male,Bike,2024-10-21,Hyderabad,4.7,473,37.7
+375,Tara Banerjee,23,Male,Bike,19/10/2021,Nagpur,4.7,484,23.7
+376,Tanay Dutt,29,Male,Bike,24/04/2022,Mumbai,3.5,581,25.8
+377,Onkar Pillay,33,Male,Bike,30-07-2023,Ludhiana,4.4,714,27.6
+378,Samaksh Pingle,28,Male,Bike,16 Apr 2022,Surat,4.5,498,37.1
+379,Dalaja Sant,18,Male,Bicycle,2022.12.01,Hyderabad,4.2,663,35.3
+380,Hemangini Chawla,20,Male,Car,2021.07.27,Surat,4.2,269,25.7
+381,Chasmum Natarajan,35,Female,Bike,07/02/2023,Raipur,4.1,305,25.5
+382,Hiral Dyal,38,Female,Bike,2024.10.18,Bengaluru,4.4,643,36.4
+383,Bishakha Kunda,42,Male,Car,10/06/2021,Delhi,4.6,622,41.6
+384,Harita Gupta,22,Female,Scooter,2023.10.18,Chennai,5.0,593,18.7
+385,Kashish Bhat,21,Female,Bike,18/06/2022,Patna,4.0,530,19.9
+386,Qushi Rattan,18,Male,Bike,14-09-2024,Patna,3.9,746,27.8
+387,Rohan Srinivasan,30,Male,Bike,02/10/2024,Lucknow,4.1,918,29.3
+388,Saumya Chaudhry,28,Male,Bike,29-09-2023, Pune  ,3.5,1390,39.9
+389,Samar Din,24,Female,Bike,16-09-2022,Chennai,3.5,578,17.2
+390,Ayaan Agrawal,33,Female,Bike,19 Mar 2022,Pune,4.0,637,39.3
+391,Nidra Lala,28,Male,Bicycle,25 Dec 2021,Pune,3.7,521,32.9
+392, Madhavi Kashyap  ,31,Male,Car,03 Mar 2025,Kolkata,4.2,580,25.1
+393,Ati Konda,28,Female,Scooter,11/06/2022,Bhubaneswar,4.1,300,29.1
+394,Vyanjana Swaminathan,25,Male,Scooter,11/02/2022,Mumbai,4.0,654,34.8
+395,Meera Rau,28,Male,Scooter,2022-03-05,BHUBANESWAR,4.0,539,10.0
+396,Onveer Narayan,31,Female,Bike,19/11/2022,Kochi,3.7,1144,21.5
+397,Panini Khalsa,22,Female,Scooter,2023.08.20,Raipur,,205,25.4
+398,Gagan Raghavan,25,Male,Bike,2024.04.08,Visakhapatnam,4.2,150,31.6
+399,Dalbir Borde,35,Female,Car,2022-10-16,Lucknow,4.1,239,35.9
+400,Nirja Mand,32,Male,Bike,06/29/2022,Raipur,3.6,373,38.9
+401,Ekansh Bhavsar,29,Female,Bicycle,05/02/2023,Kochi,4.0,603,37.9
+402,Ishanvi Kala,30,Male,Bike,2023-04-02,Chandigarh,4.0,533,45.6
+403, Tanmayi Sura  ,22,Female,Bike,2021.07.05,Chandigarh,5.0,581,37.2
+404,Urvashi Mall,33,Male,Scooter,2022.06.15,Guwahati,4.1,396,41.1
+405,Laksh Raval,19,Female,Bike,13 Dec 2024,Kochi,4.5,1797,46.8
+406,Wyatt Chawla,32,Female,Bike,2023-03-02,Visakhapatnam,3.6,733,23.7
+407,Max Dhar,28,Male,Bike,20-03-2025,BENGALURU,4.4,176,48.8
+408,MADHAVI VYAS,28,Male,Bike,08/07/2024,Chennai,3.8,946,41.3
+409,Chandresh Naik,42,Male,Car,2022-08-27,Patna,4.1,630,20.1
+410,Waida Malhotra,36,Male,Bike,23/01/2023,Kochi,4.0,416,22.4
+411,Tanvi Johal,25,Male,Scooter,03/19/2025,Bhubaneswar,4.4,233,44.7
+412,Omaja Nair,27,Female,Scooter,07/10/2023,Visakhapatnam,4.7,537,32.2
+413,Anamika Chauhan,30,Female,Bike,06-03-2025,Vadodara,3.9,776,21.1
+414,Harinakshi Sridhar,24,Male,Car,04/19/2024,Kochi,5.0,519,29.4
+415,Bina Chaudhary,26,Female,Bike,01-09-2023,Coimbatore,4.4,739,50.3
+416,Qabil Sem,29,Female,Bicycle,12/27/2024, Nagpur  ,4.0,1280,56.5
+417,Tanmayi Baral,23,Female,Scooter,08/25/2024,Guwahati,3.6,499,19.1
+418,Vedika Patla,18,Male,Bicycle,2022-02-23,Delhi,4.4,637,25.7
+419,Janya Shanker,28,Male,Bike,24 Aug 2023,Nashik,4.1,561,34.0
+420,Oni Zachariah,39,Male,Car,09/15/2022,vadodara,,934,39.9
+421,Suhani Dhillon,36,Male,Bike,2024.12.07,Guwahati,4.3,582,16.9
+422,Tanish Narain,18,Female,Bike,30 Oct 2022,Guwahati,3.7,437,48.4
+423,Mugdha Bhagat,22,Female,Bike,2024.08.10,Jaipur,3.3,520,32.6
+424,Azaan Wable,38,Female,Bike,17 May 2024,Lucknow,4.2,931,37.6
+425,Gaurika Patil,26,Male,Scooter,23/12/2023,Nagpur,3.8,893,49.3
+426,ekani thakkar,24,Male,Bike,10/31/2023,Pune,3.9,978,38.2
+427,Noah Garde,23,Female,Scooter,2025-01-05,Surat,4.3,1235,42.3
+428,Daksha Trivedi,27,Male,Scooter,26 Feb 2024,Ahmedabad,4.1,386,30.0
+429,Madhavi Mani,34,Female,Bike,17/01/2022, Bengaluru,5.0,654,19.4
+430,Nirja Acharya,20,Female,Bike,2023-01-06,Ludhiana,4.7,273,32.4
+431,Onveer Sunder,29,Female,Bike,13/06/2022,chennai,4.3,250,14.6
+432,vasudha sidhu,26,Male,Bike,2023-12-31,Nagpur,4.6,390,27.9
+433,Indali Ramachandran,39,Male,Scooter,05-02-2024,Madras,3.8,421,34.6
+434,Lakshit Jain,18,Male,Scooter,10 Aug 2021,Jaipur,4.5,265,18.6
+435,Nikita Kala,26,Male,Bike,01/06/2021,Nashik,3.8,579,28.6
+436,Meghana Bedi,38,Male,Bike,07-01-2023,Raipur,3.8,438,25.4
+437,Bhavini Wagle,23,Male,Bike,2025-01-10,Indore,4.1,319,27.2
+438,Chakrika Date,31,Female,Bike,2022-02-02,Bhubaneswar,3.4,1175,43.7
+439,VEDA RAMAN,27,Female,Bike,01/10/2022,Indore,3.7,795,46.1
+440,Charita Wali,31,Male,Bicycle,2022.09.26,Bhopal,4.2,502,30.3
+441,Upma Ramakrishnan,32,Male,Bicycle,2024-07-27,Nagpur,3.9,816,16.2
+442,Wriddhish Yadav,39,Female,Bike,04/29/2022,VADODARA,4.4,391,39.8
+443,Raksha Rana,29,Male,Bike,21-12-2024,Indore,4.0,240,41.6
+444,Qabil Divan,31,Male,Bike,2024-04-09,Jaipur,3.8,686,21.4
+445,Utkarsh Khurana,31,Female,Car,2023-08-12,Surat,4.3,1063,29.3
+446,Yagnesh Vaidya,26,Male,Bike,11-02-2024,Bhubaneswar,4.1,526,26.0
+447,Bhanumati Dhillon,22,Male,Bike,01/01/2023,Bengaluru,3.9,349,39.9
+448,Jack Cherian,26,Female,Bike,23/03/2024,Chennai,3.7,572,32.1
+449,Gauri Sastry,32,Male,Car,07-09-2024,Indore,5.0,614,40.5
+450,Samaksh Memon,23,Female,Bike,12-07-2021,Vadodara,3.9,425,27.6
+451,Tara Majumdar,31,Female,Scooter,2024.05.12,Nashik,4.0,410,32.3
+452,Benjamin Deep,26,Female,Bike,2022.05.22,Guwahati,4.4,664,49.3
+453,Christopher Ravel,29,Female,Bike,06 Jun 2021,Chennai,4.4,193,19.8
+454,Nitesh Devi,22,Female,Bike,04/15/2023,Nashik,4.0,587,22.3
+455,Chandran Vig,33,Male,Scooter,2022.05.26,Jaipur,4.2,362,36.9
+456,Teerth Rao,21,Female,Car,21/01/2022,Delhi,4.4,212,11.4
+457,Manthan Minhas,27,Male,Bike,2021-10-22,Nashik,4.4,179,44.4
+458,Lavanya Mani,32,Female,Bike,02/13/2022,Mumbai,3.6,695,18.0
+459,Omkaar Mammen,30,Female,Scooter,24/04/2023,Kolkata,4.3,843,23.5
+460,Dominic Parmer,34,Female,Bike,15-12-2022,Ahmedabad,3.6,427,26.7
+461,Anika Chopra,27,Female,Scooter,15/05/2024,Ludhiana,4.3,753,44.1
+462,Edhitha Khurana,28,Female,Bike,2022.07.09,Jaipur,4.3,235,17.8
+463,Dayita Mukherjee,35,Male,Bicycle,2022-07-07,Bhubaneswar,4.7,420,38.3
+464,Damyanti Parmar,18,Male,Scooter,2021-07-23,Bhubaneswar,4.1,520,30.6
+465,Vanya Palan,25,Male,Bicycle,2023-07-30,Ahmedabad,3.9,518,48.6
+466,Avni Sekhon,35,Female,Bicycle,05 Jan 2022,Kochi,4.0,578,27.3
+467,Maanav Patla,37,Male,Bike,26-09-2023,Surat,4.4,621,21.9
+468,Yashodhara Sidhu,22,Female,Bike,19/08/2023,Lucknow,4.4,700,56.2
+469, Nilima Gill  ,35,Male,Bicycle,16/03/2022,Coimbatore,4.5,589,38.9
+470,Yasti Sem,39,Female,Bike,23/07/2023,Bhopal,4.2,372,26.6
+471,Chakradhar Shetty,23,Male,Bike,09-03-2025,Lucknow,4.1,718,33.1
+472,Manbir Aurora,33,Male,Bike,2022.06.06,Chennai,,1162,49.4
+473,Parth Shenoy,31,Female,Bike,2023.01.12,Nashik,4.6,739,23.8
+474,Keya Talwar,25,Female,Scooter,04-06-2023,CHENNAI,3.9,1256,29.9
+475,Owen Dube,35,Female,Bicycle,2022-10-14,Vadodara,5.0,265,31.2
+476,Omkaar Rau,34,Male,Bike,02 Jan 2023,Kochi,4.5,731,25.6
+477,Aishani Pillay,27,Female,Car,07/09/2023,Nashik,3.7,440,38.9
+478,Aryan Vora,27,Female,Bike,2022-12-24, Patna  ,3.7,803,33.5
+479,Sarthak Venkatesh,30,Male,Bicycle,2022-05-26,Jaipur,4.4,510,37.4
+480,Charvi Zacharia,25,Female,Bike,04/06/2022,KOLKATA,4.3,771,26.6
+481,Wyatt Mohan,26,Male,Scooter,23 Jul 2022,Ludhiana,4.8,221,42.4
+482,Damini Nadkarni,27,Male,Bike,01/26/2023,Visakhapatnam,4.7,308,37.8
+483,Ubika Pathak,29,Male,Scooter,2023.11.13,Visakhapatnam,3.9,119,43.1
+484,Viraj Keer,18,Male,Bike,2021.12.12,Surat,4.4,1075,32.5
+485,Harsh Tiwari,24,Male,Scooter,18/08/2023,Nagpur,4.1,699,29.3
+486,Turvi Nayak,21,Male,Scooter,2021.07.20,Hyderabad,3.5,274,24.7
+487,Frado Buch,22,Female,Bike,20 May 2023,Ludhiana,4.4,387,37.8
+488,Yuvraj Sabharwal,23,Male,Scooter,20/05/2024,Indore,4.6,1018,41.7
+489,Advay Divan,36,Female,Bike,13-12-2023,Ludhiana,3.8,218,25.2
+490,Vamakshi Cherian,24,Female,Bike,26 Jul 2022,Patna,4.6,416,29.7
+491,Bishakha Ramakrishnan,26,Male,Bike,10/07/2023,Raipur,4.3,267,25.7
+492,Vaishnavi Ben,36,Female,Bike,19/12/2023,Mumbai,4.9,767,36.6
+493,vrishti dara,31,Male,Scooter,2022.10.13,Nashik,4.8,495,29.1
+494,Harshil Vyas,26,Female,Bike,01/21/2024,Mumbai,3.7,296,36.1
+495,Dayamai Dhillon,22,Male,Bike,23-02-2025,Patna,4.5,540,29.3
+496,Ikbal Kade,29,Male,Scooter,20-04-2023,guwahati,3.5,356,25.7
+497,Samaksh Sachar,26,Male,Bike,02/09/2023,Chennai,4.6,1013,44.4
+498,Max Swaminathan,29,Male,Bike,21/06/2023,Indore,5.0,194,37.9
+499,Rajata Banik,35,Male,Bike,12 Feb 2023,Chandigarh,4.0,388,46.6
+500,Arin Prasad,28,Female,Bicycle,29/09/2022,Mumbai,3.9,428,20.5
+501,Geetika Dhawan,18,Female,Car,2022.10.09,Bhopal,,295,-19.1
+502,Yoshita Doctor,38,Female,Car,2024-08-15,Kochi,3.6,467,24.3
+503,Vrishti Rout,26,Male,Bicycle,2025.01.17,Delhi,4.4,877,47.6
+504,Gauri Chacko,26,Female,Car,01 Jun 2023,Bhopal,3.9,920,10.0
+505,OWEN CHAR,23,Female,Bicycle,2024-08-29,Jaipur,4.6,533,32.7
+506,URISHILLA PRASHAD,28,Male,Car,09/07/2022,Coimbatore,4.7,300,33.8
+507,Peter Deshmukh,29,Male,Bike,09/25/2023,Vadodara,4.1,517,31.6
+508,Henry Wali,33,Female,Bike,03/01/2022,Ahmedabad,4.2,1181,41.9
+509,Tripti Tank,27,Male,Bike,04/16/2022,Nashik,4.1,519,40.9
+510,Jagvi Baral,29,Male,Bike,26-01-2023,Visakhapatnam,4.1,496,31.0
+511,Ira Nayar,32,Female,Bicycle,2024-01-10,Mumbai,4.7,292,25.8
+512,Krisha Gill,30,Female,Scooter,07/23/2024,Bhopal,3.9,526,26.9
+513,Vihaan Dey,30,Male,Bicycle,05/12/2022,Pune,4.1,381,35.7
+514,Ekiya Malhotra,19,Male,Scooter,2023-09-12,Visakhapatnam,4.4,294,44.2
+515,Yamini Sarna,22,Female,Bike,2022-01-31,Nashik,3.9,1327,27.9
+516,Jasmit Vora,18,Female,Bike,2023-01-10,Coimbatore,4.5,443,27.6
+517,Frederick Kala,31,Male,Bike,2022.05.31,Kolkata,4.2,456,15.2
+518,Henry Nagy,24,Female,Bike,02/09/2024,Guwahati,4.6,341,34.0
+519,Ekanta Bassi,38,Male,Bike,04/13/2024,Delhi,4.3,569,34.2
+520,Chatura Chakraborty,25,Female,Bike,18 Feb 2023,Lucknow,3.7,256,30.1
+521,Jasmit Mander,35,Male,Bike,2022-05-19,Coimbatore,4.5,355,31.2
+522,Pallavi Bakshi,23,Male,Bike,2024-05-12,Coimbatore,3.9,339,16.3
+523,Alka Grewal,25,Female,Bike,14/02/2025,Kolkata,4.5,614,40.9
+524,Kashish Ravel,30,Female,Bicycle,24 Jan 2023,Pune,4.2,386,42.7
+525,Ekanta Dayal,25,Female,Bike,24 Sep 2024,Nagpur,4.1,649,23.2
+526,Manya Venkatesh,24,Female,Car,2024-08-05,Mumbai,4.3,1062,36.9
+527,Anthony Thaman,30,Male,Bike,2021-08-24,Nagpur,5.0,1072,39.4
+528,Pavani Dora,29,Male,Bike,12/27/2021,Vadodara,4.1,437,31.8
+529,Chatresh Nanda,34,Female,Scooter,10-01-2023,Jaipur,4.3,975,35.6
+530,Fiyaz Bhattacharyya,26,Male,Bike,11/08/2021,Chandigarh,3.9,921,41.1
+531,Abdul Bajaj,29,Male,Bike,08-10-2021,Chennai,4.4,641,42.2
+532,Logan Nagy,19,Female,Bike,2021-09-19,Hyderabad,4.0,906,32.7
+533,Aadi Reddy,32,Male,Bike,27/01/2024,Raipur,4.9,692,24.8
+534,Ryan Kala,30,Male,Bike,2021.10.16,Mumbai,4.8,492,25.1
+535,Jason Mann,28,Female,Bike,10/08/2022,Visakhapatnam,4.0,639,23.8
+536,Guneet Wali,35,Female,Bike,2024.12.17,Hyderabad,3.8,304,24.5
+537,RACHITA BALA,28,Female,Bike,2021.12.13,Bhubaneswar,4.7,789,38.3
+538,Gautami Nadkarni,24,Male,Car,10/08/2023,INDORE,3.4,460,31.3
+539,Jagdish Wagle,30,Female,Scooter,2023-08-13,Chennai,3.8,810,34.3
+540,Mekhala Chaudhary,24,Male,Bike,2023-06-05,Nagpur,4.2,375,35.7
+541,Jasmit Agate,19,Female,Scooter,11/28/2024,lucknow,3.9,612,29.4
+542,yashica more,34,Female,Scooter,20/09/2024,Indore,4.2,467,30.9
+543,Ishani Pall,33,Female,Bike,11/04/2023,guwahati,4.2,448,30.6
+544,Kiaan Ranganathan,29,Female,Scooter,2023.07.22,Raipur,4.7,1601,40.0
+545,Avi Misra,32,Male,Bike,01/10/2023,Bhubaneswar,3.9,658,35.6
+546,Zansi Mallick,30,Female,Bicycle,01/07/2021,Kolkata,4.3,205,20.3
+547,Warjas Baria,31,Male,Bike,10 Jun 2024,Bengaluru,4.4,690,35.8
+548,Ekta Gola,34,Female,Bike,07/17/2023,Visakhapatnam,4.2,548,46.6
+549,Sara Saha,27,Male,Bicycle,17 Oct 2024,Surat,3.8,402,36.4
+550,Sachi Narayanan,32,Male,Bike,2023.07.14,Nagpur,4.1,739,24.8
+551,Meghana Pai,29,Female,Bicycle,05/10/2022,Surat,3.8,214,36.8
+552,Tanmayi Vyas,28,Male,Bike,04 Oct 2023,Bombay,4.5,684,25.0
+553,Rudra Kohli,28,Female,Scooter,16 Mar 2025,Vadodara,4.0,222,43.2
+554,Inaya Virk,30,Female,Bicycle,2023-11-10,Patna,3.6,623,32.4
+555,Vaishnavi Pant,39,Male,Bike,19-04-2024,Mumbai,3.9,574,39.3
+556,Yahvi Balan,35,Female,Bike,2024-08-30,Ahmedabad,4.0,536,26.1
+557,Onveer Mand,36,Male,Scooter,25/03/2023,Indore,3.7,461,36.4
+558,Azaan Bedi,36,Female,Bike,09 Apr 2023,Bengaluru,4.6,654,23.5
+559,Advika Loyal,31,Female,Bike,22/06/2021,Mumbai,3.7,752,32.1
+560,Omya Patla,23,Male,Bicycle,05/11/2022,Chandigarh,4.1,326,27.8
+561,Balendra Pandit,27,Male,Bike,2023-09-07,Chennai,4.6,370,29.2
+562,Gaurang Verma,21,Male,Car,10/15/2023,Jaipur,4.1,821,30.4
+563,Yamini Banerjee,32,Female,Bike,2021.06.04,Ludhiana,4.7,742,-23.4
+564,Ojas Pant,28,Male,Scooter,2024.04.09,Guwahati,3.8,552,46.0
+565,Mahika Mitter,35,Female,Bike,15-03-2025,Indore,4.4,235,34.8
+566, Harshil Manda  ,27,Female,Bike,2024.08.10,Indore,3.6,253,29.4
+567,Yashvi Yadav,31,Male,Bicycle,11/01/2022,Nashik,3.6,775,33.4
+568,Krishna Vaidya,26,Female,Scooter,08-06-2021,Nashik,4.7,784,24.5
+569,Advay Chandran,18,Male,Scooter,10 Nov 2024,Indore,4.2,823,34.4
+570, Panini Mody  ,24,Male,Scooter,15/06/2022,Surat,4.1,864,30.2
+571,yashica narayanan,25,Female,Bike,2022-05-04,Kolkata,4.2,800,28.7
+572,Wriddhish Patil,20,Female,Bike,09/10/2022,Chennai,3.9,615,46.7
+573,Jonathan Loyal,30,Male,Bike,06/08/2021,delhi,4.6,489,46.2
+574,Gopal Prakash,39,Female,Bike,16 Nov 2023,Lucknow,4.2,592,48.5
+575,Chasmum Shroff,28,Male,Scooter,25-08-2024,Coimbatore,5.0,736,33.4
+576,Prisha Saxena,24,Female,Bike,29-12-2021,Lucknow,3.6,866,18.2
+577,Girik Badami,35,Female,Bike,2024.04.23,Ludhiana,4.4,1133,41.4
+578,Samarth Kara,27,Female,Bicycle,11 Nov 2023,Pune,4.0,673,25.1
+579,Viraj Bhatnagar,20,Female,Bike,17-12-2021,Lucknow,4.5,339,47.9
+580,Gautam Sheth,31,Male,Scooter,18/07/2023,Kolkata,3.5,880,46.5
+581,Kalpit Prabhakar,31,Female,Bike,2023-06-14,Surat,4.0,308,43.2
+582,Eta Mall,22,Male,Scooter,17-03-2025,Kochi,4.8,537,26.2
+583,Praneel Krishnan,25,Female,Bike,30/09/2024,Lucknow,3.7,359,31.3
+584,Charita Gade,23,Male,Bicycle,19 Dec 2021,Nashik,3.7,1022,27.1
+585,Ucchal Wagle,29,Female,Bicycle,10/28/2022,Chandigarh,4.6,554,22.2
+586,Chakradev Singhal,31,Male,Bike,02 Jun 2021,Chandigarh,5.0,1130,33.8
+587,Sneha Bhattacharyya,29,Male,Bike,26-06-2024,Nagpur,3.6,224,25.2
+588,Onveer Mallick,26,Female,Scooter,2023.09.03,Nagpur,3.7,902,36.0
+589,Amaira Gera,31,Female,Bike,2024.10.26,Surat,4.2,177,35.5
+590,Indrajit Sethi,32,Female,Bike,2024.06.05,Nagpur,4.1,1225,29.3
+591,Meghana Thaman,34,Male,Bike,09-03-2024,Patna,4.5,275,24.2
+592,Omkaar Madan,38,Female,Bike,07 Sep 2022,Patna,3.9,875,15.5
+593,Rishi Grewal,18,Male,Bike,05/23/2022,Nashik,4.1,380,20.6
+594,Ekta Bhandari,24,Male,Car,2025-02-21,Raipur,4.2,664,32.5
+595,Balendra Borra,35,Male,Bike,2024-06-11,Mumbai,5.0,256,36.5
+596,Kevin Dada,34,Male,Bike,10 Mar 2024,Kolkata,4.5,404,31.4
+597,Lavanya Kashyap,30,Female,Bike,2023.09.19, Bengaluru,4.5,829,36.6
+598,Krish Bedi,27,Female,Bike,02-12-2023,Indore,4.5,482,23.1
+599,Ubika Chatterjee,28,Female,Bike,22-08-2022,Delhi,4.6,928,26.6
+600,Chanchal Sankaran,27,Female,Bike,21 Jun 2023,Patna,3.8,161,26.2
+601,Wazir Manne,22,Female,Scooter,21-05-2024,Hyderabad,3.9,554,34.1
+602,Liam Edwin,18,Male,Scooter,06/10/2023,Kochi,4.7,608,44.9
+603,Bhanumati Thakur,29,Male,Bike,06-05-2022,Chennai,3.7,348,46.3
+604,Onkar Kari,19,Female,Bike,2023-08-29,Jaipur,3.9,574,38.2
+605,Sanya Sankaran,34,Male,Car,23 Nov 2022,Jaipur,3.9,628,39.8
+606,Niharika Parikh,23,Male,Scooter,30-09-2023,Kochi,4.3,401,27.1
+607,Tanveer Chauhan,28,Male,Bike,15-03-2023,Jaipur,5.0,579,31.1
+608,Siya Mangal,31,Female,Scooter,14-11-2022,Bhubaneswar,4.6,397,35.5
+609,Champak Modi,29,Male,Bicycle,11-03-2023,JAIPUR,4.6,280,49.5
+610,Ethan Srinivasan,37,Male,Scooter,08/11/2021, Vadodara  ,4.4,457,22.2
+611,Frado Soman,28,Female,Bike,2024.06.22,Vadodara,3.9,708,49.9
+612,Rachita Hans,26,Male,Scooter,14-10-2024,Kolkata,3.6,547,15.6
+613,Vasatika Goda,23,Female,Scooter,18 May 2022,Raipur,4.3,1082,-29.1
+614,Chandresh Samra,24,Female,Bike,04/01/2023,Ahmedabad,4.1,1125,31.0
+615,Ira Som,25,Female,Car,03/14/2025,Delhi,4.5,321,35.9
+616,Zehaan Mital,26,Female,Bicycle,04/24/2024,Delhi,4.3,215,40.7
+617,Arunima Varkey,32,Male,Bike,23-06-2022,Coimbatore,4.2,289,33.6
+618,Veda Sant,28,Male,Scooter,07/12/2022,Pune,4.4,652,10.0
+619,Yasti Mander,27,Male,Bicycle,2021.12.07,Ahmedabad,4.1,297,43.8
+620,Sai Jhaveri,32,Male,Scooter,2022-02-10,Chandigarh,4.0,692,38.6
+621,Aarnav Andra,23,Male,Bike,2023-03-03,Bhubaneswar,3.3,523,48.3
+622,Ayaan Agarwal,32,Male,Bike,20 Dec 2022,Surat,4.6,506,38.3
+623,Ishita Iyengar,30,Male,Bike,01 Jun 2024,vadodara,4.7,482,31.7
+624,gauri dyal,26,Female,Bike,09/22/2021,Patna,4.7,481,38.1
+625,Manya Prabhu,30,Male,Scooter,2023-04-10,Raipur,4.0,389,19.7
+626,Advaith Nagy,22,Female,Bicycle,2024.07.04,Hyderabad,4.4,577,40.7
+627,Triya Mahajan,35,Female,Bike,2023-03-02,Lucknow,4.3,1150,32.0
+628,Raksha Mallick,27,Male,Bicycle,26-09-2024,Chennai,4.3,315,49.0
+629,Banjeet Dada,24,Female,Scooter,06-06-2023,Pune,3.8,383,23.7
+630,Ati Vora,27,Male,Scooter,09-12-2022,New Delhi,4.1,389,26.2
+631,Vasatika Sharaf,26,Female,Scooter,2023-04-07,Raipur,3.7,391,38.8
+632, Advaith Agrawal  ,28,Male,Scooter,13-05-2022,Chennai,4.6,474,28.1
+633,Girish Mani,28,Male,Car,2022.09.30,Kochi,4.0,875,45.2
+634,Arya Agarwal,25,Female,Scooter,2023-06-25,VISAKHAPATNAM,5.0,958,40.5
+635,Chakrika Swaminathan,38,Female,Bike,09/09/2023,Vadodara,4.8,487,31.3
+636,Rehaan Patla,26,Female,Bike,01/08/2022,Ahmedabad,3.8,736,10.0
+637,Dayamai Krishnan,23,Male,Scooter,02/21/2024,Patna,4.3,745,38.8
+638,Wishi Sani,18,Female,Bike,12 Sep 2022,Coimbatore,4.9,448,37.0
+639,Vyanjana Deep,34,Male,Bike,29 Nov 2023,Indore,4.4,689,39.6
+640,Ranbir Atwal,18,Male,Bike,28-01-2025,Pune,3.6,466,41.6
+641,Bishakha Thaman,25,Female,Bike,2024-01-17,Hyderabad,4.4,230,33.0
+642,Ganga Aurora,27,Male,Bike,05/04/2023,Nagpur,4.1,294,25.3
+643,Yahvi Anne,26,Male,Bike,02-04-2023,Coimbatore,4.7,960,26.6
+644,Jyoti Bora,31,Male,Bike,14 Feb 2023,Vadodara,3.9,458,42.5
+645,Ria Chokshi,27,Female,Bicycle,2023-06-10,Ahmedabad,3.4,252,10.5
+646,Tara Vig,26,Female,Bike,2022.04.01,NAGPUR,3.6,885,35.3
+647,Saanvi Sharma,25,Female,Car,2022-05-06,Indore,4.2,849,26.3
+648,Jagdish Pathak,29,Female,Bike,19-01-2023,hyderabad,4.2,889,41.6
+649,Qushi Sunder,24,Male,Scooter,10 Jun 2021,Ludhiana,3.6,1262,33.1
+650,Anusha Andra,33,Female,Bike,07/07/2021,Bengaluru,4.1,292,32.9
+651,pooja deshmukh,18,Female,Bike,22 Dec 2021,Ludhiana,3.5,411,19.3
+652,Bhavini Ahuja,27,Male,Car,2024.04.08,Nashik,3.9,1296,30.6
+653,Wazir Kulkarni,26,Female,Scooter,20 May 2024,Ludhiana,4.5,408,30.8
+654,Meera Saxena,28,Male,Bicycle,09/09/2024,Indore,4.6,821,35.0
+655,Advaith Mall,18,Male,Bike,2021.08.09,Pune,4.5,306,34.1
+656,Nimrat Wadhwa,31,Female,Bike,2023-11-19,Coimbatore,4.9,454,46.7
+657,Yasti Gaba,32,Female,Bike,07/22/2024,Mumbai,3.9,293,16.3
+658,Maanav Bhargava,31,Female,Bike,2022.12.27,Vadodara,4.0,923,27.6
+659,Isaiah Sachdeva,23,Male,Bike,03-07-2022,Guwahati,4.4,471,24.8
+660,Ronith Lall,32,Male,Bike,11/13/2023,Ahmedabad,4.7,620,40.2
+661,URISHILLA BADAMI,37,Male,Scooter,02/16/2024,Mumbai,4.1,294,31.6
+662,Dayamai Patel,33,Female,Bicycle,2022.09.10,Bhubaneswar,4.5,1016,22.1
+663, Nakul Bhatt  ,19,Female,Bike,21 Dec 2022,Lucknow,3.5,1595,30.5
+664,Anusha Vyas,25,Female,Bike,2021-10-08,Surat,3.9,1173,34.1
+665,Unnati Ganesan,29,Female,Bicycle,2023.01.16,NAGPUR,4.6,441,37.6
+666,Neelima Dhaliwal,25,Male,Scooter,03 Jun 2021,Pune,4.1,280,38.6
+667, Balendra Koshy  ,22,Male,Bicycle,06/12/2024,Guwahati,3.6,836,23.5
+668,Chaitanya Keer,25,Male,Bike,2025.01.30,Pune,4.2,623,38.9
+669,Henry Pai,30,Female,Scooter,27/10/2021,Ahmedabad,4.9,495,23.5
+670,Avi Dhaliwal,35,Female,Car,04 Dec 2023,Kochi,4.3,231,49.7
+671,Orinder Randhawa,30,Male,Scooter,2024-12-27,Kolkata,4.4,771,36.5
+672,Kai Shan,25,Female,Scooter,09/12/2024,Indore,3.8,356,-16.7
+673,Zarna Karpe,35,Female,Bike,04 Apr 2023,Chennai,4.1,1061,15.5
+674,Januja Mani,28,Female,Bike,10-02-2024,Bengaluru,4.1,389,35.1
+675,Simon Bhardwaj,34,Female,Bike,2021.11.14,Pune,4.3,553,47.0
+676,Hitesh Sethi,30,Male,Bike,12-12-2023,Visakhapatnam,4.1,222,28.8
+677,Udyati Dara,31,Male,Bike,2021.08.12,Nagpur,4.5,734,34.9
+678,Rajata Raju,27,Female,Scooter,04 May 2023,Patna,,802,38.1
+679,Varenya Solanki,18,Female,Bike,06/12/2022,Nashik,4.1,1093,35.8
+680,Nisha Srinivasan,27,Female,Bike,2023-01-26,Pune,3.8,734,34.5
+681,Deepa Deo,24,Female,Bicycle,08-06-2023,Chennai,4.0,274,29.0
+682,Saanvi Rajagopal,18,Female,Scooter,2022-02-07,Delhi,4.3,353,34.1
+683,Kalpit Mitter,20,Female,Bicycle,2024.11.23,Delhi,4.7,523,26.8
+684,CHANCHAL HALDER,34,Male,Bike,23/06/2023,Bengaluru,4.6,1300,24.7
+685,Akshay Sheth,35,Male,Bike,24-04-2023,Raipur,4.2,246,32.2
+686,Udyati Varty,31,Male,Bike,20 Aug 2021,Pune,4.0,548,19.4
+687,Yahvi Tella,28,Male,Bike,2022-12-25,Hyderabad,4.4,853,47.7
+688,Indali Ratti,33,Female,Bike,04/01/2024,Coimbatore,4.2,533,21.8
+689,Yatan Andra,26,Female,Bike,02/11/2021,Surat,4.5,1458,28.1
+690,Krisha Sharma,28,Female,Scooter,03 Jan 2025,Bhubaneswar,4.9,233,49.6
+691,sarthak padmanabhan,33,Female,Bike,2024.06.20,Ludhiana,4.9,582,48.1
+692,Yutika Sawhney,25,Male,Scooter,11/08/2024,Ludhiana,4.0,852,23.7
+693,LOHIT BAJWA,21,Female,Bike,02/14/2022,Pune,3.7,326,32.7
+694,Lucky Dhingra,27,Male,Scooter,2022.09.27,Patna,4.4,343,23.5
+695,Januja Ramachandran,29,Male,Bike,07/15/2022,Kolkata,4.4,420,22.8
+696,Daksh Sodhi,18,Female,Bike,2021-11-15,Chennai,4.2,466,29.1
+697,Vasatika Balan,20,Male,Scooter,2023.11.10,Patna,4.2,602,32.9
+698,Simon Datta,36,Male,Bike,02-01-2025,surat,3.8,867,37.1
+699,Darika Ramachandran,22,Female,Bike,12/18/2024,Baroda,4.1,310,15.3
+700,Aradhana Sastry,38,Female,Bike,2021-10-15,Ludhiana,4.8,262,46.8
+701,Nirja Bhatia,29,Female,Scooter,16/03/2022,Nashik,4.1,320,28.6
+702,Krishna Sahota,25,Male,Bike,22 Sep 2021,Nashik,4.7,639,20.5
+703,Vritti Sunder,35,Female,Scooter,10 Jul 2021,Coimbatore,4.6,1106,39.6
+704,Ayushman Misra,33,Male,Scooter,03-08-2022,Hyderabad,4.9,272,20.2
+705,Chasmum Sahota,20,Male,Bike,03-07-2021,Coimbatore,3.8,550,36.3
+706,Vritti Koshy,28,Female,Bike,03/20/2025,coimbatore,4.9,401,36.2
+707,Zaitra Sagar,31,Male,Scooter,26/10/2021,Bengaluru,3.6,1234,48.6
+708,Samaksh Oak,18,Male,Bike,26 Sep 2021,Ahmedabad,3.7,151,38.3
+709,Amara Vig,37,Female,Scooter,10 Mar 2022,Pune,4.5,457,20.5
+710,George Kanda,26,Female,Bike,17 Sep 2024,Visakhapatnam,4.6,544,19.0
+711,Omisha Manda,28,Male,Bike,2022.07.18,Pune,4.1,926,36.0
+712,Turvi Bajaj,35,Male,Bike,2024-07-30,Visakhapatnam,4.2,431,45.7
+713,Gautami Bawa,44,Female,Bike,14 Jul 2022,Visakhapatnam,3.5,177,42.9
+714,Zilmil Sehgal,22,Female,Bicycle,03/03/2022,Kochi,4.4,150,32.1
+715,Barkha Konda,19,Female,Scooter,04/15/2024,Kolkata,,1214,31.3
+716,Dalbir Pathak,26,Male,Bike,08/08/2021,Nagpur,4.7,826,42.2
+717,Chaaya Lall,25,Female,Bike,05/26/2024,Vadodara,4.3,1211,19.2
+718,Watika Sant,21,Male,Scooter,2024-09-07,Delhi,4.2,861,28.8
+719,Ethan Sethi,34,Male,Bike,2021-06-14,Chandigarh,4.4,416,42.3
+720,Chaman Kar,24,Male,Bicycle,08 Nov 2022,Indore,4.0,1038,21.7
+721,Nachiket Varghese,30,Female,Scooter,04/23/2024,Ludhiana,4.3,607,27.3
+722,Xavier Konda,22,Female,Bike,2023-08-28,Lucknow,3.8,246,19.6
+723,Fariq Chanda,32,Male,Scooter,2022.10.03,Guwahati,4.2,281,47.8
+724,leena sharaf,29,Male,Bike,03/22/2024,Ludhiana,4.4,251,38.2
+725,Bakhshi Sachdev,28,Male,Bike,2023.05.19,Visakhapatnam,3.9,1015,38.5
+726,Qadim Mohanty,22,Female,Bike,09-02-2025,Jaipur,4.0,583,22.9
+727,Bahadurjit Tara,29,Male,Bike,06-11-2022,Mumbai,3.7,302,34.6
+728,Keya Thaman,28,Female,Scooter,25-01-2024,Bhopal,4.2,1210,45.9
+729,Kala Bose,24,Male,Scooter,08/25/2024,Visakhapatnam,4.0,791,16.3
+730,Dalaja Khurana,44,Male,Bicycle,2024.10.01,Lucknow,4.1,322,25.4
+731,Nandini Basu,20,Female,Bicycle,2024.08.31,Kochi,4.2,249,27.0
+732,Zinal Rai,30,Male,Bicycle,31 Oct 2023,Bhopal,4.1,482,26.8
+733,Manthan Ratta,23,Female,Scooter,28 May 2024,Bengaluru,3.6,315,35.1
+734,Zarna Rajan,30,Female,Bike,22/05/2022,Kochi,3.9,599,41.9
+735,Brinda Bahl,18,Male,Bike,2024-04-24,Patna,3.6,709,37.0
+736,Ryan Nanda,37,Male,Bike,31/07/2023,bengaluru,,921,38.4
+737,Anusha Pant,20,Male,Bicycle,2023.02.02,Bengaluru,3.2,689,18.4
+738,chavvi tata,23,Female,Bicycle,04/29/2022,Nashik,4.5,482,33.3
+739,Dipta Badami,24,Male,Bike,06/04/2024,Surat,3.7,511,40.9
+740,Samesh Butala,33,Female,Scooter,22-11-2022,Lucknow,,80,31.4
+741,Yasti Dhingra,37,Female,Bike,02 Aug 2022,Visakhapatnam,3.9,308,39.2
+742,Pranav Gandhi,27,Male,Bike,2023-03-16,Mumbai,4.8,397,17.2
+743,Aryan Bhalla,28,Male,Bike,01 Feb 2022,Delhi,3.9,263,27.4
+744,Zansi Raval,33,Male,Bike,27/06/2021,Ludhiana,4.5,282,41.9
+745,Gautami Chaudhary,18,Male,Bicycle,02 Aug 2024,Chennai,4.6,862,21.5
+746,Widisha Tandon,25,Male,Bicycle,2023.05.24,Raipur,4.2,135,21.0
+747,Manya Magar,21,Male,Bike,26/09/2022,Ludhiana,4.1,436,21.6
+748,Madhavi Loyal,24,Female,Car,16-09-2023,Kolkata,4.6,185,23.2
+749,Anya Devan,34,Female,Bicycle,21-10-2023,Ahmedabad,4.1,280,28.6
+750,Jeet Mall,20,Female,Scooter,2022-07-24,Bhubaneswar,3.5,599,31.7
+751,Bhavna Sidhu,26,Male,Bike,19/05/2023,Surat,4.0,1481,21.1
+752,Veer Swaminathan,26,Male,Bike,2025.01.10,Coimbatore,4.4,445,43.0
+753,Utkarsh Sunder,19,Male,Bicycle,25 Oct 2021,Lucknow,4.3,1320,44.4
+754,Bishakha Tandon,22,Female,Bike,2024-11-23,HYDERABAD,4.0,658,35.9
+755,Kashvi Devi,25,Female,Bike,2021.07.05,Raipur,3.9,441,53.4
+756,Yasti Grewal,18,Male,Bike,2022-01-10,Bengaluru,4.1,875,46.9
+757,Balveer Bhatti,20,Male,Car,2022-03-26,Patna,4.5,387,33.9
+758,Peter Suresh,32,Male,Bike,03/27/2024,Nagpur,3.5,495,24.8
+759,Riya Sharma,33,Female,Bike,30-05-2023,Lucknow,4.1,540,18.1
+760,Nirja Sahota,24,Female,Bike,2022.03.16,Delhi,,446,31.2
+761,Ishwar Kumer,28,Male,Car,15 Nov 2024,Bhopal,4.3,621,32.2
+762,Viraj Pal,30,Female,Bicycle,2021-06-21,Delhi,5.0,951,31.0
+763,Ronith Chaudry,19,Female,Bike,04-07-2024,Kochi,4.1,471,32.8
+764,Jacob Dave,18,Female,Scooter,2024.02.23,Vadodara,4.3,206,32.8
+765,YASHICA MAND,26,Female,Bike,04/06/2023,Mumbai,4.1,109,19.1
+766,Nikita Mani,33,Female,Scooter,03-03-2024, Pune  ,4.7,359,50.7
+767,Chanakya Kashyap,32,Male,Bike,11-06-2024,Surat,4.2,977,27.8
+768,Varenya Ram,20,Female,Car,10 Apr 2024,Delhi,4.1,413,23.8
+769,Jai Naidu,31,Female,Scooter,16/10/2024,Patna,4.0,754,27.2
+770,Zashil Upadhyay,34,Female,Bike,2021-10-25,Delhi,4.4,281,23.2
+771,Watika Trivedi,24,Female,Bike,2024.07.21,Bhubaneswar,3.9,318,36.0
+772,Ranbir Chana,34,Female,Bike,2022-05-07,Delhi,4.1,707,32.5
+773,sanya walia,23,Male,Bike,01/06/2024,Bhopal,3.8,480,21.5
+774,Jeevika Borah,23,Female,Bike,22 Nov 2024,Ahmedabad,3.9,642,34.7
+775,Ekalinga Chana,19,Female,Bike,26 Jul 2023,Mumbai,4.9,992,36.9
+776,Eta Bir,29,Female,Bike,2022.07.02,Bengaluru,,749,19.3
+777,Upadhriti Mitra,22,Male,Bike,06 Jun 2021, Nashik  ,4.5,260,36.1
+778,Lohit Rajan,20,Male,Scooter,09/19/2023,Indore,3.9,799,12.7
+779,Wridesh Ramesh,34,Male,Bike,2023-02-22,Guwahati,4.5,468,37.9
+780,Aryan Prabhu,24,Female,Scooter,17-02-2025,Mumbai,4.4,135,32.3
+781,Riya Bose,21,Male,Bicycle,28/01/2025,Nagpur,3.9,583,47.3
+782,MATTHEW CHAUDHARY,32,Female,Scooter,05/18/2022,Ludhiana,4.1,433,43.1
+783,Unnati Ram,26,Female,Bicycle,17 Oct 2023,Jaipur,4.8,977,36.3
+784,Samarth Balakrishnan,36,Male,Bike,2024.01.24,Kochi,3.8,271,18.9
+785,Udant Kapadia,31,Male,Scooter,15-06-2023,Chennai,4.8,183,19.5
+786,Anamika Venkataraman,19,Female,Bike,04/02/2023,Pune,4.5,1063,40.8
+787,KEVIN PANDEY,22,Male,Bike,25-02-2022,Delhi,3.8,694,18.7
+788,Aarush Shanker,38,Male,Bicycle,2022-10-28,Jaipur,4.0,497,31.0
+789,Januja Sachdev,37,Female,Scooter,2023-03-26,Mumbai,4.0,453,31.6
+790,Ojas Subramanian,30,Female,Bike,14-02-2025,Visakhapatnam,4.5,430,23.1
+791,Balvan Vora,28,Male,Scooter,04 Mar 2025,Ahmedabad,4.7,385,28.8
+792, Jalsa Raju  ,18,Male,Bike,20 Nov 2022,Kolkata,4.6,296,28.8
+793,Triya Chatterjee,22,Male,Bike,2023.06.16,Patna,4.0,581,30.1
+794,Forum Sankaran,33,Female,Car,02-01-2023,Patna,4.4,443,53.0
+795,Riya Aurora,36,Male,Bicycle,02/13/2023,Mumbai,4.6,207,12.7
+796,Aishani Misra,32,Male,Bike,2023.03.05,Mumbai,3.6,395,31.3
+797,Siddharth Sodhi,19,Female,Bicycle,2022.12.31,Bengaluru,4.2,362,32.2
+798,Adweta Dave,26,Female,Bike,23-09-2024,Pune,4.3,820,36.8
+799,Indali Malhotra,34,Male,Scooter,2024.03.01,Guwahati,4.3,666,45.6
+800,Raghav Barad,23,Female,Scooter,20/08/2023,Bhopal,3.9,682,24.5
+801,Mugdha Gade,22,Female,Scooter,09 Jul 2022,Mumbai,3.2,394,36.1
+802,Karan Morar,18,Female,Bike,15 Dec 2023,Coimbatore,4.6,622,26.7
+803,Lohit Pandya,32,Male,Bike,11-10-2023,Ludhiana,4.2,485,24.7
+804,Quincy Kant,39,Male,Bicycle,24 Apr 2023,Ahmedabad,4.8,272,37.4
+805,Jhalak Chaudhry,32,Male,Bike,13 Aug 2021,Bhopal,3.8,314,-37.8
+806,Anika Sangha,38,Female,Bicycle,11/18/2022,Vadodara,3.9,479,31.8
+807,Udant Bora,25,Female,Bike,11/15/2021,Bhubaneswar,4.4,649,31.7
+808,Vidhi Brar,18,Male,Bike,2024-02-07,Visakhapatnam,4.5,854,55.5
+809,Charan Chakraborty,18,Female,Bike,06 Jan 2025,Ludhiana,4.6,389,28.2
+810,Oviya Rama,33,Male,Scooter,2024-02-09,Lucknow,4.4,669,18.2
+811,Damyanti Kashyap,18,Female,Bike,21 Apr 2022,Nashik,4.4,638,20.7
+812,Abhimanyu Warrior,31,Female,Bike,2023.05.06,Nagpur,4.2,963,44.9
+813,Bakhshi Saha,28,Male,Car,2025-03-23,Visakhapatnam,4.2,677,27.3
+814,Warhi Jha,18,Male,Scooter,17-07-2022,Guwahati,4.8,473,26.8
+815,Ethan Sahota,30,Male,Bicycle,20/12/2024,Vadodara,3.1,378,48.3
+816,Yuvraj Pradhan,27,Female,Scooter,29/05/2024,Ludhiana,3.9,658,38.8
+817,Adweta Vig,18,Male,Bike,10/19/2023,Indore,4.2,661,27.7
+818,Chatura Char,26,Female,Bike,08-07-2024,Pune,4.4,1160,31.8
+819,Anirudh Edwin,47,Male,Car,2023-02-18,Chandigarh,4.4,1019,32.7
+820,Vedika Boase,35,Female,Bike,02/01/2023,Surat,4.7,810,32.5
+821,Odika Mammen,27,Female,Bike,2024.08.11,Nashik,3.9,1049,35.7
+822,Arjun Chacko,21,Male,Scooter,15/05/2024,Bhubaneswar,5.0,276,-41.2
+823,Naksh Sharaf,33,Male,Bike,29 Mar 2023,Patna,3.8,1047,33.8
+824,Hitesh Bhattacharyya,28,Male,Bike,01/02/2025,Kochi,4.2,508,29.2
+825,Xavier Pathak,36,Male,Scooter,2022.11.10,Kolkata,4.0,767,34.1
+826,Jackson Bansal,23,Male,Bike,2024.01.14,Madras,3.7,591,16.0
+827,Faqid Joshi,31,Male,Bike,08-02-2022,Surat,4.1,366,42.3
+828,Aarav Cheema,30,Male,Scooter,2021.06.29,Kolkata,4.3,517,40.7
+829,Zilmil Varma,30,Male,Bicycle,29/12/2022,Nagpur,3.9,671,42.0
+830,Ria Rama,26,Male,Bike,08 Mar 2022,Visakhapatnam,4.1,285,31.4
+831,Falguni Sahni,29,Female,Bicycle,12 Jul 2024,Lucknow,4.3,348,27.9
+832,Osha Munshi,36,Male,Bike,2025.03.13,Kochi,3.7,543,24.5
+833,Yadavi Dhingra,33,Female,Scooter,2023.02.25,Nashik,4.8,791,31.3
+834,Wridesh Shukla,28,Female,Bike,18-06-2022,Bhopal,4.1,773,31.8
+835,Widisha Radhakrishnan,33,Female,Bike,06/07/2022,Kochi,3.7,769,43.0
+836,Harsh Shetty,32,Male,Bike,21-06-2023,Jaipur,3.9,679,32.8
+837,Janaki Chahal,22,Male,Bike,02/27/2024,Visakhapatnam,4.1,674,33.1
+838,Shravya Roy,34,Male,Bike,2024.09.01,Mumbai,4.5,651,36.3
+839,Vinaya Nagar,28,Female,Bike,04/18/2024,Chennai,4.2,135,45.1
+840,Kashvi Sekhon,23,Male,Bike,2022-04-15,Lucknow,4.1,676,20.5
+841,Arjun Kaul,30,Male,Bike,2024.08.13,Visakhapatnam,3.8,695,25.2
+842,Jagrati Naidu,30,Male,Scooter,22/05/2022,Raipur,4.5,281,37.5
+843,Robert Chawla,26,Female,Bicycle,01 Aug 2024,Guwahati,4.6,1205,40.3
+844,Lakshit Mammen,36,Male,Bike,13-08-2024,Raipur,3.8,332,44.8
+845,Vamakshi Sahni,18,Female,Bike,01/17/2025,Mumbai,3.6,394,32.5
+846,Janaki Ghosh,30,Male,Bike,14-03-2023,Ludhiana,3.4,642,30.6
+847,Jackson Pathak,27,Male,Bike,2022-05-15,Bhubaneswar,4.3,966,35.5
+848,Vedhika Mishra,18,Male,Bicycle,19 Nov 2022,Bhubaneswar,,1075,31.5
+849,Yashawini Memon,26,Female,Scooter,2022-07-20,Indore,4.1,459,28.1
+850,Parth Ahluwalia,37,Male,Scooter,2021.12.12,Pune,4.3,887,34.8
+851,Zaid Ravel,27,Female,Bicycle,04 Nov 2021,Coimbatore,4.0,882,41.4
+852,Girish Khatri,26,Male,Bicycle,2021-09-01,LUCKNOW,4.3,255,38.9
+853,Ayush Arora,25,Female,Scooter,17/11/2024,Coimbatore,4.2,321,25.0
+854,Eiravati Goswami,27,Male,Bike,14 Jan 2025,Bengaluru,4.1,417,27.0
+855,Urvi Hans,27,Male,Bike,15/09/2024,Ahmedabad,4.3,599,29.8
+856,Ishwar Pillai,25,Female,Bike,11/27/2021,Bhubaneswar,3.5,609,31.4
+857,Girish Ganesh,33,Female,Bike,18/06/2024,Coimbatore,3.7,458,53.1
+858,Xiti Murty,40,Female,Bike,2022.06.27,Chandigarh,4.0,569,47.5
+859,Anvi Lala,25,Female,Bicycle,2022-10-26,Surat,3.7,695,36.5
+860,Maanas Tak,27,Female,Scooter,23 Nov 2022,Lucknow,4.1,290,26.7
+861,Warhi Khare,23,Male,Bike,2024-05-25,Lucknow,3.5,703,46.9
+862,Rajata Suresh,34,Female,Scooter,2022.08.15,Bhubaneswar,4.1,409,37.6
+863,Bishakha Dara,18,Male,Bike,30/07/2022,Bengaluru,4.6,438,33.4
+864,Finn Sood,27,Female,Bike,2023-05-18,Ludhiana,4.2,588,40.2
+865,Abeer Varma,24,Female,Bike,10 Jun 2021,delhi,4.0,835,36.9
+866,Vivaan Dua,28,Male,Scooter,01-06-2023,Jaipur,4.8,635,48.3
+867,Wishi Varty,29,Male,Bike,09/25/2022,Ahmedabad,3.9,677,14.5
+868,Daksha Karpe,39,Male,Bike,12-09-2022,Vadodara,4.4,350,12.5
+869,Oeshi Dyal,27,Male,Scooter,06 Sep 2024,Kolkata,3.7,505,39.1
+870,Kai Sankaran,26,Female,Scooter,04/14/2023,Bengaluru,4.7,843,34.7
+871,Jhalak Arora,30,Male,Bike,04 Aug 2022,Bengaluru,4.6,498,44.0
+872,Oliver Srinivasan,39,Male,Scooter,16-08-2021,Lucknow,4.4,451,20.4
+873,Aarav Rai,31,Male,Bike,26/07/2021,Kochi,4.4,1048,33.7
+874,Chatura Lall,30,Female,Bike,25/05/2023,Ludhiana,4.3,447,36.3
+875,Jeremiah Bobal,26,Male,Car,01/08/2021,Lucknow,3.8,946,26.2
+876,Qarin Majumdar,32,Female,Bike,2023-01-01,Surat,3.0,574,41.6
+877,Warjas Chacko,26,Female,Scooter,2022.10.13,Raipur,4.7,710,34.1
+878,Tristan Acharya,33,Male,Scooter,2022.08.20,Lucknow,4.1,342,31.6
+879,Aryan Devan,32,Female,Scooter,06/23/2022,Lucknow,4.1,754,23.5
+880,Leena Rastogi,42,Female,Bike,22 Nov 2024,Guwahati,4.3,1139,34.2
+881,Nachiket Trivedi,23,Male,Bike,15 Jan 2024,Ludhiana,4.7,313,34.5
+882,Omya Narang,18,Female,Bike,2021.06.27,Bhubaneswar,4.4,475,26.7
+883,Qadim Ahuja,20,Female,Bike,12-10-2022,Surat,4.4,156,47.6
+884,Qarin Kara,27,Female,Car,2023-10-08,Coimbatore,3.6,301,43.7
+885,Quincy Pathak,26,Male,Bike,2022-03-05,Raipur,3.7,667,20.2
+886,Arjun Bhalla,22,Male,Scooter,23 May 2022,Ahmedabad,3.8,519,35.7
+887,Eesha Thakkar,40,Male,Bike,30/10/2023,Kochi,4.9,963,32.7
+888,Gayathri Bava,39,Female,Bike,08/22/2024,Guwahati,4.1,287,27.3
+889,Zarna Narasimhan,34,Male,Bike,2022.08.06,Nashik,3.7,395,27.7
+890,Yasti Saini,27,Female,Bike,12 Sep 2021,Raipur,4.3,890,18.3
+891,Hardik Mishra,18,Male,Scooter,2024.04.01,CHENNAI,4.3,565,40.3
+892,Vihaan Gola,21,Male,Bike,25 Oct 2023,Vadodara,4.2,775,12.7
+893,Adya Arora,22,Male,Bike,2024-04-10,Nashik,4.1,871,31.0
+894,Mohammed Bhavsar,26,Male,Car,2024-01-01,Kochi,4.0,356,25.1
+895,Ranbir Vora,29,Female,Bike,03/25/2022,Ahmedabad,4.7,316,40.9
+896,Mason Gade,26,Female,Bicycle,2021-09-16,Jaipur,3.7,477,26.8
+897,Girik Vaidya,20,Male,Bike,06/27/2021,Nagpur,4.8,1439,56.0
+898,Mitesh Rajagopal,22,Male,Scooter,09/29/2023,bhubaneswar,4.1,731,35.3
+899,Aadhya Ghose,38,Male,Scooter,09/26/2024,Ludhiana,4.2,720,18.3
+900,Nakul Loyal,20,Male,Bike,04-09-2022,Nashik,4.6,828,44.3
+901,Aarnav Chatterjee,27,Female,Scooter,2021.12.13,Guwahati,3.6,346,36.4
+902,Abdul Kala,19,Female,Bike,16-09-2022,Kochi,4.1,845,19.1
+903,Ati Manne,27,Male,Bike,29/08/2021,Vadodara,4.1,839,29.1
+904,Balveer Bose,21,Male,Scooter,2022.02.03,Visakhapatnam,4.0,540,46.1
+905,Brinda Dhingra,36,Male,Bike,2023.09.12,Jaipur,4.4,445,48.4
+906,Rajeshri Batta,33,Female,Bike,2021.07.21,Coimbatore,4.3,134,24.7
+907,Vinaya Pant,30,Male,Bike,21/08/2021,Surat,4.1,135,37.6
+908,Oliver Ghose,18,Male,Bike,01/02/2024,Bengaluru,4.4,511,33.0
+909,Dominic Reddy,34,Female,Bike,2021.12.19,Delhi,4.2,156,28.4
+910,Zarna Setty,24,Female,Bike,08/25/2021,Nagpur,4.4,558,20.7
+911,Pavani Devi,33,Male,Scooter,2024-03-29,Nashik,3.6,447,31.5
+912,Bishakha Kaur,33,Male,Car,01 Jan 2024,Bhopal,,772,17.4
+913,Lucky Patla,32,Female,Scooter,08/14/2024,Visakhapatnam,4.3,1199,44.9
+914,Banjeet Gade,28,Male,Car,2021.11.02,Patna,4.9,1034,41.1
+915, Bina Yohannan  ,31,Male,Bike,10 Nov 2021,Bengaluru,4.1,769,20.4
+916,GUNEET WALIA,30,Female,Scooter,06-02-2025,Bhopal,4.7,1200,32.3
+917,Chaaya Kara,21,Male,Scooter,01 Aug 2021,Ludhiana,3.6,382,42.1
+918,Janani Srinivasan,32,Male,Bike,2022-08-17,Delhi,5.0,252,37.2
+919,Neel Nayak,27,Female,Bike,2024-05-15,Nagpur,3.4,256,33.2
+920,Bhanumati Bhargava,28,Female,Scooter,2022-03-17,Kochi,4.2,744,31.6
+921,Abhimanyu Talwar,35,Female,Bike,24-12-2021, Mumbai ,4.2,297,37.5
+922,Jalsa Sehgal,23,Male,Scooter,09/10/2022,Ludhiana,4.4,278,-21.1
+923,Max Contractor,28,Female,Scooter,03/03/2025,Patna,4.7,1043,27.0
+924,Maanas Iyer,22,Male,Car,29 Oct 2024,Nagpur,5.0,231,32.3
+925,Yadavi Contractor,23,Male,Bike,2021.06.11,Kolkata,4.9,410,30.5
+926,BISHAKHA GANDHI,31,Female,Bike,2024.11.04,Nashik,4.0,769,16.8
+927,Warda Sheth,37,Female,Bike,2024-02-01,HYDERABAD,4.8,471,44.9
+928,Aarna Bhardwaj,25,Female,Car,12/09/2023,Bhubaneswar,4.2,423,34.4
+929,Waida Goswami,33,Male,Scooter,23/12/2023,Chennai,4.0,707,35.3
+930,Radha Yogi,21,Female,Bike,03/23/2024,Nagpur,4.3,966,31.9
+931,Xavier Rajagopal,21,Female,Bike,16/10/2022,Raipur,4.3,648,22.1
+932,Prisha Misra,33,Female,Car,14/02/2024,Pune,3.7,371,39.4
+933,Bahadurjit Mitter,29,Male,Scooter,2024.06.10,Guwahati,3.4,418,29.4
+934,Yashvi Venkatesh,20,Female,Bike,22/11/2023,Lucknow,4.1,375,29.3
+935,Rishi Magar,23,Female,Bicycle,11/02/2021,Coimbatore,4.2,549,35.8
+936,Laban Chaudhari,31,Female,Car,2022.06.25,Bhubaneswar,3.6,955,31.4
+937,Frado Palla,26,Female,Bike,2024.03.03,Nagpur,3.6,232,24.9
+938,Vidhi Sura,33,Male,Bike,2022-08-07,Ludhiana,4.3,1040,17.4
+939,Harsh Brar,26,Female,Bike,09/11/2021,MUMBAI,4.0,475,30.2
+940,Saumya Wadhwa,18,Male,Bike,13 Sep 2023,Visakhapatnam,3.9,981,31.7
+941,Hitesh Mohanty,22,Female,Bike,13/08/2024,Bombay,4.6,531,29.1
+942,Arin Mane,18,Male,Bike,2022-09-30,Lucknow,3.9,558,42.4
+943,Imaran Kant,20,Female,Bike,03/08/2022,Chennai,3.8,334,43.2
+944,Damyanti Sagar,31,Female,Scooter,2023-05-11,Hyderabad,4.8,1488,34.9
+945,Faraj Balasubramanian,20,Male,Bike,2024-08-14,Nashik,4.6,1121,15.7
+946,Utkarsh Kumar,24,Female,Scooter,2023-04-17,Surat,4.0,577,40.6
+947,Amruta Cherian,25,Female,Bike,2024-08-06,Patna,4.2,894,46.5
+948,Jatin Zacharia,36,Male,Bicycle,29 Jan 2023,Kochi,5.0,531,23.2
+949,Irya Balan,26,Female,Scooter,2021.08.05,Visakhapatnam,4.2,513,21.4
+950,Ronith Kaur,47,Female,Bike,23 Oct 2021,Ludhiana,4.5,1059,17.5
+951,Advaith Jha,25,Female,Bike,03 Dec 2022,Bhubaneswar,4.3,548,21.4
+952,Libni Keer,26,Male,Bicycle,2023.07.01,Bhubaneswar,3.8,249,35.3
+953,Anvi Karpe,20,Male,Car,27 Jun 2021,Coimbatore,3.8,613,27.5
+954,Harinakshi Jani,25,Male,Bike,22/10/2021,Vadodara,3.9,323,40.9
+955,Baljiwan Krish,36,Female,Scooter,11-10-2021,Bhopal,4.9,524,32.9
+956,Yashvi Arora,28,Female,Bicycle,17-11-2021,Vadodara,4.0,776,38.7
+957,Charles Arora,27,Male,Bike,2023-05-20,Patna,4.4,345,35.1
+958,Harrison Bail,29,Male,Bike,24/03/2022,Pune,3.8,465,39.6
+959,Mahika Mann,30,Male,Scooter,2023.11.10,Indore,3.6,241,38.9
+960,Ranbir Bajwa,29,Female,Car,03/13/2023,Visakhapatnam,3.9,738,41.4
+961,Isaac Lanka,36,Female,Bike,12/12/2024,Chennai,4.1,912,24.1
+962,Nicholas Dhingra,31,Female,Scooter,22 Oct 2023,Visakhapatnam,,375,31.4
+963,Madhavi Pall,26,Male,Scooter,11/07/2021,Coimbatore,4.5,225,22.0
+964,Dayita Nair,23,Male,Scooter,2022.05.30,Nashik,3.5,245,28.6
+965,Isaac Bose,18,Female,Scooter,12/04/2023,Pune,4.5,278,40.8
+966,Kiaan Ram,25,Male,Scooter,10/12/2022,chennai,4.9,266,40.3
+967,Idika Kulkarni,31,Male,Bike,26-02-2023,MUMBAI,,1290,17.7
+968,Chandresh Cheema,33,Male,Bike,2024.11.25,Chandigarh,3.8,579,29.4
+969,Kashvi Rastogi,32,Female,Bike,14 Sep 2022,Visakhapatnam,4.4,465,35.4
+970,Banjeet Sankaran,24,Male,Bike,06-10-2023,Chennai,4.2,996,19.5
+971,Wakeeta Kothari,24,Male,Bike,01/04/2023,Jaipur,3.1,540,35.0
+972,widisha vaidya,31,Female,Bike,2021-11-19,Kochi,,184,23.3
+973,Omya Dhawan,31,Female,Scooter,02-03-2024,Bhubaneswar,4.6,589,44.3
+974,VIDHI MALLICK,27,Female,Bike,17-06-2024,Ludhiana,4.1,700,42.9
+975,Liam Bora,30,Male,Scooter,02/18/2025,Lucknow,4.3,761,17.2
+976,Ethan Sarma,18,Female,Bike,28 Jan 2022,Chandigarh,3.8,1208,21.3
+977,Amaira Prabhu,28,Female,Bike,2023-07-11,Ahmedabad,3.6,788,37.6
+978,Yamini Dasgupta,25,Male,Bike,2022-01-11,Bhubaneswar,4.0,462,43.2
+979,Shivani Taneja,18,Male,Bike,2024-05-13,Indore,3.9,359,34.7
+980, Gaurangi Bobal  ,30,Female,Bike,20-12-2023,Vadodara,4.3,566,33.1
+981,Arunima Patla,19,Male,Bike,2022.10.06,Indore,2.9,367,37.8
+982,Jeevika Bhardwaj,30,Male,Bike,21 Jun 2021,Mumbai,4.3,649,35.8
+983,Rohan Suresh,26,Male,Scooter,05/02/2024,Lucknow,4.1,127,36.9
+984,Karan Aggarwal,29,Male,Bike,2022-09-08,Indore,3.4,923,26.6
+985,Girik Karnik,35,Male,Car,29/03/2024,Guwahati,3.6,586,27.5
+986,Riya Sastry,33,Male,Bike,16/08/2021,Coimbatore,3.7,617,28.2
+987, Leena Barad  ,20,Female,Bike,02/24/2024,Chandigarh,4.2,663,56.1
+988,Oeshi Bath,25,Male,Bike,2024.11.21,Ludhiana,4.1,231,18.2
+989,Yoshita Chacko,25,Female,Bike,2021.11.16,Kolkata,3.8,384,28.6
+990,Amruta Muni,33,Female,Bicycle,10 Apr 2024,Chennai,4.3,432,33.3
+991,Tanvi Comar,32,Male,Bike,2023.11.29, Kochi  ,3.9,588,27.2
+992,Oviya Kala,25,Female,Scooter,24 Dec 2024,Lucknow,4.2,436,42.2
+993,Faqid Borah,35,Female,Bicycle,26/09/2023,Pune,4.7,745,38.6
+994,Rachit Wable,29,Female,Bike,26 Aug 2021,Vadodara,3.4,274,48.4
+995,Adya Kothari,43,Male,Car,06/29/2021,Vadodara,3.6,333,27.7
+996,Rachita Karpe,22,Female,Bike,18/06/2023,Kochi,3.9,689,47.3
+997,Wazir Sood,23,Female,Bike,10-01-2023,chandigarh,4.2,1664,30.2
+998,Wazir Sama,36,Male,Bike,2024-09-14,Nagpur,4.4,1582,34.5
+999,Chandran Maharaj,26,Female,Bike,31/07/2024,Guwahati,4.3,448,46.8
+1000,Oni Rai,32,Male,Bike,07/17/2023,Pune,4.8,568,38.3
+1001,Raghav Saini,21,Female,Car,01/08/2024,Bhubaneswar,4.5,878,32.5
+1002,Aryan Sharaf,18,Male,Bike,05/01/2024,CHENNAI,3.9,261,39.6
+1003,Prisha Deol,30,Female,Bike,02/12/2025,Indore,4.2,487,36.8
+1004,Nirja Narayan,27,Female,Scooter,2022-05-10,Hyderabad,4.0,1078,36.8
+1005,Samar Gulati,24,Male,Bike,05/17/2024,Hyderabad,4.4,932,25.0
+1006,Ethan Pillai,29,Male,Scooter,23-02-2025,Indore,3.7,728,27.3
+1007,Samar Sarkar,37,Male,Bike,03/03/2024,Kochi,4.0,588,31.2
+1008,Samesh Ahluwalia,36,Male,Scooter,29 Sep 2021,Nagpur,4.4,339,42.6
+1009,Abha Yogi,24,Male,Scooter,25-11-2024,Jaipur,4.0,521,30.4
+1010,Samarth Saraf,23,Male,Bike,2025.01.28,Ahmedabad,3.8,722,38.4
+1011,Janani Sandal,27,Female,Scooter,20 Aug 2023,Patna,4.2,1048,26.8
+1012,Rudra Shankar,21,Female,Car,2023-08-16,Visakhapatnam,4.6,232,20.2
+1013,Yashasvi Ghose,29,Female,Bike,30/12/2023,Indore,3.8,369,50.9
+1014,Amaira Singh,20,Female,Bike,09 Jul 2024, Guwahati  ,3.9,1311,30.2
+1015,Hredhaan Bhatt,31,Male,Scooter,02-08-2024,chennai,4.6,351,38.1
+1016,Dakshesh Korpal,27,Female,Bike,17 Oct 2021,bengaluru,4.1,847,29.5
+1017,Faraj Maharaj,26,Male,Scooter,17-11-2021,Pune,4.3,92,34.7
+1018,Abdul Raghavan,31,Male,Scooter,30/07/2022,Bengaluru,4.7,510,36.1
+1019,Aarini Dani,32,Male,Bicycle,02 Apr 2022,Vadodara,3.8,977,45.1
+1020,Dhriti Keer,26,Female,Bike,10/25/2024,Chennai,4.0,197,49.4
+1021,Upma Ben,30,Male,Bicycle,08/10/2021,Visakhapatnam,3.7,922,26.7
+1022,Bahadurjit Kohli,29,Female,Scooter,19-04-2024,Nashik,4.5,657,43.4
+1023,Vedant Ray,23,Female,Bike,15/06/2024,Jaipur,4.3,534,27.9
+1024, Manya Sawhney  ,23,Female,Bike,07-09-2024,Mumbai,4.7,624,34.5
+1025,GIRINDRA SHANKER,28,Male,Car,2025.01.15,Bhopal,4.5,786,20.9
+1026,Leena Talwar,30,Male,Bike,2021.11.23,Visakhapatnam,4.3,515,50.9
+1027,Brijesh Suri,26,Male,Car,18 Nov 2021,Nagpur,4.8,1222,35.6
+1028,Qadim Kulkarni,34,Female,Scooter,20 May 2024,Bhopal,4.1,977,25.0
+1029,Aayush Sodhi,31,Male,Bike,2022.03.03,Hyderabad,4.5,184,32.3
+1030,Warda Aurora,28,Female,Car,22/11/2024,Pune,4.3,456,27.2
+1031,Shravya Chanda,25,Male,Bike,04-03-2023,Jaipur,4.6,1003,41.7
+1032,Mugdha Banerjee,18,Male,Bike,06/23/2022,Ahmedabad,3.7,503,38.4
+1033,Darsh Mall,23,Female,Scooter,2021.07.06,Jaipur,4.5,323,28.3
+1034,Falguni Deol,18,Male,Bike,2022-02-18,Visakhapatnam,4.4,507,36.6
+1035,Balhaar Deshmukh,26,Male,Scooter,2025.01.13,Nagpur,3.8,428,32.2
+1036,Raksha Varughese,25,Male,Scooter,03/26/2024,Jaipur,4.3,458,25.6
+1037,Edhitha Menon,36,Female,Bike,2022.02.03,Bengaluru,3.9,231,35.7
+1038,Rudra Mander,21,Male,Car,30/08/2023,Chandigarh,4.3,997,32.0
+1039,oscar magar,33,Female,Scooter,07/19/2021,Guwahati,4.5,1335,27.3
+1040,Ayush Sathe,29,Male,Bike,24/02/2024,Jaipur,3.2,474,47.6
+1041,Abdul Sule,22,Female,Bike,26-04-2024,Kochi,4.0,415,21.3
+1042,Gauri Raghavan,32,Female,Bike,17-06-2022,Raipur,4.0,299,40.1
+1043,Rudra Dhar,38,Female,Bike,2025.02.26,Hyderabad,4.5,618,36.3
+1044,Charan Pant,27,Male,Bike,2024.12.09,Surat,4.5,378,24.4
+1045,Meghana Chaudry,26,Female,Bike,27 Apr 2023,Nagpur,3.8,1131,48.7
+1046,Sanya Dani,28,Female,Scooter,09 May 2023,Vadodara,4.1,315,10.0
+1047,Harita Sachar,26,Male,Scooter,2022-07-05,Raipur,4.5,153,46.6
+1048,Ucchal Nori,18,Female,Scooter,26 Jan 2023,Surat,4.1,843,24.6
+1049,Abdul Khatri,21,Male,Bicycle,23 Nov 2023,Nashik,3.9,691,45.8
+1050,Chameli Suri,30,Female,Bike,2023-10-14,Pune,3.8,377,35.7
+1051,Michael Nadkarni,30,Male,Bike,06/16/2023,Hyderabad,5.0,644,40.0
+1052,Geetika Devi,36,Male,Bike,17/05/2022,Mumbai,4.1,1333,33.5
+1053,Rachit Gokhale,23,Female,Scooter,2023-01-18,Ahmedabad,4.0,692,39.4
+1054,Oni Nagarajan,33,Male,Scooter,11 Jun 2022,coimbatore,4.3,424,27.8
+1055,Mugdha Khare,36,Female,Scooter,08-04-2022,Kochi,4.0,124,39.3
+1056,Dhriti Peri,28,Female,Scooter,01/07/2024,BANGALORE,3.3,832,31.5
+1057,Girindra Choudhury,20,Male,Bike,30-10-2024,Patna,4.6,599,31.6
+1058,Aayush Agrawal,25,Female,Bike,23 Jun 2022,bhopal,4.1,361,33.7
+1059,Gavin Soman,31,Female,Bike,25 Feb 2025,Kochi,3.7,1118,26.2
+1060,Daksh Nadkarni,26,Male,Car,15-12-2023,Kolkata,4.3,535,27.5
+1061,Benjamin Chhabra,30,Male,Scooter,11/04/2023,Chennai,4.2,499,44.6
+1062,Ishita Pai,31,Female,Scooter,05/10/2023,Patna,4.5,707,36.6
+1063,Tara Gole,19,Female,Bike,24/06/2022,indore,3.5,899,15.5
+1064,Nicholas Deshpande,39,Male,Scooter,2023-12-07,Hyderabad,4.8,290,41.4
+1065,Mekhala Raman,18,Male,Bike,18/01/2025,Nagpur,4.6,724,47.3
+1066,Sudiksha Borde,24,Female,Car,2022.10.15,Raipur,3.6,639,43.0
+1067,Chaitanya Rajan,25,Female,Scooter,30/10/2024,Kolkata,4.2,875,31.9
+1068,Vansha D’Alia,25,Male,Bike,01-03-2025,Nagpur,4.0,224,33.6
+1069,Laksh Bains,36,Female,Bike,03-05-2024,Bengaluru,3.4,431,34.2
+1070,Chakrika Mishra,30,Female,Car,16-04-2022,Coimbatore,3.9,394,25.7
+1071,Warda Borah,33,Female,Scooter,2021.12.30,Pune,4.0,355,42.0
+1072,Darika Tripathi,28,Female,Bike,2023.07.21,Delhi,4.1,648,34.8
+1073,Qadim Agrawal,29,Male,Bike,01/10/2023,Vadodara,4.2,616,26.5
+1074,Mitali Jani,30,Female,Bike,17/01/2023,Hyderabad,4.2,284,33.2
+1075,Janya Patla,33,Male,Bike,2024.11.13,Bengaluru,4.0,577,27.6
+1076,Madhav Badami,32,Male,Bike,2023.12.26,Pune,4.5,215,33.2
+1077,Caleb Grewal,23,Female,Bike,2022.08.14,Chandigarh,5.0,300,39.7
+1078,Netra Pandey,29,Female,Bike,03/19/2023,Kochi,4.4,1030,24.1
+1079,chaaya kothari,22,Female,Bicycle,09-08-2023,Lucknow,4.0,718,16.4
+1080,Rushil Shroff,28,Male,Bike,2021-09-02,Surat,4.4,878,25.7
+1081,Amruta Lala,29,Male,Bike,21 Aug 2023,Delhi,3.8,426,32.4
+1082,Daksha Dani,26,Female,Scooter,15/02/2022,Patna,3.8,632,31.0
+1083,Kalpit Dugal,30,Female,Bike,06-08-2023,Vadodara,4.4,473,34.7
+1084,Varenya Borde,26,Female,Scooter,18-08-2021,Nashik,3.9,620,29.8
+1085,Meera Lala,30,Male,Bike,26 Jun 2024,Kochi,4.1,386,33.9
+1086,Yoshita Badami,23,Male,Bike,15-04-2023,Bhopal,4.4,673,27.4
+1087, Bhavini Kapadia  ,22,Female,Scooter,2023-04-29, Bhopal  ,3.6,1003,39.2
+1088,Indira Kade,26,Female,Scooter,08-11-2022,Kochi,4.8,631,24.4
+1089,Yashica Shetty,31,Female,Bike,11/11/2023,Ludhiana,4.5,411,35.3
+1090,Zilmil Doctor,23,Male,Bicycle,2022-12-26,CHENNAI,4.2,732,24.9
+1091,Jackson Luthra,30,Female,Bike,2023.02.26,Raipur,4.0,515,33.9
+1092,Patrick Rajan,28,Female,Car,12/28/2022,Bhopal,4.3,434,39.8
+1093,Warinder Nayar,28,Female,Bike,2024.08.04,Ludhiana,4.9,668,37.3
+1094,Oni Chaudhry,28,Male,Bike,2021.12.12,Chennai,,379,33.0
+1095,Mason Ramakrishnan,30,Female,Bike,10 Jul 2024,Patna,4.0,291,36.3
+1096,Triveni Dewan,24,Female,Scooter,19 Nov 2024,Jaipur,5.0,1311,34.3
+1097,Diya Om,30,Male,Scooter,18-12-2024,Kochi,4.5,658,41.0
+1098,Jagvi Puri,29,Female,Bike,13-11-2022,Bhopal,4.7,681,28.5
+1099,Jagdish Dugal,25,Male,Bike,2025-03-31, Chandigarh  ,4.3,655,35.7
+1100,Eshana Swaminathan,31,Male,Bike,12/07/2024,Mumbai,4.2,680,42.7
+1101,Saksham Chowdhury,22,Female,Bike,29 Jan 2024, Delhi  ,4.8,219,29.9
+1102,Vedant Kakar,39,Male,Bike,23-02-2023,Chennai,3.6,485,18.8
+1103,Jonathan Arora,18,Female,Bike,2025.01.09,Bengaluru,3.6,390,29.0
+1104,Onveer Kata,18,Female,Car,2023.04.22,CHENNAI,4.3,882,17.1
+1105,Kamya Savant,21,Female,Scooter,03-11-2022,Patna,4.4,626,39.9
+1106,Prisha Toor,19,Female,Bike,2022-05-29,Bhubaneswar,4.9,480,27.2
+1107,Shaurya Sen,27,Female,Bike,07/15/2024,Coimbatore,4.4,473,38.0
+1108,Nachiket Mody,27,Female,Bicycle,2021-11-13,Visakhapatnam,4.7,614,42.3
+1109,Omisha Wali,22,Female,Scooter,04/09/2023,Patna,3.5,1371,26.9
+1110,Gaurang Chandran,27,Male,Bike,2024-11-18,Pune,4.4,783,50.2
+1111,Jeet Parmar,27,Male,Bike,20 Nov 2022,Delhi,4.3,396,29.3
+1112,Barkha Dube,24,Male,Scooter,07/03/2023,Patna,3.5,387,34.8
+1113,Manan Sarna,28,Female,Car,01/05/2024,Chennai,4.6,263,35.5
+1114,Rachana Dalal,24,Male,Bike,2024-10-02,delhi,4.2,497,26.5
+1115,Yashvi Dayal,22,Male,Bike,15-03-2022,Chandigarh,3.9,1372,-52.7
+1116,Logan Iyer,27,Male,Bike,01/07/2024,hyderabad,4.1,1045,31.8
+1117,Daksha Mandal,30,Female,Bicycle,31-01-2022,Kochi,3.8,378,29.8
+1118,Warda Dugar,26,Male,Bike,05/04/2024,Patna,4.4,130,30.9
+1119,Yauvani Krish,18,Female,Bike,2022.03.01,Nagpur,4.9,846,30.7
+1120,Yasti Halder,24,Male,Car,09/29/2022,Delhi,4.2,623,38.9
+1121,Gauri Krishna,21,Male,Bike,2022.11.28,Visakhapatnam,4.6,205,21.2
+1122,Abdul Trivedi,26,Female,Bike,2022.10.13,Vadodara,4.0,895,23.5
+1123,Mahika Keer,25,Male,Bike,12/01/2024,Kolkata,4.7,266,49.0
+1124,Anamika Purohit,40,Female,Car,2025-01-22,Ludhiana,,671,31.5
+1125,Manan Rana,37,Male,Bike,2023.05.28,Mumbai,4.2,1319,-32.9
+1126,Theodore Krishnamurthy,25,Female,Bike,13/04/2024,Bhubaneswar,4.1,310,26.2
+1127,Tamanna Badami,31,Male,Bike,04/04/2024,Guwahati,4.4,752,35.2
+1128,Upasna Saha,31,Male,Scooter,14 Feb 2022,Jaipur,4.7,885,40.0
+1129,Jeevika Mishra,31,Female,Bicycle,13-03-2024,Indore,4.2,521,23.9
+1130,Jhalak Thaman,30,Male,Bike,2024-08-26,Ahmedabad,4.6,382,38.2
+1131,Umang Nayar,18,Female,Bike,2022-02-23,Nashik,4.6,854,-36.8
+1132,Eshana Chahal,31,Male,Scooter,2023-02-06,Kolkata,4.6,378,28.9
+1133,Ekansh Kapadia,27,Female,Car,11-06-2022,Kolkata,4.5,162,44.5
+1134,Isaac Nori,29,Female,Bike,2024-07-09,Kochi,4.6,1280,30.9
+1135,ranveer minhas,29,Male,Scooter,27-03-2023,Delhi,5.0,447,21.3
+1136,Lucky Pau,24,Female,Car,17-09-2022,Bengaluru,4.4,602,30.0
+1137,Jacob Wali,28,Female,Bike,19 Jan 2023,Ludhiana,4.5,565,27.6
+1138,Robert Loke,31,Female,Bike,23/09/2024,Visakhapatnam,2.9,404,34.0
+1139,Vyanjana Ratta,26,Female,Scooter,2023.06.02,Bengaluru,3.8,532,15.5
+1140,Keya Sama,32,Male,Scooter,2024-02-27,Nashik,4.8,1064,39.5
+1141,Tejas Shukla,38,Female,Bike,2022-05-03,Guwahati,5.0,954,37.8
+1142,Oni Prabhu,35,Male,Bike,2024.11.29,Coimbatore,3.7,442,11.8
+1143,Madhav Nagarajan,22,Male,Bicycle,2024.11.26,Indore,4.1,875,33.7
+1144, Sneha Nori  ,28,Female,Scooter,04/09/2024,Pune,4.5,269,42.1
+1145,Baljiwan Brar,35,Male,Bike,09/12/2024,Pune,4.4,858,43.6
+1146,Umang Barman,20,Male,Bike,08 Aug 2022,Bhopal,4.1,589,54.7
+1147,EKBAL CHEEMA,20,Male,Bike,2022.12.25,Kochi,3.8,917,33.5
+1148,RANVEER BORA,32,Female,Bike,01/11/2023,Nashik,4.1,992,31.4
+1149,Jairaj Varghese,32,Female,Scooter,06/28/2022,Guwahati,4.3,404,42.3
+1150,Neel Gupta,25,Female,Scooter,29/10/2023,Nagpur,4.6,493,32.4
+1151,Dhruv Chatterjee,30,Male,Bike,29 Mar 2024, Ahmedabad  ,3.8,522,32.7
+1152,Ojasvi Ganguly,27,Female,Car,26/10/2021,Kochi,4.4,1211,11.3
+1153,Caleb Borde,23,Female,Scooter,2023.12.27,Ludhiana,3.8,1163,26.3
+1154,Darsh Nanda,31,Female,Bike,2023.06.12,nagpur,4.1,412,23.3
+1155,Omya Trivedi,21,Male,Scooter,10/17/2024,Lucknow,4.5,490,32.8
+1156,Jagat Upadhyay,37,Female,Scooter,2021-10-16,Nashik,4.2,433,27.3
+1157,Sachi Pradhan,29,Female,Car,2024-05-18,Chandigarh,4.7,612,32.5
+1158,Pallavi Bobal,22,Male,Bike,07/09/2022,Jaipur,4.2,596,33.8
+1159,Orinder Lalla,31,Male,Bicycle,03-06-2024,chennai,4.5,415,27.7
+1160,Deepa Kaul,18,Male,Bike,2021.08.20,Delhi,5.0,1063,24.4
+1161,Krish Rastogi,26,Female,Bike,26/07/2021,Chennai,4.5,500,31.2
+1162,Tarak Patla,31,Female,Bicycle,26 Apr 2024,Nashik,3.8,652,-26.2
+1163,Yasti Oommen,36,Male,Bike,03/01/2022,Ludhiana,4.2,277,30.2
+1164,Charvi Srinivas,21,Female,Bicycle,02 Feb 2025,Nagpur,4.1,996,47.4
+1165,Vasatika Goda,18,Female,Bike,2023.02.28,Chennai,4.7,900,34.4
+1166,Nirja Bajwa,31,Male,Bike,2025.02.24,Mumbai,4.3,303,16.7
+1167,Bakhshi Kashyap,32,Female,Bike,2021.11.29,Vadodara,4.3,485,-41.9
+1168,Leela Sarin,25,Male,Car,2022-06-26,Ludhiana,4.1,381,48.7
+1169,Omkaar Narang,25,Male,Scooter,03/03/2024,Surat,4.7,574,22.1
+1170,Yoshita Dhawan,26,Female,Bicycle,08/10/2022,Chennai,4.5,901,30.9
+1171,Jackson Choudhury,22,Female,Car,06/10/2023,Kochi,4.3,553,15.3
+1172,David Dutt,32,Male,Car,18/06/2023,Lucknow,4.1,435,33.5
+1173,Anika Karpe,29,Male,Scooter,07/06/2024,Kochi,3.7,164,23.2
+1174,Osha Ramaswamy,26,Female,Bike,31/05/2023,Bengaluru,3.8,215,23.0
+1175,Nathaniel Bhasin,21,Female,Scooter,18/07/2021,Bengaluru,4.9,333,36.8
+1176,Madhav Sampath,40,Female,Scooter,12/04/2021,Delhi,4.0,468,22.6
+1177,Bishakha Pradhan,32,Male,Bike,01/12/2022,Guwahati,3.4,692,27.2
+1178,Rachit Hari,27,Male,Bike,14/10/2022,Indore,3.6,589,54.6
+1179,Jeremiah Mangal,21,Male,Bike,2023-06-03,Kolkata,3.9,723,33.9
+1180,Eiravati Dutta,21,Female,Car,27/06/2023,bengaluru,4.5,937,25.1
+1181,Christopher Bal,31,Female,Bike,2023-08-28,Surat,3.9,826,38.3
+1182,Isha Bora,37,Male,Bike,2024-08-17,Raipur,4.0,696,36.8
+1183,SIDDHARTH RAMAKRISHNAN,29,Female,Bike,20 Mar 2024,Calcutta,4.7,551,42.1
+1184,Yashawini Varghese,22,Female,Bike,21 Oct 2022,Bombay,4.6,479,27.7
+1185,Ekani Sengupta,36,Female,Scooter,13 Aug 2023,Jaipur,4.2,757,28.0
+1186,Amol Shenoy,28,Female,Car,2024.07.02,Jaipur,4.4,285,17.9
+1187,Azad Krishnan,39,Male,Bike,31/08/2024,Ludhiana,4.4,204,28.0
+1188,Lakshit Bala,31,Female,Bike,11/11/2024,Ahmedabad,4.0,472,36.5
+1189,Rachit Goyal,31,Male,Scooter,2024-09-23,Kochi,4.3,672,35.8
+1190,Utkarsh Bhatnagar,28,Male,Bike,29-05-2022,Guwahati,4.4,315,26.5
+1191,Dayamai Samra,21,Female,Scooter,21 Jan 2022,Visakhapatnam,4.2,321,30.8
+1192,George Ramachandran,22,Male,Scooter,17-06-2024,Nashik,4.5,1190,36.2
+1193,Forum Narasimhan,25,Male,Scooter,07/01/2025,Raipur,4.1,932,33.2
+1194,Tanmayi Magar,32,Female,Scooter,07 Sep 2021,Ahmedabad,3.7,839,33.3
+1195,Tamanna Karan,20,Female,Bike,2024.05.05,Jaipur,4.1,378,38.5
+1196,Chaitanya Sur,33,Female,Bicycle,2022.06.22,Bengaluru,4.4,711,28.0
+1197,Faqid Lal,32,Male,Bike,16 Oct 2021,Bengaluru,4.2,458,31.2
+1198,Odika Dave,31,Male,Scooter,2021.10.13,Ahmedabad,4.4,43,34.8
+1199,Chakradev Walia,26,Female,Scooter,04/01/2024,Patna,4.7,825,23.6
+1200,DEVANSH MAJUMDAR,29,Female,Bike,2024.12.16,Kochi,4.0,927,29.5
+1201,Chakradhar Kibe,25,Female,Scooter,2022-02-01,Kochi,4.6,351,26.1
+1202,Kabir Deol,34,Female,Bike,08 May 2022,Coimbatore,5.0,1071,27.8
+1203,Tanmayi Deshmukh,18,Male,Scooter,10/06/2023,Nashik,4.0,299,31.2
+1204,Atharv Kapadia,30,Female,Scooter,04/07/2023,Indore,4.8,661,27.6
+1205,Kavya Divan,31,Male,Scooter,01/25/2022,Jaipur,4.4,480,37.2
+1206,Rachana Saini,22,Male,Scooter,16 Aug 2021,Jaipur,4.2,929,32.4
+1207,Isha Trivedi,24,Female,Scooter,16 Mar 2022,Surat,3.9,1139,30.0
+1208,Ucchal Varkey,26,Male,Bike,23-12-2021,raipur,4.3,624,17.9
+1209,Bishakha Thakkar,30,Male,Bike,2021-12-01, Coimbatore  ,3.9,831,33.4
+1210,Orinder Karpe,18,Male,Bike,2024.10.26,Nagpur,3.6,527,37.3
+1211, Mitali Sant  ,29,Female,Bike,05/10/2023,Bhopal,4.4,490,46.5
+1212,Nirja Dalal,18,Male,Car,06/09/2022,Bombay,3.9,893,42.2
+1213,Kalpit Agarwal,21,Female,Bike,19-07-2021,Bengaluru,3.4,349,25.1
+1214,Gaurav Mishra,31,Male,Bike,03-09-2024,Bangalore,4.0,602,20.3
+1215,Jack Batra,30,Male,Car,02-08-2022,Coimbatore,4.3,468,17.3
+1216,Yoshita Wali,20,Female,Scooter,05/08/2023,Jaipur,3.9,531,36.4
+1217,Laban Bhagat,26,Male,Scooter,2025.02.02,Chandigarh,3.9,638,37.0
+1218,Xavier Goel,28,Female,Bike,2021-12-27,Bhopal,4.2,953,28.0
+1219,Reva Rao,24,Female,Scooter,17 Jan 2024,Nashik,4.2,371,30.0
+1220,Daksha Kala,26,Female,Scooter,01/16/2022,Ludhiana,4.2,507,25.4
+1221,Wyatt Shanker,33,Female,Bike,08 Oct 2024,Pune,3.7,503,29.0
+1222,Neel Raja,29,Male,Bicycle,10/03/2023,Nagpur,4.0,769,41.0
+1223,Lucky Padmanabhan,27,Female,Bike,03/09/2025,Lucknow,4.7,1074,21.4
+1224,Kai Chandra,33,Female,Bike,2021.06.11,Chennai,4.4,576,28.0
+1225,Nikita Andra,30,Male,Scooter,2021-11-27,Chandigarh,4.3,652,29.9
+1226,Neel Upadhyay,32,Female,Scooter,13-12-2021,Kolkata,3.7,273,42.8
+1227,Kritika Choudhary,28,Male,Bike,02/23/2025,Coimbatore,3.9,484,32.5
+1228,Indali Shere,38,Male,Bike,2024.02.02, Raipur  ,4.5,562,54.1
+1229,Aryan Andra,33,Male,Scooter,11-08-2024,Nagpur,4.5,576,26.8
+1230, Balvan Kapoor  ,30,Male,Bicycle,26-04-2022,Nagpur,4.4,337,28.2
+1231,Chavvi Devi,26,Female,Bike,07/20/2023,Surat,4.5,501,38.0
+1232,Amaira Wable,24,Female,Bike,18-11-2021,Nagpur,3.5,1016,29.2
+1233,Aarush Atwal,37,Female,Car,08/03/2024,Chennai,3.9,1008,29.1
+1234,Advika Bhargava,33,Female,Scooter,2022.06.12,Ahmedabad,4.5,425,22.5
+1235,Faris Saini,24,Female,Bike,29 Sep 2024,Kochi,4.3,284,13.5
+1236,Jason Karan,26,Male,Scooter,2023-04-06,Kochi,3.7,498,31.0
+1237,Brinda Pradhan,31,Female,Car,2023-03-20,AHMEDABAD,3.8,557,29.0
+1238,Geetika Dixit,38,Male,Bicycle,12/05/2024,Bhubaneswar,4.1,572,29.3
+1239,Yahvi Saini,22,Male,Bicycle,25 Jul 2023,Hyderabad,4.8,736,24.2
+1240,Aditya Sastry,27,Male,Car,2023.10.04,Nashik,4.1,758,28.6
+1241,Gabriel Baria,19,Male,Bike,2024.11.18,chandigarh,4.0,584,27.0
+1242,Sanya Prakash,25,Male,Bike,07/06/2024,Delhi,5.0,735,25.5
+1243,Theodore Nanda,25,Male,Scooter,2023-01-28,Kochi,4.3,509,23.2
+1244,Fariq Sami,30,Female,Bike,10/18/2024,Surat,4.0,1249,29.8
+1245,Harshil Khalsa,35,Male,Bike,22/01/2023,Ahmedabad,4.0,524,30.0
+1246,Oviya Oommen,21,Female,Car,2023-04-18,Lucknow,4.3,595,34.5
+1247,Elijah Rai,33,Male,Car,2023.06.09,Raipur,4.1,550,22.6
+1248,Raksha Naidu,18,Male,Bike,2024.10.04,Mumbai,3.7,657,35.9
+1249,Chakradhar Bandi,32,Male,Bike,10 Mar 2024,Vadodara,4.6,562,37.9
+1250,Omya Butala,21,Male,Bike,2024.03.06,Vadodara,4.0,662,37.9
+1251,Hredhaan Agrawal,31,Female,Car,2021-07-29,Delhi,4.9,1195,39.6
+1252,Dhruv Shetty,33,Male,Bike,21/11/2021,Surat,4.9,771,25.7
+1253,Vedika Swaminathan,25,Male,Bike,2023-12-06,Kochi,4.5,878,34.8
+1254,Daksha Nadkarni,30,Female,Bike,30 Jan 2025,Ahmedabad,4.4,941,40.7
+1255,Harshil Krishnan,25,Female,Bike,2022-01-03,Ahmedabad,4.4,368,21.5
+1256,Upma Pradhan,26,Female,Scooter,2022-02-08,Visakhapatnam,4.6,163,18.7
+1257,Niharika Dhaliwal,31,Male,Bike,22-06-2021,Pune,3.9,659,37.5
+1258,Wridesh Rege,34,Female,Bike,04/27/2023,Pune,4.5,426,31.9
+1259,David Kamdar,25,Male,Car,01 Jul 2024,Kochi,4.3,839,28.4
+1260,Mason Sharaf,20,Male,Bicycle,06 Aug 2021,Nagpur,4.2,328,31.7
+1261,Vrinda Dara,31,Male,Bike,02/08/2023,Kolkata,4.7,79,27.2
+1262,Ishani Kapur,28,Male,Bike,07/08/2022,chennai,3.8,232,41.2
+1263,Naksh Sankaran,26,Female,Bike,2021.08.23,Indore,4.9,283,32.6
+1264,Abhiram Choudhary,27,Female,Scooter,2022.05.21,Indore,4.2,522,20.6
+1265,Krisha Sani,18,Male,Bike,05/02/2022,Bengaluru,4.5,729,35.4
+1266,Advay Varughese,31,Female,Scooter,2022.11.16,Kochi,3.8,155,47.3
+1267,Meera Tak,32,Male,Bike,23/10/2021,Chennai,4.3,1164,32.7
+1268,Zaitra Saini,22,Female,Scooter,08-09-2024,Bhubaneswar,4.3,553,34.6
+1269,Chatura Lal,18,Male,Bike,05/12/2024,Ahmedabad,4.1,1104,33.1
+1270,Oni Ratta,38,Male,Bike,09/27/2023,Delhi,4.5,624,21.7
+1271,Jyoti Apte,37,Male,Bike,18-09-2024,Pune,3.8,719,21.3
+1272,Nihal Dhaliwal,28,Female,Bike,15/03/2024,Indore,3.7,1133,43.7
+1273,Aishani Buch,26,Female,Bike,09-09-2021,Jaipur,4.4,227,35.3
+1274,Urvi Sampath,18,Female,Car,22 Sep 2023,Mumbai,4.1,634,24.0
+1275,Lajita Shanker,34,Female,Bike,23-06-2022,Mumbai,3.6,766,25.8
+1276,Yashoda Kunda,33,Male,Bike,11 Jun 2021,Bhopal,4.5,547,23.3
+1277,Alka Ranganathan,22,Female,Bike,2024-12-20,Nashik,4.0,1040,38.1
+1278,Gautam Vig,25,Male,Bike,08 Mar 2022,Kochi,4.4,1683,47.8
+1279,Pranav Minhas,24,Male,Car,15 Sep 2021,DELHI,4.6,592,38.5
+1280,Upkaar Roy,30,Female,Bicycle,10/11/2022,HYDERABAD,4.1,689,44.0
+1281,Isha Suri,31,Male,Scooter,10/09/2022,Indore,3.8,831,37.9
+1282,Harish Khosla,39,Male,Bike,2023.12.26,Nagpur,4.2,251,14.3
+1283,chandresh sura,31,Female,Bike,2025.02.16,Nashik,4.6,1052,27.2
+1284,Hemangini Sankaran,18,Male,Car,2023-07-25,Bhopal,3.9,494,17.4
+1285,Kalpit Nagi,23,Female,Bike,23/11/2024,Chennai,3.9,195,40.0
+1286,Owen Arya,27,Male,Bike,05/20/2023,Pune,3.8,328,40.5
+1287,Christopher Sen,38,Female,Scooter,12 Jun 2021,Coimbatore,4.4,1156,38.6
+1288,Yamini Gill,19,Male,Bicycle,2023-05-29,Indore,4.4,223,15.1
+1289,OVIYA CHOUDHURY,26,Male,Bike,2024.05.08,Indore,4.6,444,30.1
+1290,Ayush Bahl,30,Female,Bike,25 Aug 2022,chennai,4.2,1578,12.4
+1291,Noah Chakraborty,35,Male,Car,10/07/2023,Chandigarh,3.9,656,32.3
+1292,RACHANA CHOUDHARY,33,Male,Scooter,11 Dec 2021,Guwahati,4.0,391,34.5
+1293,Qadim Shan,22,Female,Scooter,24 Sep 2021,Raipur,4.1,568,40.1
+1294,Nirja Ganguly,27,Male,Car,07-06-2021,Surat,4.6,1081,27.5
+1295,Maya Kalla,18,Male,Scooter,2024-01-10,Nagpur,4.0,179,35.9
+1296,Janaki Sethi,42,Male,Bike,09/03/2021,Chennai,4.8,612,42.9
+1297,Ekaja Badami,18,Male,Bike,2024.07.27,Kochi,4.3,695,26.1
+1298,Eshana Hayre,27,Female,Car,2023.04.02,Chennai,,797,28.9
+1299,Dalaja Mane,31,Male,Car,10/23/2022,Pune,4.3,634,18.8
+1300,Vasatika Toor,23,Female,Scooter,15-11-2024,Mumbai,4.2,475,21.9
+1301,Yashica Srivastava,32,Male,Scooter,16/08/2023,Jaipur,4.2,974,24.5
+1302,Neel Kari,27,Female,Bike,2024.08.01,Pune,5.0,437,44.2
+1303,Onkar Sant,35,Female,Bike,2024.08.19,Jaipur,4.1,506,46.8
+1304,Chameli Bhatti,30,Male,Bike,16-11-2024,Bhubaneswar,4.1,560,35.4
+1305,Fiyaz Kale,23,Male,Scooter,03/12/2022,Patna,3.6,753,29.9
+1306,Tristan Balakrishnan,27,Female,Bike,26 May 2022,Chandigarh,3.8,972,22.2
+1307,Abhiram Nair,22,Male,Bike,2024.08.23,Chennai,,123,44.3
+1308,Alka Issac,28,Female,Bike,16-12-2024,Surat,4.3,909,33.3
+1309,Sai Sama,19,Female,Bike,28 Mar 2022,Patna,4.2,396,18.1
+1310,Pavani Hans,21,Female,Bike,2023.01.01,Chennai,3.5,772,33.3
+1311,Vrinda Mody,34,Male,Bike,02/20/2022,Patna,4.6,925,32.5
+1312,Eta Radhakrishnan,30,Male,Bike,2021.12.22,Kochi,3.8,562,48.4
+1313,Rushil Chhabra,28,Male,Bike,2023.04.15,Jaipur,4.9,504,-12.0
+1314,Avi Tandon,31,Female,Bicycle,12/08/2024,Patna,4.6,356,33.2
+1315,Ishanvi Ratta,29,Male,Bike,24 Aug 2022,Vadodara,3.9,989,27.2
+1316,Zashil Arya,30,Female,Scooter,06/22/2023,Nashik,4.2,632,19.8
+1317,Andrew Nadkarni,29,Female,Bike,06/01/2024,Kolkata,4.2,531,38.5
+1318,Maanav Parmer,24,Female,Bike,2022.03.18,Surat,3.8,514,36.0
+1319,Harini Subramanian,31,Female,Bike,2024-03-03,Nagpur,3.9,847,31.7
+1320,Pushti Edwin,22,Female,Bike,2024.12.29,Surat,4.2,826,38.5
+1321,Chanakya Misra,30,Female,Bike,12-09-2024, Bengaluru  ,4.0,443,34.3
+1322,Mugdha Bala,28,Male,Car,2022.06.24,Nashik,3.5,524,29.0
+1323,Bina Rajan,19,Female,Bike,2022-06-25,Raipur,5.0,466,41.7
+1324,Urmi Johal,25,Male,Scooter,12 Sep 2024,Nagpur,4.2,584,30.9
+1325,Harita Chaudhuri,26,Female,Scooter,2022-03-22,Hyderabad,4.4,670,35.2
+1326,Omya Guha,24,Female,Scooter,05/20/2022,Kolkata,5.0,310,55.4
+1327,Krish Nadig,28,Female,Bike,2023.08.26,Bhopal,4.4,643,28.7
+1328,Kai Nadig,19,Female,Scooter,26/12/2024,Patna,4.4,509,34.7
+1329,Siddharth Pant,27,Female,Bike,10-08-2021,Ahmedabad,3.1,610,36.9
+1330,Anjali Bhagat,25,Male,Scooter,05-07-2023,Guwahati,3.2,372,42.0
+1331,Faqid Bhatnagar,35,Female,Bike,2023.10.10,Nagpur,5.0,646,32.9
+1332,Aarav Issac,36,Male,Bike,2025.03.31,Lucknow,4.2,795,27.9
+1333,Wriddhish Bhat,24,Male,Bike,13-02-2022,Vadodara,4.5,1241,21.1
+1334,Onkar Trivedi,27,Male,Bike,04/01/2024,Vadodara,3.6,409,28.2
+1335,Chandresh Subramanian,32,Female,Scooter,2023.12.09, Lucknow  ,4.2,697,39.6
+1336,Tanay Sanghvi,30,Female,Bike,2021.07.28,Ludhiana,4.6,534,29.6
+1337,Jyoti Subramanian,22,Male,Bike,08/10/2021,Bhopal,4.1,627,37.9
+1338,Ekbal Koshy,27,Female,Bike,23 Dec 2023,Jaipur,3.8,500,27.3
+1339,Om Parsa,34,Male,Bike,20 Mar 2023,Patna,4.3,290,38.8
+1340,Brijesh Atwal,30,Female,Bike,2024.01.17,Visakhapatnam,3.6,589,35.9
+1341,Matthew Patla,27,Male,Bike,14-09-2021,Chennai,4.3,939,22.5
+1342,Ekani Narang,28,Male,Bike,23/02/2024,Bhubaneswar,4.3,426,30.4
+1343,Chatresh Mody,33,Male,Bike,06 Apr 2024,Guwahati,3.5,420,37.1
+1344,Nilima Dalal,35,Female,Bike,20/05/2022,Ahmedabad,4.4,357,40.2
+1345,Nimrat De,26,Male,Bike,2022-02-22, Mumbai ,4.1,396,49.2
+1346,Chaitanya Apte,24,Male,Scooter,20/09/2021,Nagpur,4.5,627,36.3
+1347,Thomas Nagarajan,22,Female,Scooter,14/02/2023,ludhiana,3.7,442,40.1
+1348,Yauvani Konda,34,Female,Scooter,06 May 2023,Chandigarh,4.7,693,36.5
+1349,Michael Kakar,28,Male,Scooter,21 Mar 2025,Raipur,4.8,781,29.3
+1350,Nitesh Devi,33,Female,Car,12 Jan 2022,Visakhapatnam,4.1,757,38.0
+1351,Januja Bhatti,31,Male,Bike,20 Jun 2021,Patna,,119,42.6
+1352,THOMAS KOHLI,35,Female,Bicycle,17 May 2024,Visakhapatnam,3.8,263,30.1
+1353,Gunbir Gera,33,Female,Bicycle,31/10/2024,DELHI,4.4,538,37.3
+1354,Yatan Bose,26,Male,Scooter,01/02/2022,Visakhapatnam,5.0,753,40.1
+1355,Udarsh Nayak,18,Male,Scooter,2023.10.08,Patna,4.3,270,10.0
+1356,Sathvik Kara,20,Female,Bike,23 Aug 2021,Delhi,4.4,428,28.3
+1357,Sarthak Nagy,30,Male,Bicycle,23/02/2024,Hyderabad,4.7,242,39.4
+1358,Forum Konda,27,Female,Scooter,28 Oct 2021,Nagpur,3.7,394,25.7
+1359,Yadavi Ranganathan,23,Male,Bike,2021-11-16,Pune,4.0,1126,23.6
+1360,Jason Kota,24,Female,Scooter,2024-03-01,Surat,4.5,343,25.9
+1361,Anika Mishra,27,Male,Car,2023.07.04,Bhubaneswar,3.9,597,24.9
+1362,Rohan Kalla,30,Male,Bike,17-07-2022,Delhi,3.9,839,31.0
+1363,Qasim Hayer,23,Male,Bike,2022-09-03,Bengaluru,4.6,237,18.5
+1364,Ekalinga Choudhry,33,Female,Scooter,09/03/2025,Indore,4.5,340,31.4
+1365,Amrita Bava,34,Male,Scooter,08/10/2023,Lucknow,4.2,351,29.5
+1366,Aishani Khosla,35,Female,Scooter,02 Jul 2024,Chandigarh,4.5,364,40.9
+1367,Gavin Prasad,36,Female,Bike,2023.10.15,Guwahati,4.4,317,36.6
+1368,Jasmit Barman,36,Male,Bike,08/11/2022,Surat,4.3,504,40.6
+1369,Kala Sodhi,28,Female,Bike,29 Jan 2023,Visakhapatnam,4.6,504,50.9
+1370,Ekalinga Madan,20,Male,Bicycle,28-05-2023,Bhubaneswar,3.7,1160,41.4
+1371,Rachit Pall,30,Male,Bike,2022.05.27,Surat,4.5,152,33.4
+1372,Jai Kata,19,Female,Scooter,07 Nov 2024,Indore,4.0,377,14.0
+1373,Wazir Arora,25,Male,Bike,08/10/2022,Kochi,4.3,766,26.7
+1374,Eiravati Mitra,33,Female,Scooter,30 Jul 2021,Mumbai,4.2,939,31.5
+1375,Ansh Sawhney,28,Male,Car,19 Aug 2021,Indore,3.9,799,26.7
+1376,Lakshit Venkataraman,26,Male,Bike,11-01-2024,Nagpur,4.1,481,25.2
+1377,Oeshi Warrior,29,Female,Bike,02/21/2025,Chandigarh,4.3,430,38.7
+1378,Anusha Nair,24,Male,Scooter,13-02-2024,Kochi,3.9,724,51.2
+1379,Jyoti Majumdar,18,Male,Bike,05-11-2023,Bangalore,3.8,709,37.3
+1380,Sai Walla,25,Female,Bike,30 Jul 2021,Coimbatore,3.7,467,39.2
+1381,Tristan Ganguly,36,Female,Scooter,26 Nov 2022,Pune,3.6,1175,39.4
+1382,Madhavi Subramaniam,33,Female,Bike,2022.06.30,Raipur,3.9,838,20.7
+1383,Ishwar Bakshi,22,Female,Scooter,27-09-2024,hyderabad,4.3,577,40.2
+1384,Ayaan Kadakia,27,Female,Bike,09/02/2023,Bhubaneswar,4.3,639,22.8
+1385,Omya Kala,27,Male,Scooter,02-09-2021,Chandigarh,4.4,574,49.5
+1386,Vedika Swaminathan,23,Male,Bike,02/02/2023,Vadodara,4.9,845,41.1
+1387,Fariq Chanda,39,Female,Bike,14 Aug 2024,Bhubaneswar,4.6,447,27.6
+1388,Dalbir Soni,38,Male,Bike,12-03-2023,Bhubaneswar,4.9,557,50.3
+1389,Zaid Kapur,29,Female,Bike,11-01-2022,Raipur,4.0,278,28.8
+1390,Manthan Murthy,28,Male,Car,07/03/2024,LUDHIANA,5.0,381,28.1
+1391,Yash Gala,19,Male,Bike,25/06/2023,Coimbatore,4.1,823,42.1
+1392,Chaitanya Thakur,33,Male,Bike,06/30/2021,Bhopal,4.7,795,10.0
+1393,Faris Deshpande,31,Male,Bike,16-09-2023,Hyderabad,4.9,242,22.4
+1394,Waida Ramesh,32,Male,Scooter,25 Oct 2024,Mumbai,4.8,1549,45.9
+1395,Panini Yohannan,18,Male,Car,09 Apr 2022,Pune,4.1,790,33.9
+1396,Ekta Jayaraman,23,Male,Scooter,25-08-2022,Raipur,3.9,753,26.2
+1397,Ojasvi Radhakrishnan,28,Male,Bike,18 Apr 2023,Nashik,4.2,647,30.5
+1398,Upma Lall,36,Female,Bike,2024-06-18,Ahmedabad,4.7,556,26.5
+1399,Anamika Shetty,22,Male,Car,08 Dec 2022,Visakhapatnam,5.0,781,21.4
+1400,Max Dalal,24,Male,Car,2022.06.14,Pune,3.7,462,26.3
+1401,Gagan Srinivasan,21,Male,Bike,11/24/2022,Ahmedabad,4.2,773,26.7
+1402,Chatresh Pandey,23,Female,Scooter,08/25/2021, Bhubaneswar  ,4.1,795,40.6
+1403,Nirja Johal,27,Female,Bicycle,03 Feb 2022,Ahmedabad,3.9,845,23.3
+1404,Sachi Raja,32,Male,Bike,08/21/2024,Guwahati,4.5,1257,36.3
+1405,Anjali Chaudhry,29,Female,Bike,28-12-2022,Jaipur,4.2,851,19.6
+1406,Rajata Zacharia,24,Male,Bicycle,30/08/2022,VADODARA,3.7,852,37.3
+1407,Lajita Nayar,30,Male,Bike,2022-08-11,Guwahati,4.0,555,51.7
+1408,Kala Sengupta,36,Male,Bike,2022-10-24,Ahmedabad,4.2,1266,36.4
+1409,Omkaar Agrawal,34,Female,Scooter,27/03/2024,Bhopal,4.0,901,22.9
+1410,jhalak jha,24,Female,Bike,03/27/2023,Pune,4.1,785,33.4
+1411,om dugar,27,Male,Bike,08 Jan 2024, Vadodara  ,4.0,556,24.8
+1412,Balendra Dugar,28,Female,Bike,30/07/2022,Nagpur,3.9,540,45.3
+1413,Theodore Date,24,Male,Bike,09/19/2023,Indore,4.1,443,48.1
+1414,Manthan Badal,30,Female,Bike,11 Dec 2024,Kolkata,3.7,401,-40.9
+1415,Neha Ramakrishnan,21,Male,Scooter,2021.07.21,Delhi,4.1,792,35.7
+1416,Aarini Chatterjee,28,Male,Bike,02 Apr 2022,Mumbai,4.9,218,13.5
+1417,Gagan Nadkarni,18,Male,Bike,13/03/2023,Bhopal,4.4,577,34.9
+1418,Keya Rastogi,28,Male,Car,06/06/2024,Ludhiana,3.4,414,28.3
+1419,Qadim Hegde,40,Male,Bike,04 Mar 2023,Kochi,4.0,769,29.5
+1420,Dominic Bhakta,32,Female,Bicycle,2023.07.28,Bhubaneswar,4.8,2136,30.5
+1421,Jalsa Chandra,19,Male,Bike,02-06-2023,Kochi,3.9,1599,24.2
+1422,Chaitanya Munshi,18,Female,Bike,27/07/2024,Ahmedabad,4.4,547,23.8
+1423,Ekaraj Tella,29,Male,Bike,2021-10-28,Nashik,4.3,299,38.4
+1424,Gagan Rajagopalan,22,Female,Bike,11/03/2023,Mumbai,4.5,277,33.4
+1425,Panini Kohli,18,Male,Car,2023-02-09,Nagpur,4.4,565,40.1
+1426,Nakul Kata,22,Male,Scooter,06-05-2022,Patna,4.1,510,18.5
+1427,Zansi Konda,25,Female,Bicycle,27-06-2022,Delhi,4.0,293,32.5
+1428,Vedhika Varghese,24,Female,Bike,2021.11.13,Jaipur,5.0,623,39.1
+1429,Timothy Prashad,28,Female,Scooter,05-03-2025,Kolkata,4.0,671,32.9
+1430,Baljiwan Konda,27,Male,Car,2023-03-14,Nashik,4.0,323,29.0
+1431,Anay Sem,26,Female,Bike,2021.12.11,Nashik,4.7,627,19.9
+1432,Utkarsh Bhattacharyya,29,Male,Car,2022.04.18,Delhi,3.7,452,47.8
+1433,Hema Rajagopal,22,Male,Car,23/04/2024,Kochi,4.4,1761,41.6
+1434,Jairaj Arya,28,Female,Bike,31/08/2023,Kochi,4.2,419,18.3
+1435,Anika Sule,28,Female,Bike,2023.11.20,KOLKATA,4.5,258,32.2
+1436,Arjun Devi,35,Female,Bicycle,19 Dec 2023,Lucknow,4.0,785,35.8
+1437,Omaja Sanghvi,29,Female,Bike,08-02-2024,Vadodara,4.1,725,26.9
+1438,Balveer Dar,31,Male,Bike,01/28/2024,Lucknow,,542,16.2
+1439,Madhavi Kannan,35,Male,Bike,26-04-2023,Ludhiana,5.0,215,38.7
+1440,Chatura Bhatia,37,Female,Bike,10/04/2024,Nashik,4.5,419,46.2
+1441,Pooja Keer,38,Female,Bike,09/28/2022,Guwahati,4.1,308,33.2
+1442,Eiravati Bhatia,26,Female,Bicycle,04/24/2022,Bengaluru,4.0,549,46.3
+1443,Siya Koshy,20,Female,Bike,18-07-2024,Mumbai,4.0,276,24.7
+1444,Rayaan Barman,33,Male,Car,2025-03-17,Coimbatore,4.1,1237,20.5
+1445,Jonathan Tata,28,Female,Bike,2022.03.24,Visakhapatnam,4.6,377,25.3
+1446,Krish Acharya,26,Female,Scooter,05-02-2022,Patna,4.3,253,38.2
+1447,Arin Patel,21,Female,Bike,28-03-2025,Bhubaneswar,3.6,346,40.2
+1448,Finn Buch,30,Male,Scooter,05/03/2023,Guwahati,4.2,665,37.6
+1449,Dev Yadav,23,Male,Bike,12 Sep 2022,Surat,4.5,433,34.3
+1450,Karan Gill,23,Male,Bike,03-04-2023,Chandigarh,4.2,993,37.1
+1451,Yashawini Divan,20,Male,Bicycle,2022-03-20,Ludhiana,3.6,772,47.5
+1452,Samar Bose,24,Male,Bike,2023.03.01,Pune,4.2,598,23.6
+1453,Charan Nadkarni,28,Male,Bike,2024.05.16, Bhubaneswar  ,4.0,1003,30.6
+1454,Nathan Chacko,27,Female,Scooter,05/26/2022,Pune,4.7,399,26.6
+1455,Arin Merchant,23,Female,Bike,24 Nov 2022,Bhopal,4.1,398,26.2
+1456,Joshua Mangat,27,Female,Bicycle,2023.10.13,Bengaluru,4.2,218,31.9
+1457,Kevin Toor,23,Male,Bike,2024.12.07,Bhopal,4.0,284,44.6
+1458,Utkarsh Sani,31,Male,Bike,2024.08.29,Raipur,3.9,1326,35.9
+1459,Chandresh Nair,27,Male,Scooter,2022.12.01,Kochi,3.8,1375,46.0
+1460,Rudra Char,34,Male,Scooter,17-09-2021,Patna,4.2,749,43.2
+1461,Liam Agarwal,28,Male,Car,2021-07-28, Bhopal  ,3.6,699,21.7
+1462,Zaitra Thaker,22,Male,Car,2025.01.20,Pune,4.9,349,34.1
+1463,Urmi Nayar,20,Female,Scooter,05/06/2022,Lucknow,4.4,1365,19.4
+1464,Rushil Gokhale,34,Male,Bike,13 Mar 2025,Nashik,4.1,215,17.4
+1465,Bahadurjit Char,29,Female,Car,2023.05.12,Indore,4.0,308,28.8
+1466,Ojas Bal,31,Female,Bicycle,10/18/2024,Nagpur,4.3,739,45.3
+1467,Panini Nagar,30,Female,Bicycle,20-10-2022,Delhi,4.4,313,18.1
+1468,Aarini Nazareth,27,Male,Bike,2021-07-17,chennai,4.3,1328,29.3
+1469,Ridhi Goswami,24,Male,Bike,07 Dec 2022, Patna  ,4.3,1029,51.5
+1470,Zehaan Taneja,35,Female,Bike,06/05/2024,Visakhapatnam,4.3,1352,29.2
+1471,Riya Pau,18,Female,Bike,2024-10-06,COIMBATORE,3.1,687,41.8
+1472,Suhani Mannan,22,Female,Bike,30/01/2025,Mumbai,3.4,267,27.4
+1473,Jasmit Sibal,31,Male,Bike,15 Jan 2024,Raipur,4.0,443,33.6
+1474,Aayush Kala,30,Male,Bike,23 Mar 2025,Bhopal,3.9,694,35.7
+1475,devansh baral,32,Female,Bicycle,2023-03-31,CHENNAI,4.2,355,29.7
+1476,Irya Grover,23,Female,Bike,2024-08-19,Patna,4.5,709,36.1
+1477,Teerth Khanna,33,Male,Bike,2024.09.15,Kochi,4.0,498,24.6
+1478,Urvi Mani,23,Male,Car,2022-11-26,Ludhiana,3.8,306,20.5
+1479,Chandresh Dyal,32,Male,Bike,26 Nov 2023,Chandigarh,4.1,294,41.5
+1480,Raghav Borra,25,Male,Car,03/12/2022, Hyderabad  ,4.4,396,29.0
+1481,Bhavani Nori,30,Male,Bike,25/03/2024,Bhopal,3.6,673,50.6
+1482,Tanmayi Baral,28,Male,Bike,14-01-2022,Indore,3.6,986,33.0
+1483,Manthan Shroff,23,Male,Bike,12/04/2023,Pune,4.2,667,33.7
+1484,Vedika Sagar,24,Male,Scooter,2024-11-16,Raipur,3.5,447,29.6
+1485,Yashvi Venkatesh,25,Female,Scooter,23/08/2023, Mumbai ,3.9,722,26.9
+1486,Lakshmi Sem,18,Male,Scooter,02-11-2023,Bengaluru,3.8,270,25.2
+1487,Vasudha Joshi,36,Male,Car,03 Sep 2024,Hyderabad,4.8,282,47.7
+1488,Watika Madan,37,Female,Bike,14/01/2023,Vadodara,4.1,839,27.5
+1489,Turvi Shah,28,Male,Bike,2023-02-09, Kochi  ,4.3,611,16.7
+1490,Dev Chahal,33,Male,Bike,2022.05.12,Hyderabad,3.7,599,23.6
+1491,Manya Mander,19,Male,Bike,29 Jul 2024,Raipur,4.4,402,-31.5
+1492,Aarav Lanka,36,Male,Bike,2023-11-02,Vadodara,3.9,676,30.3
+1493,Ikbal Saini,30,Male,Bicycle,2023.12.08,Nagpur,3.7,717,36.1
+1494,Aradhana Sethi,29,Female,Bike,03 Oct 2024,Lucknow,4.1,563,44.6
+1495,Saksham Sha,24,Female,Bike,2022-11-25,Raipur,4.3,320,32.2
+1496,Zehaan Sood,26,Male,Bike,01/30/2025,BANGALORE,4.5,596,23.8
+1497,Yatin Pathak,36,Male,Bike,16-03-2023,Coimbatore,3.6,338,23.5
+1498,Sanya Arora,35,Female,Bike,2023-08-25,Ahmedabad,4.2,482,34.4
+1499,Indali Sangha,30,Female,Bike,27 Sep 2023,Guwahati,4.4,89,22.7
+1500,Jai Dhillon,22,Male,Bike,2023-09-24,Kolkata,4.1,554,37.8
+1501,Ayushman Sha,18,Male,Scooter,2023.01.06,Kolkata,3.8,434,33.4
+1502,ZEHAAN SARMA,22,Female,Bike,2022-03-16,Mumbai,4.4,426,22.3
+1503,Triveni Bhatnagar,33,Female,Scooter,16-03-2025,Kolkata,4.1,382,24.7
+1504,Ekaja Ben,33,Female,Bike,24-11-2022,Vadodara,,372,25.9
+1505,Tristan Bawa,18,Female,Scooter,08/20/2022,Mumbai,4.1,1055,25.6
+1506,Gagan Gokhale,32,Female,Scooter,2024-03-08,Visakhapatnam,4.3,775,37.8
+1507,Eiravati Oommen,20,Male,Bike,06/20/2024,RAIPUR,4.1,313,28.6
+1508,Girik Lanka,21,Female,Bicycle,07/12/2022,Bengaluru,4.9,622,27.8
+1509,Harini Kaul,21,Female,Bike,16/02/2025,Kolkata,4.2,365,38.6
+1510,Krishna Ray,28,Female,Bike,09/08/2021,Jaipur,5.0,1428,19.8
+1511,Hemani Nadig,20,Male,Car,09-06-2023,Coimbatore,4.2,1251,33.4
+1512,Jagrati Madan,28,Female,Scooter,06/18/2022,Pune,4.3,968,34.2
+1513,Nidra Handa,31,Male,Scooter,14 Mar 2025,raipur,4.2,552,48.1
+1514,Harshil Narang,27,Female,Bike,24-07-2021,Delhi,4.2,387,29.7
+1515,Hredhaan Soman,21,Female,Bike,2024-01-31,Chennai,4.6,419,39.5
+1516,Nathaniel Bhasin,31,Male,Bike,2025-02-09,Ahmedabad,4.3,469,29.8
+1517,Luke Biswas,33,Male,Bike,2023.10.08,Guwahati,4.6,786,16.2
+1518,DIVYA TANEJA,18,Male,Bike,2024-12-11,Chennai,4.1,1270,22.0
+1519,Faqid Bhavsar,28,Male,Scooter,2024-11-14,Bhubaneswar,4.0,639,18.3
+1520,Gaurav Dhingra,26,Male,Car,20 Jun 2023,Ludhiana,4.5,629,26.7
+1521,Devika Gulati,27,Female,Bike,2024.02.08,Ludhiana,3.4,138,31.6
+1522, Sanya Goyal  ,18,Male,Car,2021-09-02,Patna,4.2,1160,35.5
+1523,Banjeet Golla,23,Female,Car,08/04/2023,HYDERABAD,4.2,937,38.8
+1524,Kashvi Ranganathan,22,Male,Bicycle,2023.09.08,Jaipur,4.2,285,24.0
+1525, Caleb Parikh  ,24,Male,Bike,02/18/2024, Bengaluru,5.0,350,29.3
+1526,Parth Kale,40,Female,Bike,2025.03.31, Ludhiana  ,4.0,667,34.4
+1527,Manya Kala,30,Female,Bike,2024-09-11,Lucknow,4.2,234,38.9
+1528,Faras Pall,26,Male,Bike,01 Jul 2021,Bhubaneswar,3.4,484,23.9
+1529,Anusha Garg,43,Female,Bike,2021-08-05,Ahmedabad,4.4,568,47.2
+1530,Aishani Sengupta,28,Male,Bike,12 Sep 2022,Visakhapatnam,4.4,664,32.7
+1531,Jackson Vohra,27,Male,Scooter,2025.02.18,Hyderabad,4.2,117,40.5
+1532,Ishanvi Deep,29,Female,Bike,02-07-2022,Nagpur,4.4,402,42.3
+1533,Faris Raju,33,Male,Car,2024.12.20,Kochi,4.3,107,27.6
+1534,Advaith Palan,28,Female,Bike,2024-10-27,Bhopal,4.4,588,30.3
+1535,Reva Kibe,29,Male,Car,2023-02-21,Coimbatore,3.1,729,30.2
+1536,Widisha Randhawa,21,Female,Bike,02/25/2025,Guwahati,4.3,1302,47.3
+1537,Triveni Ravel,29,Female,Bike,08 Jun 2021,Hyderabad,4.6,754,36.3
+1538,FARIS SRIDHAR,36,Female,Scooter,23/01/2024,Jaipur,4.1,1182,33.6
+1539,Mitesh Om,28,Female,Bike,03/03/2023,Hyderabad,4.2,626,38.9
+1540,Gavin Loyal,30,Female,Scooter,20 Aug 2021,Vadodara,4.4,1266,28.8
+1541,Bhavika Balay,25,Male,Bike,25-11-2023,Chennai,,276,15.5
+1542,Chatresh Bava,28,Female,Bike,2025.01.19,Coimbatore,4.4,261,33.8
+1543,Nikita Parmer,23,Male,Bike,17-02-2024,Bhopal,3.8,401,31.2
+1544,Nimrat Dugar,28,Male,Bike,13-05-2023,Bhubaneswar,4.1,659,40.5
+1545,Ayaan Sawhney,18,Female,Bike,12/03/2024,Coimbatore,3.8,590,46.5
+1546,David Roy,30,Female,Bike,02/07/2022,Coimbatore,4.3,1046,35.6
+1547,Chatura Gulati,28,Female,Bicycle,2022.06.09,Lucknow,4.6,993,20.4
+1548,Chakradhar Kadakia,26,Female,Bike,2022-12-10,Surat,4.5,497,26.0
+1549,Pranit Mangal,23,Male,Bicycle,19 Oct 2023,Bhopal,2.8,687,29.5
+1550,Adweta Subramanian,25,Male,Bike,28/10/2021,Pune,4.1,1193,16.6
+1551,Udant Mani,34,Male,Scooter,2022.12.20,Indore,3.9,820,21.0
+1552,Sachi Karpe,27,Female,Bike,08/13/2023,Vadodara,4.2,656,32.9
+1553,Idika Ray,23,Male,Bike,2025-03-20,Guwahati,4.1,1034,31.7
+1554,Tarak Gupta,27,Female,Bike,2025-01-25,Nagpur,3.9,520,37.8
+1555,Anay Pall,40,Female,Scooter,11-04-2024,Chennai,3.9,658,39.6
+1556,Aashi Rattan,23,Male,Bike,2023.06.09,Mumbai,4.1,993,35.7
+1557,Ganga Hayre,19,Female,Bike,16/05/2024,Chennai,4.1,423,35.1
+1558,Sanaya Hora,31,Male,Scooter,24-03-2023,Hyderabad,4.5,765,35.1
+1559,Raagini Kota,33,Female,Bike,17 Jan 2023,Jaipur,3.4,335,25.5
+1560,Logan Sarna,40,Female,Scooter,26/02/2023, Bhubaneswar  ,4.4,388,43.1
+1561,Krish Desai,18,Male,Bicycle,30/08/2021,Surat,4.2,504,31.4
+1562,Caleb D’Alia,25,Female,Bike,07/14/2022,Patna,3.4,454,33.9
+1563,Arin Doctor,23,Female,Bike,2022-11-22,Bhopal,3.9,768,31.7
+1564,Jagdish Aggarwal,24,Female,Scooter,17 Dec 2024,Surat,4.6,880,36.8
+1565,Yachana Khurana,33,Female,Bike,2022-07-06,Bhubaneswar,3.7,207,37.7
+1566,Lakshit Sengupta,25,Male,Bicycle,15 Aug 2023,Kochi,4.0,332,44.6
+1567,Ekani Agate,32,Male,Scooter,10/11/2022,Coimbatore,4.1,303,27.9
+1568,Darsh Kant,18,Female,Bike,11/10/2021,Lucknow,4.4,1183,48.6
+1569,Krisha Yogi,28,Male,Bike,07/17/2024,Nagpur,4.9,695,39.5
+1570,Henry Narayanan,30,Male,Car,10 Feb 2025,Patna,4.3,487,24.6
+1571,Falguni Parikh,32,Male,Car,10/25/2023,Delhi,3.8,412,41.3
+1572,Sara Chatterjee,28,Female,Bike,19 Apr 2024,Kolkata,5.0,283,28.9
+1573,Veda Contractor,31,Male,Bicycle,12-02-2023,Nagpur,3.9,977,21.1
+1574,Akshay Badami,28,Male,Bike,13-07-2024,Guwahati,4.1,901,31.8
+1575,Damyanti Dass,29,Male,Bike,2024-06-20,Bhopal,4.4,328,27.7
+1576,Sai Singhal,25,Female,Bike,09/02/2023,Pune,4.7,716,25.2
+1577,Jalsa Rana,24,Male,Bike,06/07/2024,Chennai,3.3,816,14.8
+1578,Karan Borah,29,Female,Bike,2022-03-13,Coimbatore,4.8,395,41.9
+1579,Upadhriti Ghosh,28,Female,Bike,2023-11-28,Ahmedabad,4.2,1148,26.2
+1580,Naksh Jaggi,21,Female,Scooter,12/31/2024,Indore,4.7,373,20.8
+1581, Shivani Sheth  ,34,Female,Bike,2022.08.18,coimbatore,4.5,284,33.0
+1582,Forum Kata,29,Female,Bike,2024-06-02,Ahmedabad,3.7,304,30.9
+1583,darsh narain,26,Female,Bike,10/03/2024,Bhubaneswar,4.2,1013,18.9
+1584,Arin Mahal,22,Female,Scooter,03/06/2023,Indore,4.9,826,38.0
+1585,Samaksh Morar,25,Male,Bike,22 Apr 2024,Kolkata,3.9,526,38.1
+1586,Aadi Om,18,Male,Scooter,16/10/2022,Visakhapatnam,4.4,433,27.7
+1587,Vrinda Bora,27,Male,Scooter,2025-01-23,Chennai,3.9,627,24.3
+1588,Xalak Tripathi,38,Female,Scooter,08 Sep 2021,Surat,4.7,538,41.2
+1589,Daksh Comar,39,Male,Bike,2021-10-27,Ahmedabad,3.9,1128,38.3
+1590,Warinder Nagarajan,24,Female,Bicycle,2025.01.02,Raipur,4.7,685,17.5
+1591,Vamakshi Thaman,19,Female,Bike,26/01/2023,Jaipur,4.2,295,-12.4
+1592,Anita Lanka,31,Female,Bike,2023-12-11,Ludhiana,4.9,958,39.4
+1593,Ria Sane,24,Female,Bike,2022-03-27,Patna,3.9,808,31.0
+1594,Brijesh Talwar,28,Female,Bike,03/02/2022,Patna,3.8,1011,26.6
+1595,Azad Ranganathan,18,Female,Car,02/09/2023,Ludhiana,4.0,663,24.1
+1596,Harita Mahal,25,Female,Bike,25/08/2023,Visakhapatnam,4.5,496,24.0
+1597,Gaurangi Zachariah,18,Male,Bike,30/09/2023,Mumbai,4.3,798,20.4
+1598,Vinaya Bera,21,Female,Scooter,27 Sep 2021,Chennai,4.4,410,28.9
+1599,Harrison Suri,37,Female,Bike,2024-10-31,Patna,4.2,697,31.1
+1600,Amaira Parsa,41,Male,Scooter,02/19/2025,Bhopal,4.9,738,34.1
+1601,Ronith Patla,31,Female,Scooter,29/04/2023, Bhubaneswar  ,4.2,824,39.9
+1602,Brinda Sur,25,Male,Car,2024.07.27,Indore,3.7,840,40.4
+1603,Aashi Sekhon,28,Female,Bike,01/28/2023,Patna,4.7,237,31.7
+1604,Tanish Choudhry,32,Female,Bike,29 Mar 2023,Chennai,4.2,956,38.1
+1605,Yatin Zacharia,24,Female,Scooter,08-02-2024,Indore,4.1,503,40.3
+1606,NIHAL KAUL,32,Male,Bicycle,01/20/2025, Nagpur  ,4.7,977,29.1
+1607,Jagat Sem,18,Male,Bike,2024-05-16, Kolkata  ,4.5,367,35.8
+1608,Nandini Rajagopalan,25,Male,Scooter,2023-09-23,Calcutta,3.6,767,35.0
+1609,Riya Narayan,20,Female,Car,11/19/2022,Pune,4.0,332,14.8
+1610,Aarnav Bakshi,33,Female,Bike,12-05-2024,Ahmedabad,4.1,759,21.0
+1611,Ekani Dua,21,Male,Bicycle,04-02-2023,bengaluru,5.0,269,36.6
+1612,Qushi Gade,33,Male,Scooter,01-10-2024,Vadodara,4.2,680,28.4
+1613,Aarush Gulati,31,Male,Car,12/04/2021,Kolkata,4.4,1101,24.0
+1614,Chatura Rege,22,Female,Bike,2023.07.11,Kolkata,5.0,687,40.2
+1615,Rachana Bora,28,Male,Scooter,2022.09.03,Chandigarh,4.3,599,21.3
+1616,Panini Kala,30,Male,Bicycle,08 May 2024, Ahmedabad  ,4.3,498,35.9
+1617,Irya Ahuja,27,Female,Bike,31/08/2022,Visakhapatnam,4.5,363,25.4
+1618,Chaitaly Memon,32,Female,Scooter,05 Oct 2021,Surat,4.5,852,19.1
+1619,Bhanumati Roy,37,Female,Bike,30-06-2021,Coimbatore,4.1,820,47.5
+1620,Michael Dhar,36,Male,Scooter,26-05-2024,Raipur,4.0,408,28.5
+1621,Peter Narayanan,29,Female,Bike,2023-05-19,GUWAHATI,4.0,130,50.6
+1622,Vincent Raghavan,24,Female,Bike,2024-07-02,Chandigarh,3.8,481,41.1
+1623,Gagan Raju,31,Male,Bike,2024-05-20,Kochi,4.2,476,34.8
+1624,Xiti Parmer,20,Female,Scooter,17-05-2022,Pune,3.7,504,39.3
+1625,Manbir Chand,25,Female,Bike,2024-11-13,AHMEDABAD,4.0,566,37.2
+1626,Aarini Arya,24,Female,Bicycle,06/03/2022,Delhi,,515,41.7
+1627,ekaraj ganguly,18,Female,Bike,16-02-2023,Delhi,4.5,768,20.7
+1628,Upasna Chana,29,Female,Bike,14/07/2021,Lucknow,,890,30.3
+1629,Hemangini Tata,32,Male,Bike,12/14/2024,Coimbatore,4.5,594,32.3
+1630,Janani Sampath,22,Male,Bike,03 Jun 2024,Jaipur,3.4,1161,45.6
+1631,Abhiram Rajagopal,18,Male,Bike,06/01/2024,Lucknow,4.5,596,32.6
+1632,Aachal Divan,45,Male,Car,21 Oct 2024,Visakhapatnam,3.9,491,31.1
+1633,Rachana Dora,37,Male,Bike,14/01/2022,Ludhiana,4.1,167,36.5
+1634,Yadavi Comar,24,Male,Scooter,2024.01.21,Bhopal,4.4,431,29.3
+1635,Rayaan Gera,29,Male,Car,26/02/2022,Visakhapatnam,3.8,470,24.8
+1636,Shivani Rana,29,Male,Scooter,09 Oct 2021,Nashik,4.3,757,31.2
+1637,Damini Sule,40,Male,Bike,2023-02-07,Ludhiana,3.8,850,14.5
+1638,Nirja Vyas,28,Female,Bike,07/09/2022,Visakhapatnam,4.0,177,22.2
+1639,Nisha Mane,24,Male,Car,2022.07.08,ahmedabad,4.3,386,31.1
+1640,Kashish Murthy,24,Male,Bike,01/11/2022,Nagpur,4.6,951,31.3
+1641,Bhavini Raghavan,26,Male,Bike,2022-09-18,Delhi,3.7,537,29.9
+1642,Alka Munshi,28,Male,Bike,03/13/2024,Bhopal,4.4,682,32.6
+1643,Ikbal Sankar,21,Male,Car,2022.05.11,Jaipur,4.5,786,32.2
+1644,Devansh Viswanathan,25,Male,Scooter,24-10-2022,Jaipur,4.2,1427,54.6
+1645,Lakshmi Kalita,23,Female,Scooter,02 Mar 2024,Lucknow,5.0,267,36.7
+1646,Anay Chada,27,Male,Bike,14-10-2024,Delhi,4.4,563,29.4
+1647,Lohit Bawa,31,Female,Bicycle,2023-02-03,Vadodara,4.4,474,37.6
+1648,eiravati sur,27,Female,Scooter,08/10/2021,Bengaluru,4.3,580,40.7
+1649,Yashoda Murthy,20,Female,Scooter,2022-04-13,Lucknow,3.9,732,29.5
+1650,Nathaniel Jain,38,Male,Bike,11/21/2021,Bhubaneswar,5.0,930,32.8
+1651,Eesha Chaudhry,30,Male,Bike,06/13/2021,Bhopal,4.9,491,35.1
+1652,Mitali Khosla,23,Female,Bike,11/06/2023,Patna,4.5,1100,26.6
+1653,Oscar De,27,Female,Bike,2024-08-02,Nashik,4.4,853,26.0
+1654,Advaith Srinivas,30,Male,Bicycle,19/10/2024,Jaipur,4.3,524,34.3
+1655,Nathan Sachdeva,22,Female,Bicycle,2023.11.21,Bhopal,5.0,511,35.3
+1656,Ira Devi,38,Female,Scooter,26 Apr 2023,Vadodara,3.9,958,27.8
+1657,qabil bir,19,Female,Bike,07-07-2021,Ludhiana,4.6,337,23.8
+1658,Aarini Chowdhury,21,Female,Bike,05 Feb 2025,lucknow,4.3,1004,42.0
+1659,Liam Dhillon,26,Male,Scooter,2024.10.17,Pune,4.8,318,25.6
+1660,Bhavika Goda,26,Female,Bike,08/31/2021,Nagpur,4.3,563,38.2
+1661,Alka Mani,27,Female,Bike,13 Dec 2024,Chennai,4.4,1313,-29.7
+1662,Rajeshri Sen,28,Male,Bike,2023.04.21,Visakhapatnam,4.1,1027,19.1
+1663,Ekanta Dhaliwal,28,Female,Bike,01/05/2025,Hyderabad,4.1,964,22.1
+1664,Simon D’Alia,33,Male,Car,08 Jun 2023,Bhubaneswar,4.4,667,36.1
+1665,Abdul Ravi,27,Female,Scooter,14 Oct 2024,Ahmedabad,3.6,432,32.6
+1666,Ekavir Luthra,21,Male,Scooter,02 Sep 2021,Kolkata,4.0,380,22.9
+1667,Chatura Sunder,26,Male,Bike,08/06/2023,Hyderabad,4.5,400,19.8
+1668,Nitesh Goel,32,Male,Scooter,09/07/2024,bhopal,4.2,698,34.7
+1669,Maanav Prabhu,20,Male,Bike,30/04/2024,Chandigarh,4.0,1021,42.7
+1670,Udarsh Kapur,23,Female,Scooter,2023.11.03,Patna,4.5,550,29.1
+1671,Krishna Lalla,27,Female,Bike,2023-09-24,Pune,4.0,677,49.7
+1672,Tanish Chaudhari,26,Male,Scooter,2021-06-15,Lucknow,3.7,400,40.0
+1673,Manya Ghosh,30,Male,Scooter,08/30/2024,Ludhiana,4.6,683,40.6
+1674,Jhalak Hora,28,Male,Bike,2022-02-24,Bhopal,4.1,698,20.5
+1675,Advaith Halder,26,Female,Car,2024.10.04,Visakhapatnam,3.8,345,39.0
+1676,Amrita Zacharia,26,Female,Bike,2022.09.03,Chandigarh,4.4,355,20.2
+1677,Abha Mutti,29,Male,Bike,19/08/2021,Indore,4.1,1628,35.8
+1678,Wakeeta Sarna,28,Female,Scooter,2023.01.07,Hyderabad,4.3,424,35.1
+1679,Jasmit Dara,32,Female,Scooter,03/23/2022,Guwahati,3.9,416,43.3
+1680,Peter Aggarwal,38,Male,Bike,2023.11.02,Delhi,5.0,851,-47.8
+1681,Bhavani Bhandari,21,Female,Bike,06/03/2024,Vadodara,5.0,1058,29.9
+1682,Fariq Swaminathan,32,Female,Scooter,23-06-2024,Patna,4.4,549,19.2
+1683,Baghyawati Varghese,26,Female,Scooter,31-08-2023,Chandigarh,3.7,454,16.6
+1684,Gaurav Hayer,28,Female,Bike,2024.01.05,Delhi,4.3,477,33.6
+1685,Charles Nazareth,22,Male,Scooter,10-09-2021,Visakhapatnam,3.8,518,41.7
+1686,Ikshita Goswami,30,Female,Car,27 Dec 2023,Lucknow,3.8,1492,37.9
+1687,Wriddhish Majumdar,27,Female,Car,17 Jul 2024,Bhubaneswar,4.2,560,26.4
+1688,Chatura Ratti,18,Female,Scooter,06-03-2022,Pune,3.3,475,30.5
+1689,Idika Basak,18,Female,Bike,07/23/2022,Bengaluru,4.2,330,22.6
+1690,chanakya mall,25,Female,Scooter,22-03-2025,Bengaluru,5.0,788,40.9
+1691,chameli divan,27,Female,Bike,2024.05.19,Kolkata,4.3,531,41.6
+1692,Wriddhish Parmar,27,Male,Bike,2024.03.10,Chandigarh,5.0,865,28.1
+1693,Ayaan Patel,35,Female,Bike,02/19/2024,Vadodara,3.8,545,20.0
+1694,Jagrati Nadkarni,22,Male,Car,10 Jul 2024,Hyderabad,3.5,166,35.5
+1695,Upasna Keer,18,Male,Bike,24 Aug 2023,Coimbatore,4.6,631,35.0
+1696,Hema Ratti,26,Male,Bike,18-06-2023,Chennai,4.3,921,33.3
+1697,TANVEER DEVI,35,Female,Car,02/26/2023,Hyderabad,4.3,1072,17.4
+1698,Simon Om,30,Female,Scooter,2021.07.10,Hyderabad,4.6,415,39.7
+1699,Amara Deshmukh,31,Male,Bike,20 Jan 2022,Ludhiana,4.0,1180,22.8
+1700,Ria Desai,30,Female,Bike,09/24/2021,Visakhapatnam,3.4,72,34.9
+1701,Ekbal Sahni,23,Female,Car,29/11/2022,Nashik,4.2,530,48.7
+1702,Devansh Bal,25,Female,Bicycle,18-02-2022,Mumbai,3.7,563,39.5
+1703,Lajita Bajaj,32,Female,Bicycle,01/02/2025,Hyderabad,4.1,236,31.7
+1704,Meera Date,35,Female,Bike,23/03/2025,Mumbai,4.6,932,64.2
+1705,Chakradhar Ratta,19,Female,Bike,2022.03.05,Kolkata,3.9,563,44.0
+1706,Vamakshi Dey,31,Female,Bike,14/07/2023,Hyderabad,4.4,736,23.7
+1707,Ikshita Chahal,31,Male,Car,06/29/2024,Bhopal,4.4,575,52.1
+1708,Michael Chandran,28,Male,Bike,18-11-2024,Indore,4.3,896,40.2
+1709,Vivaan Nazareth,22,Male,Scooter,03/09/2022,Baroda,4.5,286,32.6
+1710,Andrew Dhillon,26,Female,Bike,16 May 2024,Nashik,4.5,317,34.3
+1711,Onveer Saini,27,Female,Bike,19/01/2024,Vadodara,4.0,637,40.6
+1712,Hritik Puri,36,Female,Scooter,2024-12-26,Nagpur,4.2,713,37.7
+1713,Pavani Vig,18,Female,Bike,12/09/2021,Surat,3.9,326,44.1
+1714,ISAIAH VERMA,25,Male,Bike,07/28/2024,Coimbatore,5.0,338,32.4
+1715,Dhruv Gaba,18,Male,Scooter,2024.07.05,Chandigarh,4.2,676,38.9
+1716,Vamakshi Badal,19,Male,Scooter,12/27/2023,Surat,3.9,748,43.9
+1717,Vasudha Tiwari,31,Male,Bike,12 Apr 2024,Bengaluru,4.6,451,12.3
+1718,Ryan Pau,26,Male,Car,18 Jun 2023,Guwahati,3.9,352,17.2
+1719,Daniel Bora,24,Female,Bike,16/07/2023,Nagpur,4.0,552,37.8
+1720,Jasmit Deep,28,Male,Scooter,2021.06.16,Bhubaneswar,4.0,1292,43.1
+1721,Bhavna Kaul,33,Female,Car,09/07/2022,Jaipur,3.6,372,20.6
+1722,Aadi Bera,24,Female,Bike,14-06-2022,Guwahati,4.8,395,25.0
+1723,Gauri Goyal,20,Male,Bike,18 Feb 2024,Bhopal,4.7,274,39.5
+1724,Christopher Bhat,19,Female,Bike,29/04/2023,Pune,4.1,727,40.3
+1725,Rachana Vasa,26,Female,Bike,10/15/2024,Kochi,3.5,1046,50.6
+1726,Jatin Chahal,29,Female,Bike,2021.12.28,Bhubaneswar,4.4,601,54.9
+1727,Radhika Ramanathan,21,Male,Scooter,02-07-2022,Nagpur,5.0,485,31.5
+1728,ISAAC SHENOY,24,Female,Scooter,2022.08.12,Delhi,4.3,832,21.7
+1729,Jyoti Muni,30,Male,Bike,2024-02-29,Kolkata,4.5,784,30.8
+1730,Netra Karpe,31,Male,Car,2023.03.21,Ludhiana,4.1,426,50.4
+1731,Jai Ravel,27,Male,Bike,04/08/2021,Nagpur,3.8,517,32.0
+1732,Ishita Borra,28,Male,Car,31-08-2022,Ludhiana,3.9,331,38.1
+1733,Nachiket Thakur,18,Male,Bicycle,15/11/2024,Bhubaneswar,4.1,993,33.8
+1734,Jackson Sundaram,21,Female,Bike,02 Oct 2023,Lucknow,3.8,646,37.6
+1735,Laban Chaudhuri,25,Female,Bike,26 Dec 2022,Raipur,4.9,739,17.8
+1736,Chaitanya Basak,22,Male,Scooter,14 Nov 2024,Kochi,3.4,350,22.1
+1737,Idika Chaudhry,25,Female,Scooter,23-10-2024,Mumbai,4.4,293,25.1
+1738,Panini Tak,31,Male,Scooter,11/07/2023, Bengaluru  ,4.0,948,29.7
+1739,Urvi Iyengar,37,Female,Scooter,02/24/2024,Pune,4.4,279,19.1
+1740,tejas misra,32,Female,Bicycle,19/04/2022,Ahmedabad,3.8,362,38.6
+1741,Barkha Manne,32,Male,Bike,08-03-2024,Kochi,4.3,463,26.4
+1742,Harrison Mane,34,Male,Bike,2025-01-30,Nagpur,,1290,32.3
+1743,Ishita Agarwal,27,Female,Bicycle,15-12-2021,Pune,3.4,509,41.0
+1744,Abeer Aurora,24,Male,Bike,2023.11.07,Surat,4.3,583,34.8
+1745,Kamya Ramesh,20,Male,Bike,2021.09.21,Hyderabad,3.8,1041,38.9
+1746,Varsha Mangal,33,Female,Bicycle,28-02-2022,Pune,4.4,240,22.5
+1747,Azad Khalsa,40,Male,Bike,2022.05.10,Chandigarh,3.4,1080,28.3
+1748,Balvan Nadkarni,26,Female,Car,12/06/2024,Raipur,4.4,316,24.1
+1749,Ishwar Edwin,22,Male,Bike,09/27/2021,Raipur,4.7,245,40.3
+1750,Veer Ranganathan,26,Male,Bike,05/22/2023,Kolkata,4.1,587,27.5
+1751,Azaan Chander,19,Male,Bike,02/19/2024,Mumbai,4.1,408,40.9
+1752,Hiral Rajan,31,Male,Bike,2021-10-01,Kolkata,4.7,720,41.0
+1753,Wishi Virk,33,Male,Bike,05/05/2023,Delhi,4.0,877,37.1
+1754,Lekha Pant,28,Female,Bike,12/09/2022,Kochi,4.3,348,34.1
+1755,Udarsh Aurora,30,Female,Bike,2022-03-12,Chandigarh,4.3,351,37.3
+1756,Yashodhara Barad,21,Male,Scooter,2023.09.18,Bengaluru,3.7,412,25.8
+1757,hemang zacharia,41,Male,Scooter,2022.01.22,Guwahati,3.9,381,29.4
+1758,Ekta Shroff,25,Female,Bicycle,03/06/2024,Patna,3.2,243,23.4
+1759,Ekalinga Doshi,26,Male,Bike,18-08-2021,Visakhapatnam,4.5,384,47.1
+1760,Darika Sunder,21,Female,Car,2021-06-07,Patna,4.4,1050,31.0
+1761,Rachit Kibe,36,Male,Scooter,06/03/2023,Lucknow,3.9,707,-30.4
+1762,Sanaya Bora,31,Female,Bicycle,2023.03.08,Ahmedabad,3.8,330,48.6
+1763,Zaid Dubey,31,Male,Scooter,2024-01-14,Patna,3.7,191,24.1
+1764,Ryan Oak,20,Male,Bicycle,2022.10.10,Pune,4.9,1282,42.8
+1765,Harsh Pillai,28,Male,Car,01/23/2022,Ahmedabad,4.1,406,28.3
+1766,Krishna Bhalla,44,Female,Scooter,03/06/2022,Kolkata,3.7,454,44.8
+1767,Aarush Cherian,25,Female,Bike,2021.08.12,Chennai,3.0,700,37.3
+1768,Kamya Loyal,18,Female,Car,17-09-2023,Mumbai,3.7,237,22.5
+1769,Urmi Madan,18,Male,Bike,2021-06-04,Vadodara,5.0,532,37.2
+1770,Sai Chana,25,Female,Scooter,2021.09.12,Chandigarh,4.6,730,35.0
+1771,Nakul Sundaram,27,Male,Bike,25-12-2021,Ahmedabad,4.2,495,38.2
+1772,Saanvi Nadkarni,28,Female,Bike,21-11-2021,Chennai,3.8,532,34.6
+1773,Dhriti Comar,32,Male,Bike,06 Jul 2023,Jaipur,4.2,488,37.3
+1774,Aradhana Rama,22,Male,Scooter,2024-06-22,ludhiana,3.6,292,30.1
+1775,Balveer Sem,20,Female,Bike,31/03/2022,Bhubaneswar,4.2,407,38.0
+1776,Prisha Kaul,25,Male,Bike,15-03-2022,Ludhiana,,554,47.7
+1777,zansi chandran,29,Male,Bicycle,04/05/2022,Ahmedabad,4.1,664,25.1
+1778,Saanvi Dubey,20,Female,Bike,07/06/2021,Jaipur,4.0,484,37.3
+1779,Veer Tata,24,Male,Bike,2023.02.27, Bengaluru,3.3,510,23.0
+1780,Vedhika Jaggi,24,Male,Bike,03/01/2023,Raipur,4.6,514,29.7
+1781,Tara Raval,18,Male,Bike,06/22/2021,Visakhapatnam,3.5,631,10.0
+1782,VAMAKSHI PATEL,24,Female,Car,01-03-2025,BENGALURU,3.7,868,27.0
+1783,Harrison Golla,23,Female,Bicycle,2023-01-01,Bhopal,4.2,650,26.4
+1784,Gaurangi Radhakrishnan,18,Female,Bike,14/05/2023,Bengaluru,4.0,586,23.6
+1785,Shravya Gopal,26,Male,Bike,09/14/2023,Ludhiana,3.9,670,37.3
+1786,Ranveer Chaudhari,20,Male,Scooter,2023.12.21,Nagpur,3.7,963,38.2
+1787,Ranveer Gera,34,Female,Scooter,2021.06.01,Vadodara,3.8,150,15.7
+1788,Idika Agrawal,31,Female,Scooter,29-11-2024,Visakhapatnam,4.1,534,32.3
+1789,Dayamai Prasad,39,Female,Car,31-01-2024,Nagpur,4.5,1104,27.3
+1790,Urishilla Sami,26,Male,Bike,11/08/2023, Delhi  ,4.0,385,31.2
+1791,Michael Varughese,29,Male,Bike,18 Jan 2024,Patna,4.4,884,39.6
+1792,Hemal Wable,26,Male,Bicycle,27 Aug 2022,Pune,4.6,671,17.0
+1793,Isha Hari,33,Female,Bike,07/09/2023,Chennai,4.4,626,43.3
+1794,kai sur,27,Female,Bike,02/11/2024,Visakhapatnam,3.0,539,30.7
+1795,Yochana Saxena,18,Male,Bike,05/15/2023,visakhapatnam,3.8,743,38.4
+1796,Sneha Wable,27,Female,Car,07 Feb 2023, Hyderabad  ,4.2,603,20.3
+1797,Damini Tandon,22,Male,Scooter,23/01/2023,Kochi,4.3,653,39.5
+1798,Nandini Nori,22,Female,Bike,04/05/2022,Visakhapatnam,4.1,97,35.0
+1799,Arunima Taneja,28,Male,Bike,02/27/2025,Ludhiana,4.0,793,24.0
+1800,Anita Palla,21,Male,Bike,2024.01.03,Lucknow,,1066,24.0
+1801,Yatin Desai,38,Male,Bike,22/10/2023,Bhubaneswar,3.4,346,36.0
+1802,Ekalinga Dhar,36,Female,Bike,29/10/2024,Patna,4.6,915,39.2
+1803,Hemangini Sandal,29,Female,Bike,19-08-2023,Chandigarh,4.1,215,27.1
+1804,Lohit Iyer,33,Female,Bike,08/12/2024,Guwahati,3.7,422,32.9
+1805,Chaman Yadav,28,Female,Scooter,02/03/2024,Delhi,3.9,818,26.1
+1806,Nilima Sathe,42,Male,Bike,06/04/2022,Pune,4.5,366,39.5
+1807,Tejas Jain,35,Male,Bike,2022-02-04,Visakhapatnam,3.8,427,26.7
+1808,Nathan Sarkar,18,Male,Bike,02-01-2024,Surat,4.1,834,38.3
+1809,Vasatika Malhotra,24,Female,Bike,19/02/2023,Ludhiana,3.7,715,28.9
+1810, Dhruv Menon  ,29,Female,Bike,14-02-2022,Jaipur,3.8,850,18.7
+1811,Shaurya Ben,26,Male,Scooter,07-02-2023,Lucknow,3.2,463,43.9
+1812,Advika Ramanathan,32,Female,Bike,10/24/2021,Raipur,4.5,739,40.4
+1813,Vedika Bath,20,Female,Scooter,30-08-2022,Kolkata,4.5,607,39.1
+1814,Wyatt Kannan,28,Male,Scooter,24 Dec 2024,Kolkata,4.0,791,16.3
+1815,Vasana Mohan,26,Male,Bike,2022.07.28,Guwahati,4.4,325,42.7
+1816,Ishwar Varghese,30,Female,Bike,22-10-2021,Pune,4.4,818,42.8
+1817,Adya Chawla,18,Male,Car,13 Mar 2023,Ludhiana,4.2,1244,26.1
+1818,Gauri Luthra,30,Male,Bicycle,11/09/2023,Coimbatore,,261,43.1
+1819,Lavanya Mahal,30,Male,Bike,07/08/2023,Visakhapatnam,4.3,1035,34.7
+1820,Vasana Sane,18,Male,Scooter,2024.06.24,Guwahati,3.9,1359,27.6
+1821,Lila Dass,21,Female,Bike,03/06/2023,Raipur,4.3,229,28.5
+1822,Reva Kaur,25,Female,Car,26/12/2022,Coimbatore,3.9,730,32.9
+1823,Hemal Tank,33,Female,Scooter,2023-11-23,Kochi,4.1,249,46.2
+1824,Girish Mahajan,28,Female,Bike,2024-11-10,Indore,4.1,373,26.9
+1825,Aarnav Patil,31,Female,Bike,06-11-2023,Surat,3.9,442,36.4
+1826,Niharika Kuruvilla,28,Male,Bike,2024-01-24,Delhi,3.8,346,21.2
+1827,Michael Ravel,21,Male,Car,07-02-2025,Kochi,4.8,1020,36.8
+1828,Shivani Rama,18,Male,Bike,25 Oct 2023,Bhubaneswar,4.3,1125,30.9
+1829,Rushil Naidu,31,Male,Bike,19-09-2023,bengaluru,3.9,463,15.4
+1830,Anirudh Bava,24,Female,Bike,2021-12-23,Ludhiana,3.9,558,38.7
+1831,Vaishnavi Kapadia,25,Male,Scooter,24/09/2022,Lucknow,4.3,468,56.5
+1832,Priya Patel,31,Female,Bike,27 Mar 2022,Nashik,4.7,594,34.3
+1833,Bina Lalla,23,Male,Car,03-04-2024,Vadodara,4.1,692,26.2
+1834,Warhi Grewal,29,Female,Scooter,2025-02-13,Raipur,3.6,204,20.9
+1835,Nimrat Mukherjee,29,Male,Bike,24-06-2022,Nagpur,4.1,521,13.3
+1836,JAI TAILOR,23,Male,Bike,12/12/2023,Hyderabad,3.8,1058,17.7
+1837,Advik Gola,27,Male,Bike,2023-10-02,Ahmedabad,4.0,317,44.6
+1838,ODIKA BASU,27,Male,Bicycle,2023.11.26,Surat,4.2,742,29.4
+1839,Eshana Nori,28,Male,Bike,2021.10.29,Bhopal,4.4,524,29.7
+1840,Harshil Nigam,24,Female,Bicycle,28-07-2022,Nagpur,4.7,666,39.6
+1841,Raghav Iyengar,29,Male,Bike,01/04/2022,Pune,4.4,1488,36.9
+1842,Yashasvi Bala,39,Male,Scooter,08-01-2023,Guwahati,4.2,1005,36.9
+1843,Sudiksha Ramesh,22,Female,Bike,22/10/2022,Coimbatore,5.0,389,41.7
+1844,Adya Sarma,19,Male,Car,08/11/2021,Kochi,4.1,644,49.4
+1845,Pavani Sachdev,19,Male,Bicycle,04/16/2023,Bengaluru,4.2,251,21.7
+1846,Elijah Butala,23,Female,Bike,2024-08-31,Nagpur,4.2,514,35.9
+1847,Mitesh Pai,28,Female,Bike,22/02/2024,Pune,4.5,420,50.5
+1848,SAMAR MUKHOPADHYAY,24,Female,Scooter,20-01-2024,Bhopal,4.4,786,32.4
+1849,Chaitaly Hayre,26,Male,Bike,05 Sep 2022,Ludhiana,4.3,524,25.0
+1850,Saksham Kanda,38,Male,Bike,08/01/2022,Raipur,3.6,238,33.3
+1851,Dayamai Bhasin,27,Female,Bike,24-06-2022,Bhopal,4.4,856,26.2
+1852,Maya Thaker,29,Male,Bike,05 Oct 2023,Guwahati,4.3,709,25.7
+1853,Dalaja Rajagopal,34,Female,Bike,10/10/2021,Kolkata,4.7,1012,43.5
+1854,Andrew Luthra,24,Male,Bike,2021-10-04,Bhopal,4.9,518,11.3
+1855,Yatan Kurian,24,Male,Bike,09-01-2022,patna,4.1,1497,42.8
+1856,Dayamai Kurian,30,Male,Bike,10/18/2021,kolkata,3.6,829,41.2
+1857,Yashawini Pandey,34,Male,Scooter,06/02/2022,Vadodara,4.1,545,15.4
+1858,Avi Buch,24,Female,Bike,2024-04-26,Chandigarh,3.9,1124,29.6
+1859,Jackson Sarma,26,Male,Bike,07/01/2024,Coimbatore,3.7,521,54.1
+1860,Zehaan Chaudhry,37,Female,Bike,30/12/2023,Hyderabad,4.2,1318,24.9
+1861,Karan Rao,23,Female,Bike,03 Nov 2021, Hyderabad  ,4.2,366,19.7
+1862,Amol Dugar,31,Male,Bike,10 Dec 2024,Indore,4.0,663,42.5
+1863,Laban Radhakrishnan,24,Male,Scooter,11 Jan 2025,Mumbai,3.9,327,43.9
+1864,Elijah Shenoy,19,Female,Bike,06/18/2022,Vadodara,3.8,818,39.9
+1865,Upkaar Bhavsar,22,Female,Scooter,14-02-2024,Patna,3.9,555,25.9
+1866,Rishi Sangha,33,Female,Scooter,11/28/2022,Visakhapatnam,4.4,592,17.6
+1867,Yashodhara Bal,27,Male,Bike,2023-02-23,Hyderabad,4.2,270,42.7
+1868,Barkha Chandran,32,Male,Bike,2024-12-07,ahmedabad,3.5,397,39.4
+1869,Jeremiah Maharaj,24,Male,Bike,15/05/2023,Patna,4.4,174,-33.0
+1870,Yoshita Gala,28,Male,Scooter,22/11/2024,Raipur,4.7,973,36.1
+1871,Kavya Garde,30,Female,Bike,25-07-2021,Nashik,4.5,414,34.0
+1872,Matthew Prabhu,24,Female,Bike,19-12-2021,Bhubaneswar,4.0,426,33.7
+1873,Chavvi Puri,28,Female,Bicycle,2024-11-18,Vadodara,4.2,170,33.7
+1874,Niharika Khalsa,21,Male,Scooter,09/29/2022,Visakhapatnam,4.0,629,31.3
+1875,Tejas Gaba,40,Female,Bike,2022-05-21,nashik,4.1,509,40.0
+1876,Rachit Oza,25,Female,Bike,2021.08.07, Guwahati  ,4.0,779,51.4
+1877,Akshay Sastry,25,Female,Car,12 Jun 2022,Lucknow,4.1,661,41.9
+1878,Saksham Narayan,19,Female,Bike,18 Jan 2024,Pune,4.7,660,10.8
+1879,Bakhshi Solanki,20,Female,Bike,2022-09-24,Indore,4.1,636,28.8
+1880,Harish Gera,23,Female,Scooter,2022-08-14,Nashik,5.0,686,25.7
+1881,Eta Palla,38,Female,Scooter,2023-07-09,Bhubaneswar,4.3,1178,29.8
+1882,Falak Sharaf,34,Female,Bike,28/01/2023,Bhopal,4.3,1019,29.5
+1883,Chasmum Jayaraman,26,Male,Bicycle,06/27/2024,Hyderabad,4.1,256,30.4
+1884,Oeshi Roy,32,Male,Bike,06-02-2022,Hyderabad,4.2,825,22.8
+1885,Victor Rai,28,Female,Car,19-06-2024,Kolkata,4.7,820,39.1
+1886,Manbir Hora,24,Female,Bike,11/07/2021,Hyderabad,4.2,328,17.9
+1887,Zaid Pingle,18,Male,Bike,09-11-2021,Lucknow,3.8,239,26.1
+1888,Zansi Lad,26,Female,Bike,25/03/2023,Ahmedabad,4.4,504,20.5
+1889,Sanya Comar,37,Male,Bike,10/10/2024,Kolkata,4.6,167,39.1
+1890,Vasatika Mandal,31,Female,Car,2021.07.20,Kochi,3.8,889,26.3
+1891,Yagnesh Mukherjee,29,Male,Bike,2024-10-30,Ludhiana,4.1,649,38.1
+1892,Oscar Bhandari,27,Female,Scooter,06 Sep 2021,Kochi,3.6,284,31.9
+1893,Zinal Ganesan,34,Male,Bike,18 Jun 2022,MUMBAI,4.0,984,34.5
+1894,Veer Srinivas,18,Female,Scooter,16-08-2022,Bhopal,4.3,456,40.5
+1895,Radha Gulati,25,Female,Car,26/02/2022,Kochi,4.5,333,37.7
+1896,Shravya Sampath,44,Male,Scooter,03/17/2024,indore,4.9,1187,24.8
+1897,Nimrat Kadakia,18,Male,Bike,01/05/2025,vadodara,3.9,763,32.2
+1898,Victor Pathak,27,Female,Bike,2024-07-17,Chandigarh,5.0,316,26.5
+1899,Lakshmi Mitra,31,Female,Bike,2022.11.25,Vadodara,4.4,204,39.1
+1900,Dev Kalita,32,Female,Scooter,2023-04-13,Ludhiana,4.7,819,17.8
+1901,Aarna Parmer,31,Male,Bike,2022-10-19,Hyderabad,3.7,305,28.2
+1902,Anay Ben,22,Female,Bike,19 Oct 2024,Raipur,4.1,650,35.0
+1903,Zansi Ramesh,25,Female,Bike,23-03-2025,Patna,3.8,96,29.7
+1904,Dhriti Wason,26,Female,Bike,2021-09-09,Kochi,4.5,795,42.4
+1905,Anya Batta,24,Male,Scooter,26-12-2022,Visakhapatnam,4.0,1269,12.0
+1906,Henry Nadkarni,18,Female,Scooter,2024.02.25,Ludhiana,4.1,231,29.8
+1907,Aayush Natt,31,Female,Bike,14 Mar 2025,Chandigarh,4.2,218,52.1
+1908,Samaksh Sandhu,31,Female,Bike,12/07/2023,Guwahati,4.4,944,22.0
+1909,Ishita Sanghvi,32,Male,Bike,2023.10.01,Bhubaneswar,4.3,726,38.1
+1910,Ati Madan,21,Male,Bike,14-05-2023,Vadodara,5.0,444,34.5
+1911,Varenya Menon,33,Male,Bike,21 Aug 2023,Indore,3.9,423,24.2
+1912,Harita Varty,18,Male,Scooter,09 Oct 2022,Chandigarh,4.6,740,33.3
+1913,Onkar Chad,28,Male,Scooter,05/31/2024,Ludhiana,3.9,580,43.6
+1914,Indira Mutti,24,Female,Bike,2025.01.18,Lucknow,4.2,354,34.0
+1915,Farhan Batra,19,Male,Scooter,2022-08-29,Pune,3.4,1686,27.7
+1916,Bhavika Johal,32,Male,Bike,05-07-2024,Chandigarh,4.2,625,29.6
+1917,Theodore Seth,25,Female,Scooter,2023.04.14,Kolkata,4.0,813,47.1
+1918,Jagat Dhawan,23,Male,Bike,12/01/2022,Lucknow,4.3,280,39.8
+1919,Leela Walia,21,Female,Bike,2022.07.13,Patna,4.3,797,45.5
+1920,Fiyaz Deep,21,Female,Bike,27/01/2023,Coimbatore,4.3,1260,27.9
+1921,Elijah Varty,38,Female,Bike,2022-12-11,Bhopal,4.9,1335,26.6
+1922,Anvi Rout,36,Male,Bike,06/07/2024,Bengaluru,3.9,866,25.7
+1923,Jagvi Das,26,Female,Bike,25 Sep 2021, Coimbatore  ,3.6,557,19.7
+1924,Umang Sule,18,Male,Bicycle,26/09/2023, Mumbai  ,4.8,467,21.9
+1925,Elijah Khosla,41,Female,Scooter,26 Apr 2023,Chandigarh,4.5,533,29.2
+1926,Mekhala Bobal,22,Male,Car,2025-02-08,Indore,4.3,485,19.8
+1927,Pooja Taneja,29,Female,Bike,2023.02.20,Nagpur,4.1,445,31.8
+1928,Bhanumati Nagi,30,Male,Bike,19-12-2021,Ludhiana,4.3,530,36.3
+1929,Fitan Sarma,33,Male,Bike,27/10/2024,Jaipur,4.2,531,36.7
+1930,Chakrika Lalla,26,Male,Bike,30-12-2021,Chandigarh,4.9,510,28.2
+1931,Abhiram Sachdev,18,Female,Car,2021.12.01,Mumbai,4.3,613,35.0
+1932,Yatin Taneja,27,Female,Bike,06/10/2024,indore,4.5,593,35.4
+1933,Daksha Seshadri,25,Male,Bike,2024.04.22,Chennai,3.7,258,33.1
+1934,Gabriel Varghese,30,Male,Car,2023.02.03,Pune,4.9,310,13.3
+1935,Saumya Arora,35,Male,Bike,06/01/2024,Chennai,3.6,508,27.5
+1936,Yochana Natarajan,26,Male,Scooter,2024.07.30,Delhi,4.6,1262,35.2
+1937,VEDANT DASH,27,Male,Bike,10/04/2022,Bhubaneswar,4.8,912,14.0
+1938,Tara Minhas,24,Male,Scooter,19-11-2021,Delhi,4.3,294,18.6
+1939,Jai Barad,24,Female,Scooter,04/09/2024,Visakhapatnam,4.7,558,17.5
+1940,Pratyush Sur,34,Female,Bike,08/04/2023,Raipur,3.5,728,29.0
+1941,Vivaan Narang,29,Female,Bike,2024.02.11,Raipur,3.6,850,41.1
+1942,Neelima Srinivas,26,Male,Bike,25 Nov 2022,Patna,3.8,826,25.9
+1943,Ria More,25,Female,Bike,2021-11-13,Chandigarh,4.7,234,40.6
+1944,Rachita Goswami,20,Male,Bike,03/25/2025,Chennai,4.2,1116,41.4
+1945,Kabir Modi,34,Female,Bicycle,02/14/2023,Patna,3.1,211,34.1
+1946,Laksh Kapoor,26,Female,Scooter,2024-12-26,Patna,4.3,621,24.9
+1947,Yashvi Yohannan,18,Male,Scooter,28 Oct 2022,Patna,4.8,844,27.6
+1948,Rajeshri Saini,32,Male,Bike,05 Oct 2021,Ahmedabad,4.5,593,17.9
+1949,Agastya Barad,31,Male,Bike,25-05-2023,Delhi,3.3,681,21.9
+1950,Dakshesh Tata,29,Male,Scooter,04-07-2021,Lucknow,4.4,515,41.5
+1951,Charita Luthra,26,Male,Bike,11/21/2023,Kolkata,3.5,144,48.4
+1952,Upasna Chaudry,27,Female,Scooter,11/02/2022,CHANDIGARH,4.6,356,28.1
+1953,Nachiket Sinha,22,Male,Car,2022.11.17,Chennai,4.6,1120,17.8
+1954,Ekiya Yohannan,32,Female,Bike,21-07-2023,Guwahati,4.0,1261,34.8
+1955,Tanveer Banik,30,Female,Bicycle,2021-10-23,Jaipur,4.5,687,42.1
+1956,Simon Sheth,22,Female,Scooter,2022-08-20,Guwahati,4.3,889,20.5
+1957,Chameli Gill,29,Male,Bike,07/21/2022,Hyderabad,,852,31.5
+1958,Dev Nadig,22,Male,Bike,2023-09-19,Patna,4.4,789,26.9
+1959,Jack Sahota,23,Male,Bike,25-12-2021,Mumbai,4.4,273,20.9
+1960,Jairaj Tandon,28,Male,Bicycle,01 Jan 2024,Coimbatore,4.3,590,28.8
+1961,William Saini,32,Male,Bicycle,2024.02.10,Surat,3.9,343,30.4
+1962,Oeshi Suresh,26,Male,Bike,02 Dec 2023,Bhubaneswar,4.2,367,58.4
+1963,Mugdha Raval,29,Male,Scooter,23/09/2024,Guwahati,4.6,295,31.4
+1964,Chaman Narain,29,Male,Bike,17 Jun 2021,Pune,4.2,530,35.4
+1965,Urmi Chaudhry,19,Female,Bike,12-09-2021,Lucknow,4.1,479,34.1
+1966,Indira Sethi,31,Female,Bicycle,10/12/2021,Chandigarh,4.5,390,37.6
+1967,Charles Nanda,37,Male,Scooter,2022-06-17,Kolkata,3.8,1083,36.7
+1968,Luke Dara,25,Female,Bike,2023-06-09,MUMBAI,4.6,130,30.5
+1969,Hema Srinivasan,28,Female,Bike,2025-01-23,Chennai,4.7,1607,51.6
+1970,Turvi Ratti,33,Female,Bike,02/02/2025,Guwahati,4.4,219,41.2
+1971,Damini Lanka,26,Female,Bicycle,07/04/2021,Lucknow,3.9,723,39.4
+1972,Ekalinga Sharma,37,Female,Bike,05/18/2024,Raipur,3.7,562,45.1
+1973,Nachiket Anand,26,Male,Scooter,2024.04.20,Chandigarh,4.0,452,-11.3
+1974,Karan Boase,26,Male,Bike,2024.07.28,Indore,3.8,252,36.3
+1975,Ekaraj Baria,28,Male,Car,2022-09-09,Kolkata,4.0,703,57.4
+1976,Rayaan Palla,36,Female,Bike,10 Apr 2024, Chennai  ,4.2,1022,26.3
+1977,Azaan Nadkarni,27,Male,Bike,2024.05.22,Guwahati,4.6,759,44.7
+1978,arin bahri,29,Female,Bicycle,23/11/2023,Kochi,4.2,1047,38.8
+1979,Alka Sachar,29,Female,Scooter,2021.06.25,Raipur,4.5,753,35.5
+1980,Garima Lad,29,Male,Bike,2024.12.31,Kochi,3.8,689,27.8
+1981,Devansh Dar,27,Male,Scooter,2024-08-29,Delhi,3.8,775,31.8
+1982,Tristan Parikh,32,Female,Bicycle,20-04-2023,Raipur,4.0,635,30.6
+1983,Adweta Hari,30,Male,Bike,20/01/2024,Delhi,4.6,574,16.3
+1984,Nachiket Sanghvi,29,Female,Scooter,04/03/2023,Bhubaneswar,4.5,1572,28.6
+1985,Gaurangi Ganesh,26,Male,Bike,12-01-2024,Vadodara,4.3,126,41.4
+1986,Libni Goel,19,Male,Bike,22-06-2024,Surat,3.7,565,20.2
+1987,Tristan Walia,22,Female,Bike,2023-12-31,Indore,3.9,269,38.8
+1988,upkaar goyal,32,Male,Bicycle,23/07/2023,Chandigarh,4.3,730,28.3
+1989,Ekbal Luthra,18,Male,Car,05/11/2023,Lucknow,4.0,455,18.0
+1990,Ekbal Desai,19,Male,Bike,04/25/2022,Patna,4.9,772,26.4
+1991,Ishaan Balay,40,Male,Bicycle,2022-07-01,Indore,4.3,374,21.3
+1992,Wazir Dewan,33,Male,Bike,2024.01.15,delhi,4.4,265,28.7
+1993,Kabir Barman,32,Female,Bike,2022.01.26,Hyderabad,3.9,1020,25.5
+1994, Warjas Chand  ,33,Male,Scooter,18-01-2023,delhi,4.6,715,36.8
+1995,Libni Balan,23,Female,Bike,28-02-2024,Patna,4.9,242,29.1
+1996,Chaaya Narang,26,Female,Car,2024-05-25,Hyderabad,4.1,1016,36.3
+1997,Faqid Mannan,31,Female,Car,2021.08.29,RAIPUR,4.9,671,18.7
+1998,Krisha Ghose,28,Female,Scooter,2022.04.22,Raipur,3.8,649,26.0
+1999,Ishani Shetty,27,Male,Bike,11 Nov 2021,Guwahati,3.9,854,37.7
+2000,Max Kapur,29,Female,Car,24 Aug 2023,Jaipur,4.2,766,11.4

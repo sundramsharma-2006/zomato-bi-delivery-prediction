@@ -1,0 +1,32 @@
+check,passed
+cities.CityID is unique,True
+customers.CustomerID is unique,True
+restaurants.RestaurantID is unique,True
+menu.FoodItemID is unique,True
+delivery_partners.DeliveryPartnerID is unique,True
+promotions.PromotionID is unique,True
+orders.OrderID is unique,True
+order_items.OrderItemID is unique,True
+payments.PaymentID is unique,True
+customer_feedback.FeedbackID is unique,True
+weather.WeatherID is unique,True
+traffic.TrafficID is unique,True
+FK customers.City -> cities.City,True
+FK restaurants.City -> cities.City,True
+FK delivery_partners.City -> cities.City,True
+FK weather.City -> cities.City,True
+FK traffic.City -> cities.City,True
+FK menu.RestaurantID -> restaurants.RestaurantID,True
+FK orders.CustomerID -> customers.CustomerID,True
+FK orders.RestaurantID -> restaurants.RestaurantID,True
+FK orders.DeliveryPartnerID -> delivery_partners.DeliveryPartnerID,True
+FK order_items.OrderID -> orders.OrderID,True
+FK order_items.FoodItemID -> menu.FoodItemID,True
+FK payments.OrderID -> orders.OrderID,True
+FK customer_feedback.OrderID -> orders.OrderID,True
+orders: no negative FoodCost,True
+orders: FinalAmount has no nulls,True
+"orders: DeliveryTime in (0,180]",True
+restaurants: Rating in 1-5,True
+customers: Age in 10-100,True
+promotions: End >= Start,True

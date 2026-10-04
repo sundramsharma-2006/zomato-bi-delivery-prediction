@@ -1,0 +1,53 @@
+table,issue,column,rows_affected,action
+cities,missing,AverageIncome,2,imputed with region median
+customers,duplicate rows,all,180,dropped duplicates
+customers,city spelling/case/whitespace,City,1236,canonicalised to cities.City
+customers,negative value (sign flip),Age,258,abs() - verified sign error
+customers,missing,Age,168,imputed with median
+customers,invalid/missing phone,Phone,592,set to NaN (not guessable)
+customers,malformed pincode,Pincode,276,set to NaN
+customers,missing,Gender,120,filled 'Unknown'
+customers,missing,Membership,120,filled 'Unknown'
+customers,missing,PreferredCuisine,240,filled 'Unknown'
+customers,missing,State,180,filled 'Unknown'
+customers,missing,Email,328,left NULL (nullable)
+customers,ambiguous slash date,RegistrationDate,1539,defaulted DD/MM
+restaurants,city spelling/case/whitespace,City,120,canonicalised to cities.City
+restaurants,missing,Cuisine,12,filled 'Unknown'
+restaurants,negative value (sign flip),AverageCost,15,abs() - verified sign error
+restaurants,rating out of 1-5,Rating,18,set NaN then imputed
+restaurants,missing,Rating,40,imputed with cuisine median
+menu,negative value (sign flip),Price,90,abs() - verified sign error
+menu,missing,Calories,132,imputed with category median
+delivery_partners,city spelling/case/whitespace,City,181,canonicalised to cities.City
+delivery_partners,negative value (sign flip),AverageDeliveryTime,27,abs() - verified sign error
+delivery_partners,missing,Rating,34,imputed with median
+promotions,EndDate before StartDate,StartDate/EndDate,24,swapped
+weather,missing,City,91,recovered from neighbouring rows (per-city blocks)
+weather,ambiguous slash date,Date,2856,defaulted DD/MM (unresolvable: dates are sampled with repeats)
+weather,negative value (sign flip),Humidity,189,abs() - verified sign error
+weather,missing,Rainfall,269,imputed with weather-condition median
+weather,extreme outlier,Rainfall,180,capped at P99=388mm
+weather,extreme outlier,Temperature,88,capped at P99.5=55.4C
+traffic,ambiguous slash date,Date,2797,defaulted DD/MM
+traffic,negative value (sign flip),AverageSpeed,186,abs() - verified sign error
+traffic,extreme outlier,AverageSpeed,184,capped at P99=51km/h
+traffic,missing,TrafficLevel,147,inferred from AverageSpeed (nearest class median)
+orders,duplicate rows,all,205,dropped duplicates
+orders,ambiguous slash date,OrderDate,3189,"resolved via payment date, else DD/MM"
+orders,ambiguous date flipped,OrderDate,1727,MM/DD chosen (closer to payment date)
+orders,negative value (sign flip),FoodCost,181,abs() - verified sign error
+orders,negative value (sign flip),DeliveryTimeMinutes,208,abs() - verified sign error
+orders,unrealistic delivery time (>180 min),DeliveryTimeMinutes,145,set NaN (excluded from modelling)
+orders,missing,FinalAmount,325,recomputed = FoodCost+Fee-Discount+GST
+orders,orphan FK (customer/restaurant/partner),"CustomerID,RestaurantID",25,dropped (cannot be attributed)
+order_items,negative value (sign flip),Quantity,417,abs() - verified sign error
+order_items,missing,TotalPrice,435,recomputed Quantity*UnitPrice
+order_items,orphan FK,"OrderID,FoodItemID",17,dropped
+payments,multiple payments per order,OrderID,399,kept best-status (Success first) row
+payments,orphan FK,OrderID,24,dropped
+customer_feedback,duplicate rows,OrderID,115,kept first feedback per order
+customer_feedback,rating out of 1-5,DeliveryRating,128,set NaN then imputed
+customer_feedback,missing,CustomerRating,290,imputed with mean of other two ratings
+customer_feedback,missing,DeliveryRating,128,imputed with mean of other two ratings
+customer_feedback,orphan FK,OrderID,20,dropped

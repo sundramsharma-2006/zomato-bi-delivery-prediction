@@ -1,0 +1,20 @@
+feature,auc_drop_when_shuffled
+Tenure,0.009079246173356625
+Age,0.004834301668288821
+FirstOrderAgeDays,0.002157617404469114
+Monetary,0.0009233589917520213
+Frequency,0.0
+Membership_Basic,0.0
+CouponRate,0.0
+AvgGapDays,0.0
+LateRate,0.0
+DistinctRestaurants,0.0
+WeekendShare,0.0
+Membership_Unknown,0.0
+Membership_Gold,0.0
+Membership_Zomato Pro,0.0
+CancelRate,-0.000354154992577671
+Recency,-0.002926141111471536
+AvgRating,-0.003216395827803464
+AvgDeliveryTime,-0.006638992931646337
+AvgOrderValue,-0.012410170957815958
