@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "2e307b1a744952df3c87",
+  "displayName": "3. Restaurant Analytics",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280
+}

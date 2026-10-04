@@ -1,0 +1,44 @@
+{
+  "name": "Zomato BI",
+  "dataColors": [
+    "#E23744",
+    "#2D2D2D",
+    "#F4A6AD",
+    "#9C9C9C",
+    "#B71C2B",
+    "#6B6B6B",
+    "#FDECEE",
+    "#4A4A4A"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2D2D2D",
+  "tableAccent": "#E23744",
+  "good": "#2E7D32",
+  "neutral": "#9C9C9C",
+  "bad": "#E23744",
+  "maximum": "#E23744",
+  "center": "#F4A6AD",
+  "minimum": "#FDECEE",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#E23744"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2D2D2D"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2D2D2D"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#2D2D2D"
+    }
+  }
+}

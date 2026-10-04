@@ -1,0 +1,146 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "72322c5f4f079fb67707",
+  "position": {
+    "x": 650,
+    "y": 175,
+    "z": 9000,
+    "height": 525,
+    "width": 610,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_partner"
+                    }
+                  },
+                  "Property": "DeliveryPartnerID"
+                }
+              },
+              "queryRef": "dim_partner.DeliveryPartnerID",
+              "nativeQueryRef": "DeliveryPartnerID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_partner"
+                    }
+                  },
+                  "Property": "VehicleType"
+                }
+              },
+              "queryRef": "dim_partner.VehicleType",
+              "nativeQueryRef": "VehicleType"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_orders"
+                    }
+                  },
+                  "Property": "Partner Deliveries"
+                }
+              },
+              "queryRef": "fact_orders.Partner Deliveries",
+              "nativeQueryRef": "Partner Deliveries"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_orders"
+                    }
+                  },
+                  "Property": "Avg Time (10+ deliveries)"
+                }
+              },
+              "queryRef": "fact_orders.Avg Time (10+ deliveries)",
+              "nativeQueryRef": "Avg Time (10+ deliveries)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_partner"
+                    }
+                  },
+                  "Property": "Rating"
+                }
+              },
+              "queryRef": "dim_partner.Rating",
+              "nativeQueryRef": "Rating"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_orders"
+                  }
+                },
+                "Property": "Avg Time (10+ deliveries)"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Partner leaderboard (avg time shown only for 10+ deliveries)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
